@@ -14,3 +14,4 @@ jobs:
         GITH_EMAIL: youremail@email.com
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SKIP_UPDATED: '1'
+        SCOOP_BRANCH: NEW

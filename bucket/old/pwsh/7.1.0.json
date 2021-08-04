@@ -1,0 +1,40 @@
+{
+    "version": "7.1.0",
+    "description": "PowerShell Core. Task automation and configuration management framework/tool.",
+    "homepage": "https://github.com/PowerShell/PowerShell",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt"
+    },
+    "changelog": "https://github.com/PowerShell/PowerShell/releases/tag/v7.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.0/PowerShell-7.1.0-win-x64.zip",
+            "hash": "c86f260f92b31d4e8e30b1ebbeb09e13364fc095ecf1538d9a8cec18d21d5d32"
+        },
+        "32bit": {
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.0/PowerShell-7.1.0-win-x86.zip",
+            "hash": "3d0f768573317a0f69dab4f924b772ee947828d89cbf6bf5c7242b45a3800fbc"
+        },
+        "arm64": {
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.0/PowerShell-7.1.0-win-arm64.zip",
+            "hash": "5fee7ae09e424652326a7185f4f20c7b0f1786a887a85dd9c150cf945f061943"
+        }
+    },
+    "pre_install": "Test-Persistence 'profile.ps1'",
+    "bin": [
+        [
+            "pwsh.exe",
+            "pwsh",
+            "-NoLogo"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "pwsh.exe",
+            "PowerShell Core",
+            "-NoLogo"
+        ]
+    ],
+    "persist": "profile.ps1"
+}
