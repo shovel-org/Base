@@ -1,4 +1,4 @@
-# Shovel Base Bucket [![Build status](https://img.shields.io/appveyor/ci/Ash258/Base/main.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Ash258/Base/branch/main)
+# [Shovel](https://github.com/Ash258/Scoop-Core) Base Bucket [![Build status](https://img.shields.io/appveyor/ci/Ash258/Base/main.svg?style=popout&logo=appveyor&label=AppVeyor)](https://ci.appveyor.com/project/Ash258/Base/branch/main)
 
 `shovel bucket add Base`
 
@@ -9,6 +9,7 @@ Successor of `main` bucket available in scoop.
 - Stable versions only
 - Command line only
     - Everything has to be usable from SSH/interactive docker sessions
+- No installers
 - Reputable vendor
     - No repositories created yesterday with 0 stars or similar
 - Freeware
