@@ -1,0 +1,56 @@
+{
+    "##": "TODO: Requirements propery instead of suggest",
+    "version": "5.0.302",
+    "description": "Developer platform for building many different types of applications",
+    "homepage": "https://dotnet.microsoft.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://dotnet.microsoft.com/platform/free"
+    },
+    "changelog": "https://github.com/dotnet/core/blob/main/release-notes/5.0/5.0.8/5.0.8.md",
+    "suggest": {
+        "Visual C++ Redistributable 2019": "extras/vcredist2019"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/5.0.302/dotnet-sdk-5.0.302-win-x64.zip",
+            "hash": "sha512:df29733e00d30abced40feb7b637fb45f2d9ac4b36e3d55e4a59e051bb15d0dd680ccd1317e59ad7bbbe51b04f802edb75c29b4aecc1a3db6cd7ed7e5d0cbbc6"
+        },
+        "32bit": {
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/5.0.302/dotnet-sdk-5.0.302-win-x86.zip",
+            "hash": "sha512:1a97fdb386c67030cec36e4198dcd83b28b62acec5588b3732c86838b1f999c82cd12c99b276c715ab36db0fb270d0f7d70f796eb820a9cd3835b267e3da4e10"
+        },
+        "arm64": {
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/5.0.302/dotnet-sdk-5.0.302-win-arm64.zip",
+            "hash": "sha512:eac0dc95ba2b3e3e382c1173f7c2f94bc679129c39080f485975defb616b28ccc3266a6df05c05ba040bda4a51c59a85d5f823ad206aa7513b9a386829580615"
+        }
+    },
+    "bin": "dotnet.exe",
+    "env_add_path": ".",
+    "env_set": {
+        "DOTNET_ROOT": "$dir",
+        "MSBuildSDKsPath": "$dir\\sdk\\$version\\Sdks"
+    },
+    "checkver": {
+        "url": "https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/releases-index.json",
+        "regex": "(?s)(?<rtv>[\\d.]+)[^\\d]*?([\\d.]+)[^\\d]*?(?:current|lts)"
+    },
+    "autoupdate": {
+        "archive": true,
+        "changelog": "https://github.com/dotnet/core/blob/main/release-notes/$majorVersion.$minorVersion/$matchRtv/$matchRtv.md",
+        "architecture": {
+            "64bit": {
+                "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$version/dotnet-sdk-$version-win-x64.zip"
+            },
+            "32bit": {
+                "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$version/dotnet-sdk-$version-win-x86.zip"
+            },
+            "arm64": {
+                "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$version/dotnet-sdk-$version-win-arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/checksums/$matchRtv-sha.txt"
+        }
+    }
+}

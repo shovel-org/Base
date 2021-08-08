@@ -1,0 +1,34 @@
+{
+    "##": "TODO: Requirements propery instead of suggest",
+    "version": "5.0.301",
+    "description": "Developer platform for building many different types of applications",
+    "homepage": "https://dotnet.microsoft.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://dotnet.microsoft.com/platform/free"
+    },
+    "changelog": "https://github.com/dotnet/core/blob/main/release-notes/5.0/5.0.7/5.0.7.md",
+    "suggest": {
+        "Visual C++ Redistributable 2019": "extras/vcredist2019"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/5.0.301/dotnet-sdk-5.0.301-win-x64.zip",
+            "hash": "sha512:e16e06a9da022c2867aa3dfc0a3d0f278ca59a08991c066ebd3fb4fe8790639b74c9b352922e9b7a58cdce644b5ab0b15d995b8717426f3cd13053bc3d8c1dc5"
+        },
+        "32bit": {
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/5.0.301/dotnet-sdk-5.0.301-win-x86.zip",
+            "hash": "sha512:8fd4b4e00d5506e12a3b214ce9f4142fef42f304d01c359f5551baba7e327768daaf236edf899be83f5cd87d36c9234b8329e97355fc5ea41cb5c903740ea5ed"
+        },
+        "arm64": {
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/5.0.301/dotnet-sdk-5.0.301-win-arm64.zip",
+            "hash": "sha512:80a32ba9f2c97b457d34ef809f38001841c97b94d434e75305d29b9cfc70431ef5a87989b3943e01baff1f01b231927fbb153068312bb76dde7cc19b0b8fb482"
+        }
+    },
+    "bin": "dotnet.exe",
+    "env_add_path": ".",
+    "env_set": {
+        "DOTNET_ROOT": "$dir",
+        "MSBuildSDKsPath": "$dir\\sdk\\$version\\Sdks"
+    }
+}
