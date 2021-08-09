@@ -1,0 +1,28 @@
+{
+    "##": "TODO: Associations, context menu",
+    "version": "16.04",
+    "description": "File archiver with a high compression ratio",
+    "homepage": "https://www.7-zip.org",
+    "license": {
+        "identifier": "Freeware,LGPL-2.0-only,BSD-3-Clause",
+        "url": "https://www.7-zip.org/license.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://www.7-zip.org/a/7z1604-x64.msi",
+            "hash": "b3885b2f090f1e9b5cf2b9f802b07fe88e472d70d60732db9f830209ac296067"
+        },
+        "32bit": {
+            "url": "https://www.7-zip.org/a/7z1604.msi",
+            "hash": "d9b62c0ed0eb48d2df86d8b83394048414a2a4e1d64a50adb9abcff643471d20"
+        }
+    },
+    "extract_dir": "Files\\7-Zip",
+    "bin": "7z.exe",
+    "shortcuts": [
+        [
+            "7zFM.exe",
+            "7-Zip"
+        ]
+    ]
+}
