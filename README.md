@@ -9,6 +9,8 @@ Successor of `main` bucket available in scoop.
 - Stable versions only
 - Command line only
     - Everything has to be usable from SSH/interactive docker sessions
+- Versioned URLs
+    - No static urls, which are not changed with when version is released
 - No installers
 - Reputable vendor
     - No repositories created yesterday with 0 stars or similar

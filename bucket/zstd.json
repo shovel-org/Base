@@ -24,6 +24,7 @@
         "github": "https://github.com/facebook/zstd"
     },
     "autoupdate": {
+        "archive": true,
         "changelog": "https://github.com/facebook/zstd/releases/tag/v$version",
         "architecture": {
             "64bit": {
