@@ -1,0 +1,10 @@
+{
+    "version": "4.5.2",
+    "description": "Windows-only version of .NET for building any type of app that runs on Windows.",
+    "homepage": "https://dotnet.microsoft.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://dotnet.microsoft.com/platform/free"
+    },
+    "url": "https://download.microsoft.com/download/4/3/B/43B61315-B2CE-4F5B-9E32-34CCA07B2F0E/NDP452-KB2901951-x86-x64-DevPack.exe"
+}
