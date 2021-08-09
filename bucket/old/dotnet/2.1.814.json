@@ -1,0 +1,30 @@
+{
+    "##": "TODO: Requirements propery instead of suggest",
+    "version": "2.1.814",
+    "description": "Developer platform for building many different types of applications",
+    "homepage": "https://dotnet.microsoft.com",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://dotnet.microsoft.com/platform/free"
+    },
+    "changelog": "https://github.com/dotnet/core/blob/main/release-notes/2.1/2.1.26/2.1.26.md",
+    "suggest": {
+        "Visual C++ Redistributable 2019": "extras/vcredist2019"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/2.1.814/dotnet-sdk-2.1.814-win-x64.zip",
+            "hash": "sha512:912de139dfc4cdcd5a67c67035d54ff4110fc31d89f34aa4ec391a65425827ad6a66bcbdf6654ccbc991f2541a8b963707156f356a1638e41dba057366dca126"
+        },
+        "32bit": {
+            "url": "https://dotnetcli.blob.core.windows.net/dotnet/Sdk/2.1.814/dotnet-sdk-2.1.814-win-x86.zip",
+            "hash": "sha512:e131d8b2bd77f57ded1867007f4bc6c4c22f83899a9ca237aedee1081fb4ba46c64b9d0d602517144048569dd5743a04e3885e53dc982e540a6c72bb982579ff"
+        }
+    },
+    "bin": "dotnet.exe",
+    "env_add_path": ".",
+    "env_set": {
+        "DOTNET_ROOT": "$dir",
+        "MSBuildSDKsPath": "$dir\\sdk\\$version\\Sdks"
+    }
+}
