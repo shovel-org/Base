@@ -1,0 +1,33 @@
+{
+    "version": "7.4.22",
+    "description": "cosi",
+    "homepage": "https://windows.php.net/downloads/releases/",
+    "license": {
+        "identifier": "PHP-3.01",
+        "url": "https://secure.php.net/license/"
+    },
+    "suggest": {
+        "vcredist": "extras/vcredist2019"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://windows.php.net/downloads/releases/php-7.4.22-Win32-VC15-x64.zip",
+            "hash": "34f58d061032d4d80a742f2a14e108df8d32c7fd278f7624bbf718abe8ee69bf"
+        },
+        "32bit": {
+            "url": "https://windows.php.net/downloads/releases/php-7.4.22-Win32-VC15-x86.zip",
+            "hash": "76a537a3dd43d326e563388a701f4456f8ab99c1e4769e52c2a8f003bcfade5a"
+        }
+    },
+    "post_install": "",
+    "bin": [
+        "php.exe",
+        "php-cgi.exe"
+    ],
+    "env_set": {
+        "PHP_INI_SCAN_DIR": "$persist_dir;$dir\\conf.d;"
+    },
+    "persist": [
+        "conf.d"
+    ]
+}
