@@ -27,6 +27,7 @@
     "pre_uninstall": "remove_from_path \"$env:USERPROFILE\\go\\bin\" $false",
     "bin": [
         "bin\\go.exe",
+        "bin\\godoc.exe",
         "bin\\gofmt.exe"
     ],
     "env_set": {
