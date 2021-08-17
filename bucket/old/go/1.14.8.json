@@ -6,7 +6,7 @@
         "identifier": "BSD-3-Clause",
         "url": "https://golang.org/LICENSE"
     },
-    "changelog": "https://golang.org/doc/go1.14.8",
+    "changelog": "https://golang.org/doc/devel/release#go1.14",
     "notes": [
         "Your GOROOT has been set to: '$dir'",
         "You can run 'go env GOROOT' to view this at any time.",
