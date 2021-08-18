@@ -7,6 +7,7 @@
         "identifier": "MIT",
         "url": "https://github.com/goreleaser/goreleaser/blob/master/LICENSE.md"
     },
+    "changelog": "https://github.com/goreleaser/goreleaser/releases/v0.174.2",
     "architecture": {
         "64bit": {
             "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.174.2/goreleaser_Windows_x86_64.zip",
@@ -26,7 +27,7 @@
         "github": "https://github.com/goreleaser/goreleaser"
     },
     "autoupdate": {
-        "changelog": "",
+        "changelog": "https://github.com/goreleaser/goreleaser/releases/v$version",
         "architecture": {
             "64bit": {
                 "url": "https://github.com/goreleaser/goreleaser/releases/download/v$version/goreleaser_Windows_x86_64.zip"
