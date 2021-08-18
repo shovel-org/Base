@@ -4,8 +4,9 @@
             "url": "https://raw.githubusercontent.com/Ash258/Scoop-Core/main/schema.json",
             "fileMatch": [
                 ".vscode/Template.jsonc",
-                "bucket/*.json",
-                "bucket/old/**/*.json",
+                "bucket/*.json*",
+                "bucket/old/**/*.json*",
+                "deprecated/*.json*",
             ],
         },
     ],

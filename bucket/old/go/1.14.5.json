@@ -1,0 +1,35 @@
+{
+    "version": "1.14.5",
+    "description": "Programming language that makes it easy to build simple, reliable, and efficient software.",
+    "homepage": "https://golang.org",
+    "license": {
+        "identifier": "BSD-3-Clause",
+        "url": "https://golang.org/LICENSE"
+    },
+    "changelog": "https://golang.org/doc/devel/release#go1.14",
+    "notes": [
+        "Your GOROOT has been set to: '$dir'",
+        "You can run 'go env GOROOT' to view this at any time.",
+        "\"$env:USERPROFILE\\go\\bin\" has been added to your PATH."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.google.com/go/go1.14.5.windows-amd64.zip",
+            "hash": "49a638b875409c5aae1a0fdd7c9232b50419d0f85224eb864738542ab99270cb"
+        },
+        "32bit": {
+            "url": "https://dl.google.com/go/go1.14.5.windows-386.zip",
+            "hash": "433802265253d58d00aecf4b22eb321fb7fb898d8bf6c35aee48f8d21ad3a63a"
+        }
+    },
+    "extract_dir": "go",
+    "pre_install": "add_first_in_path \"$env:USERPROFILE\\go\\bin\" $false",
+    "pre_uninstall": "remove_from_path \"$env:USERPROFILE\\go\\bin\" $false",
+    "bin": [
+        "bin\\go.exe",
+        "bin\\gofmt.exe"
+    ],
+    "env_set": {
+        "GOROOT": "$dir"
+    }
+}
