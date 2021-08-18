@@ -1,0 +1,38 @@
+{
+    "version": "1.12.7",
+    "description": "Versatile command line based password manager",
+    "homepage": "https://www.gopass.pw",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/gopasspw/gopass/blob/master/LICENSE"
+    },
+    "changelog": "https://github.com/gopasspw/gopass/releases/v1.12.7",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/gopasspw/gopass/releases/download/v1.12.7/gopass-1.12.7-windows-amd64.zip",
+            "hash": "3e3c62fbcab2a4e410431bc39531e1e1dc912fd5c74f5a2cf6b51bdd438ceeaa"
+        },
+        "arm64": {
+            "url": "https://github.com/gopasspw/gopass/releases/download/v1.12.7/gopass-1.12.7-windows-armv7.zip",
+            "hash": "617ecd1b4e31e09baee684cdb66629841eb7339f62196435254134020f77aa75"
+        }
+    },
+    "bin": "gopass.exe",
+    "checkver": {
+        "github": "https://github.com/gopasspw/gopass"
+    },
+    "autoupdate": {
+        "changelog": "https://github.com/gopasspw/gopass/releases/v$version",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/gopasspw/gopass/releases/download/v$version/gopass-$version-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/gopasspw/gopass/releases/download/v$version/gopass-$version-windows-armv7.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/gopass_$version_SHA256SUMS"
+        }
+    }
+}
