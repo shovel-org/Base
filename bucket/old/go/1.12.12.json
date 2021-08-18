@@ -6,7 +6,7 @@
         "identifier": "BSD-3-Clause",
         "url": "https://golang.org/LICENSE"
     },
-    "changelog": "https://golang.org/doc/go1.12.12",
+    "changelog": "https://golang.org/doc/devel/release#go1.12",
     "notes": [
         "Your GOROOT has been set to: '$dir'",
         "You can run 'go env GOROOT' to view this at any time.",
@@ -27,6 +27,7 @@
     "pre_uninstall": "remove_from_path \"$env:USERPROFILE\\go\\bin\" $false",
     "bin": [
         "bin\\go.exe",
+        "bin\\godoc.exe",
         "bin\\gofmt.exe"
     ],
     "env_set": {
