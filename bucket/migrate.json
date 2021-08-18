@@ -1,0 +1,43 @@
+{
+    "version": "4.15.0-beta.1",
+    "description": "Reads and applies migrations in correct order to a database.",
+    "homepage": "https://github.com/golang-migrate/migrate",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/golang-migrate/migrate/blob/master/LICENSE"
+    },
+    "changelog": "https://github.com/golang-migrate/migrate/releases/tag/v4.15.0-beta.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/golang-migrate/migrate/releases/download/v4.15.0-beta.1/migrate.windows-amd64.zip",
+            "hash": "09437d341714ff31d53af6a7d119d3bd6f221ae78a2afaf312047bacf394d9b6"
+        },
+        "32bit": {
+            "url": "https://github.com/golang-migrate/migrate/releases/download/v4.15.0-beta.1/migrate.windows-386.zip",
+            "hash": "f5d9133592bca1a04953674351269c0623ba46f5bfed5cb25c3200598d7f00db"
+        },
+        "arm64": {
+            "url": "https://github.com/golang-migrate/migrate/releases/download/v4.15.0-beta.1/migrate.windows-armv7.zip",
+            "hash": "556805649c97585ac7c027ee6498dae0f4b4fa1a5afe6525cc7d97dc765fd3ff"
+        }
+    },
+    "bin": "migrate.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "changelog": "https://github.com/golang-migrate/migrate/releases/tag/v$version",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/golang-migrate/migrate/releases/download/v$version/migrate.windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/golang-migrate/migrate/releases/download/v$version/migrate.windows-386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/golang-migrate/migrate/releases/download/v$version/migrate.windows-armv7.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sum.txt"
+        }
+    }
+}
