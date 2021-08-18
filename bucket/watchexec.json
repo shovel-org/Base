@@ -22,7 +22,7 @@
     "bin": "watchexec.exe",
     "checkver": {
         "github": "https://github.com/watchexec/watchexec",
-        "regex": "download/cli-v([\\d.+]+)/"
+        "regex": "download/cli-v([\\d.]+)/"
     },
     "autoupdate": {
         "changelog": "https://github.com/watchexec/watchexec/releases/tag/cli-v$version",
