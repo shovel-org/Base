@@ -1,0 +1,40 @@
+{
+    "version": "3.174.0",
+    "description": "A prompt theme engine for any shell",
+    "homepage": "https://ohmyposh.dev",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/COPYING"
+    },
+    "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh3/releases/tag/v3.174.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh3/releases/download/v3.174.0/posh-windows-wsl-amd64.7z",
+            "hash": "84e631cf21cff91b5c46954e7eb848b2d560ad6484f7d01ac9392c39d3f21522"
+        },
+        "arm64": {
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh3/releases/download/v3.174.0/posh-windows-wsl-amd64.7z",
+            "hash": "84e631cf21cff91b5c46954e7eb848b2d560ad6484f7d01ac9392c39d3f21522"
+        }
+    },
+    "bin": "bin\\oh-my-posh.exe",
+    "persist": "themes",
+    "checkver": {
+        "github": "https://github.com/JanDeDobbeleer/oh-my-posh3"
+    },
+    "autoupdate": {
+        "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh3/releases/tag/v$version",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/JanDeDobbeleer/oh-my-posh3/releases/download/v$version/posh-windows-wsl-amd64.7z"
+            },
+            "arm64": {
+                "url": "https://github.com/JanDeDobbeleer/oh-my-posh3/releases/download/v$version/posh-windows-wsl-armv8.7z"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256",
+            "regex": "$sha256"
+        }
+    }
+}
