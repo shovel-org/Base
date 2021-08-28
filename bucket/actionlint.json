@@ -1,0 +1,43 @@
+{
+    "version": "1.6.2",
+    "description": "Static checker for GitHub Actions workflow files",
+    "homepage": "https://github.com/rhysd/actionlint",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/rhysd/actionlint/blob/main/LICENSE.txt"
+    },
+    "changelog": "https://github.com/rhysd/actionlint/releases/tag/v1.6.2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rhysd/actionlint/releases/download/v1.6.2/actionlint_1.6.2_windows_amd64.zip",
+            "hash": "08660329e08419f4c517899678bc107a655ffa163c0e785f4bae53306196eb03"
+        },
+        "32bit": {
+            "url": "https://github.com/rhysd/actionlint/releases/download/v1.6.2/actionlint_1.6.2_windows_386.zip",
+            "hash": "90041b0fa2ac75748ea2625d5b379c7a5a3abf611a61ed19736751b912e1ada9"
+        },
+        "arm64": {
+            "url": "https://github.com/rhysd/actionlint/releases/download/v1.6.2/actionlint_1.6.2_windows_arm64.zip",
+            "hash": "208ef0865e02e50ec446f497d393a93a0e525f8d94430239d48bffa9d1213d6d"
+        }
+    },
+    "bin": "actionlint.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "changelog": "https://github.com/rhysd/actionlint/releases/tag/v$version",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rhysd/actionlint/releases/download/v$version/actionlint_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/rhysd/actionlint/releases/download/v$version/actionlint_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/rhysd/actionlint/releases/download/v$version/actionlint_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/actionlint_$version_checksums.txt"
+        }
+    }
+}
