@@ -1,25 +1,24 @@
 {
-    "##": "TODO: Adopt proper arm64 binaries when available",
-    "version": "0.174.2",
+    "version": "0.176.0",
     "description": "Release automation tool for Go projects",
     "homepage": "https://goreleaser.com",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/goreleaser/goreleaser/blob/master/LICENSE.md"
     },
-    "changelog": "https://github.com/goreleaser/goreleaser/releases/v0.174.2",
+    "changelog": "https://github.com/goreleaser/goreleaser/releases/v0.176.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.174.2/goreleaser_Windows_x86_64.zip",
-            "hash": "9d8ba7cd0ec4996182c4ffb3fa4b290e4ff2393ca2b77d7ec8ae4a4e9fc33c67"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.176.0/goreleaser_Windows_x86_64.zip",
+            "hash": "ccd955af3069c3f8a560e40b7d6a92566febeb5abb243274e4484c136ec7b4df"
         },
         "32bit": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.174.2/goreleaser_Windows_i386.zip",
-            "hash": "c238c24ee6a043ef64f6e64279a48d48e89982e3d07c8159e8dcbe170b4aaf6c"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.176.0/goreleaser_Windows_i386.zip",
+            "hash": "959896ccf85ce2795b2c4226cf77a942114d259d28ad7b9427f33cc6f79d373d"
         },
         "arm64": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.174.2/goreleaser_Windows_armv6.zip",
-            "hash": "d21bb8e7b1faf19ed93224b930066e62d2f163a962eedbb26cfa8d11c5aeaa71"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.176.0/goreleaser_Windows_arm64.zip",
+            "hash": "cfd4631d04f7fff96fec1cb24f6f96694336f21a6d89986b718618feed8551b9"
         }
     },
     "bin": "goreleaser.exe",
@@ -36,7 +35,7 @@
                 "url": "https://github.com/goreleaser/goreleaser/releases/download/v$version/goreleaser_Windows_i386.zip"
             },
             "arm64": {
-                "url": "https://github.com/goreleaser/goreleaser/releases/download/v$version/goreleaser_Windows_armv6.zip"
+                "url": "https://github.com/goreleaser/goreleaser/releases/download/v$version/goreleaser_Windows_arm64.zip"
             }
         },
         "hash": {
