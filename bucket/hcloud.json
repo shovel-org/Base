@@ -1,0 +1,41 @@
+{
+    "##": "TODO: Use proper arm64 binaries when available",
+    "version": "1.28.0",
+    "description": "Command-line interface for Hetzner Cloud",
+    "homepage": "https://github.com/hetznercloud/cli",
+    "license": "MIT",
+    "changelog": "https://github.com/hetznercloud/cli/releases/v1.28.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hetznercloud/cli/releases/download/v1.28.0/hcloud-windows-amd64.zip",
+            "hash": "2704123adfd98ae992ec89319f1fbda38011b32843e8f34d22cb29f3db396be1"
+        },
+        "32bit": {
+            "url": "https://github.com/hetznercloud/cli/releases/download/v1.28.0/hcloud-windows-386.zip",
+            "hash": "2f15b01f8224c288a3a49082a748c287eb40da498bc5752a14c145a52f3d90cc"
+        },
+        "arm64": {
+            "url": "https://github.com/hetznercloud/cli/releases/download/v1.28.0/hcloud-windows-armv7.zip",
+            "hash": "87f6188613be23257460f1375b73799eeb0e208b8173be21b6a0980cfb4469df"
+        }
+    },
+    "bin": "hcloud.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "changelog": "https://github.com/hetznercloud/cli/releases/v$version",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hetznercloud/cli/releases/download/v$version/hcloud-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/hetznercloud/cli/releases/download/v$version/hcloud-windows-386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/hetznercloud/cli/releases/download/v$version/hcloud-windows-armv7.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
