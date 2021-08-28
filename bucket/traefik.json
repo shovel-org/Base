@@ -1,0 +1,46 @@
+{
+    "version": "2.5.1",
+    "description": "HTTP reverse proxy and load balancer",
+    "homepage": "https://traefik.io",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/traefik/traefik/blob/master/LICENSE.md"
+    },
+    "changelog": "https://github.com/traefik/traefik/releases/tag/v2.5.1",
+    "notes": "Run with a configuration file 'traefik -c <yourconfig.toml>' or 'traefik --help' for all options.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/traefik/traefik/releases/download/v2.5.1/traefik_v2.5.1_windows_amd64.zip",
+            "hash": "0a312e9f78aa07cd06db498ebdf9a36d5575ba8cc0f4b7a4753008e65d41e334"
+        },
+        "32bit": {
+            "url": "https://github.com/traefik/traefik/releases/download/v2.5.1/traefik_v2.5.1_windows_386.zip",
+            "hash": "bb9bd7d97205cc75c7b3e557367b465caf0e0d9c78057a8287ba421636cbce1e"
+        },
+        "arm64": {
+            "url": "https://github.com/traefik/traefik/releases/download/v2.5.1/traefik_v2.5.1_windows_arm64.zip",
+            "hash": "a294366178aa2c194c3a3e224f5fd1e906d357b54a74435f928b115fec1a80f3"
+        }
+    },
+    "bin": "traefik.exe",
+    "checkver": {
+        "github": "https://github.com/containous/traefik"
+    },
+    "autoupdate": {
+        "changelog": "https://github.com/traefik/traefik/releases/tag/v$version",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/traefik/traefik/releases/download/v$version/traefik_v$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/traefik/traefik/releases/download/v$version/traefik_v$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/traefik/traefik/releases/download/v$version/traefik_v$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/traefik_v$version_checksums.txt"
+        }
+    }
+}
