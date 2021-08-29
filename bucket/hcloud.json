@@ -3,7 +3,10 @@
     "version": "1.28.0",
     "description": "Command-line interface for Hetzner Cloud",
     "homepage": "https://github.com/hetznercloud/cli",
-    "license": "MIT",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/hetznercloud/cli/blob/master/LICENSE"
+    },
     "changelog": "https://github.com/hetznercloud/cli/releases/v1.28.0",
     "architecture": {
         "64bit": {
