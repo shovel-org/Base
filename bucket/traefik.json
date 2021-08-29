@@ -24,7 +24,7 @@
     },
     "bin": "traefik.exe",
     "checkver": {
-        "github": "https://github.com/containous/traefik"
+        "github": "https://github.com/traefik/traefik"
     },
     "autoupdate": {
         "changelog": "https://github.com/traefik/traefik/releases/tag/v$version",
