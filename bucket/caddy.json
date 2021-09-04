@@ -1,20 +1,20 @@
 {
-    "version": "2.4.3",
+    "version": "2.4.5",
     "description": "HTTP/2 web server with automatic HTTPS",
     "homepage": "https://caddyserver.com",
     "license": {
         "identifier": "Apache-2.0",
         "url": "https://github.com/caddyserver/caddy/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/caddyserver/caddy/releases/tag/v2.4.3",
+    "changelog": "https://github.com/caddyserver/caddy/releases/tag/v2.4.5",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/caddyserver/caddy/releases/download/v2.4.3/caddy_2.4.3_windows_amd64.zip",
-            "hash": "sha512:e4b392d1384a02863f93c0e183c50a2b28a19ccf468c186fa1524b041895c237dbb88b0dd20c13d187779c0b5f5789458c84ffbc17cd628a9fd05779eb418563"
+            "url": "https://github.com/caddyserver/caddy/releases/download/v2.4.5/caddy_2.4.5_windows_amd64.zip",
+            "hash": "sha512:794fed88b38bfeb6b3b84d63f0887c4534fc3e94bd31173182b5af80fc7783beb41192bccffdb257a9bdf59541c6822a75fdbe714d65abc3c0cce9c02018eb82"
         },
         "arm64": {
-            "url": "https://github.com/caddyserver/caddy/releases/download/v2.4.3/caddy_2.4.3_windows_armv7.zip",
-            "hash": "sha512:84ef10b98202dacafd89b71d6c699d8c6ec51d83db2bb8060e7072cfd211e029d4afef8efbf2e027f3351193cb0cb411a03215e4c5f57b0cd9b8716d2cdd464c"
+            "url": "https://github.com/caddyserver/caddy/releases/download/v2.4.5/caddy_2.4.5_windows_arm64.zip",
+            "hash": "sha512:fb1f9ab822eb2501624ebe4437001ab5054248c0a5bd601d0b0e3ff75ce52e6caebb238a3b07a07c4d88a1b65881db71d219a3b9b48757ef51fffacc39a7b2bd"
         }
     },
     "bin": "caddy.exe",
@@ -28,7 +28,7 @@
                 "url": "https://github.com/caddyserver/caddy/releases/download/v$version/caddy_$version_windows_amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/caddyserver/caddy/releases/download/v$version/caddy_$version_windows_armv7.zip"
+                "url": "https://github.com/caddyserver/caddy/releases/download/v$version/caddy_$version_windows_arm64.zip"
             }
         },
         "hash": {
