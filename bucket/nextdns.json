@@ -1,24 +1,24 @@
 {
-    "version": "1.37.0",
+    "version": "1.37.1",
     "description": "DNS53 to DNS-over-HTTPS (DoH) proxy with advanced capabilities to get the most out of the NextDNS service.",
     "homepage": "https://nextdns.io/cli",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/nextdns/nextdns/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/nextdns/nextdns/releases/tag/v1.37.0",
+    "changelog": "https://github.com/nextdns/nextdns/releases/tag/v1.37.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nextdns/nextdns/releases/download/v1.37.0/nextdns_1.37.0_windows_amd64.zip",
-            "hash": "731f2904f3f689621b040f94f617087034f7f3b12aeade584f32f438a15af5af"
+            "url": "https://github.com/nextdns/nextdns/releases/download/v1.37.1/nextdns_1.37.1_windows_amd64.zip",
+            "hash": "5fdd2ddcf787be9ddab5a8c75499c7fb43862160e8e8e460f84903a9049dc872"
         },
         "32bit": {
-            "url": "https://github.com/nextdns/nextdns/releases/download/v1.37.0/nextdns_1.37.0_windows_386.zip",
-            "hash": "903b583dc1ed852e79de8d05383c359a3922f13367141c380c4c8add23b25d5d"
+            "url": "https://github.com/nextdns/nextdns/releases/download/v1.37.1/nextdns_1.37.1_windows_386.zip",
+            "hash": "83de22551f102060308b039bbc5e6a23c3f346f56dc37e1a6e3f454f91804df3"
         },
         "arm64": {
-            "url": "https://github.com/nextdns/nextdns/releases/download/v1.37.0/nextdns_1.37.0_windows_arm64.zip",
-            "hash": "69f2514368b39d9da1056aedd863a2b0775c93752f05d958a031ed39d00e5440"
+            "url": "https://github.com/nextdns/nextdns/releases/download/v1.37.1/nextdns_1.37.1_windows_arm64.zip",
+            "hash": "9d166af277ad73871bc871dc2ea0bf253d8dd485c6a92a903e04fdb5f08c4ebf"
         }
     },
     "bin": "nextdns.exe",
