@@ -13,8 +13,8 @@
             "hash": "2af1e6d7925c06baebe054b252b9fe92a2ddc62de3685da75ad1e5e7731e31df"
         },
         "arm64": {
-            "url": "https://github.com/weaveworks/eksctl/releases/download/v0.66.0/eksctl_Windows_amd64.zip",
-            "hash": "2af1e6d7925c06baebe054b252b9fe92a2ddc62de3685da75ad1e5e7731e31df"
+            "url": "https://github.com/weaveworks/eksctl/releases/download/v0.66.0/eksctl_Windows_arm64.zip",
+            "hash": "ab165c6ba2af5cd01bd6a2ba15bacc073e222f74ccd146b89779d5810ebfdbd5"
         }
     },
     "bin": "eksctl.exe",
@@ -28,7 +28,7 @@
                 "url": "https://github.com/weaveworks/eksctl/releases/download/v$version/eksctl_Windows_amd64.zip"
             },
             "arm64": {
-                "url": "https://github.com/weaveworks/eksctl/releases/download/v$version/eksctl_Windows_amd64.zip"
+                "url": "https://github.com/weaveworks/eksctl/releases/download/v$version/eksctl_Windows_arm64.zip"
             }
         },
         "hash": {
