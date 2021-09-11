@@ -10,7 +10,7 @@ $excludes = @(
 
 # Get all URLS
 foreach ($f in Get-ChildItem '../Extras/bucket/', '../Main/bucket/', '../Ash258/bucket' -File | Where-Object -Property 'BaseName' -NotIn @($excludes + $implemented) ) {
-    Write-Host $f.BaseName -f yellow
+    Write-Host $f.BaseName -ForegroundColor 'Yellow'
     $json = Get-Content $f.FullName -Raw | ConvertFrom-Json
     if ($json.url) {
         $urls += $json.url
@@ -28,7 +28,6 @@ $all64 = $urls | Where-Object { $_ -like '*amd64*' }
 $arm = $all64 -replace 'amd64', 'arm64'
 $aaa = $all64 -replace 'amd64', 'aarch64'
 $all = @($arm + $aaa)
-
 $valid = @()
 
 # Test all urls
@@ -36,7 +35,7 @@ foreach ($a in $all) {
     $request = [System.Net.WebRequest]::Create($a) # TODO: Consider spliting #/ from URL to prevent potential faulty response
     $request.AllowAutoRedirect = $true
     $request.Headers.Add('Referer', ($a -split '/')[-1])
-    $request.Headers.Add('User-Agent', 'cosi')
+    $request.Headers.Add('User-Agent', 'Shovel/1.0 (+https://shovel.ash258.com) PowerShell/7.2 (Windows NT 10.0.22000.0; )')
 
     try {
         $response = $request.GetResponse()
