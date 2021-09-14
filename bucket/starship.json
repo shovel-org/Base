@@ -7,10 +7,10 @@
         "identifier": "ISC",
         "url": "https://github.com/starship/starship/blob/master/LICENSE"
     },
+    "changelog": "https://github.com/starship/starship/releases/tag/v0.57.0",
     "suggest": {
         "vcredist": "extras/vcredist2019"
     },
-    "changelog": "https://github.com/starship/starship/releases/tag/v0.57.0",
     "architecture": {
         "64bit": {
             "url": "https://github.com/starship/starship/releases/download/v0.57.0/starship-x86_64-pc-windows-msvc.zip",

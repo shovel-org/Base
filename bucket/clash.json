@@ -1,0 +1,41 @@
+{
+    "version": "1.7.0",
+    "description": "A rule-based tunnel",
+    "homepage": "https://github.com/Dreamacro/clash",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/Dreamacro/clash/blob/master/LICENSE"
+    },
+    "changelog": "https://github.com/Dreamacro/clash/releases/tag/v1.7.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Dreamacro/clash/releases/download/v1.7.0/clash-windows-amd64-v1.7.0.zip",
+            "hash": "1191f820c58b48ad67bd8874c36f4c09616376198890f2781915af4280627873"
+        },
+        "32bit": {
+            "url": "https://github.com/Dreamacro/clash/releases/download/v1.7.0/clash-windows-386-v1.7.0.zip",
+            "hash": "3af64f2f97f387fd882dbb1b9cda86318e8678a4ceb60c1e09182711643f812c"
+        },
+        "arm64": {
+            "url": "https://github.com/Dreamacro/clash/releases/download/v1.7.0/clash-windows-arm64-v1.7.0.zip",
+            "hash": "518cb99b9e61a50454c951bfcd89ce7451dd5480c939237bd58fc5c9975f7a4b"
+        }
+    },
+    "pre_install": "Rename-Item \"$dir\\$($fname -replace \"-v$version\\.zip$\").exe\" 'clash.exe'",
+    "bin": "clash.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "changelog": "https://github.com/Dreamacro/clash/releases/tag/v$version",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Dreamacro/clash/releases/download/v$version/clash-windows-amd64-v$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/Dreamacro/clash/releases/download/v$version/clash-windows-386-v$version.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Dreamacro/clash/releases/download/v$version/clash-windows-arm64-v$version.zip"
+            }
+        }
+    }
+}
