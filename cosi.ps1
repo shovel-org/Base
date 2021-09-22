@@ -10,11 +10,15 @@ $excludes = @(
 
 # Get all URLS
 foreach ($f in Get-ChildItem '../Extras/bucket/', '../Main/bucket/', '../Ash258/bucket' -File | Where-Object -Property 'BaseName' -NotIn @($excludes + $implemented) ) {
-    Write-Host $f.BaseName -ForegroundColor 'Yellow'
     $json = Get-Content $f.FullName -Raw | ConvertFrom-Json
+
+    if ($json.architecture.'arm64') { continue }
+
     if ($json.url) {
+        Write-Host $f.BaseName -ForegroundColor 'Yellow'
         $urls += $json.url
     } elseif ($json.architecture) {
+        Write-Host $f.BaseName -ForegroundColor 'Yellow'
         foreach ($b in '64bit', '32bit') {
             if ($json.architecture.$b.url) {
                 $urls += $json.architecture.$b.url
