@@ -1,0 +1,43 @@
+{
+    "version": "6.1.5",
+    "description": "PowerShell Core. Task automation and configuration management framework/tool.",
+    "homepage": "https://github.com/PowerShell/PowerShell",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt"
+    },
+    "changelog": "https://github.com/PowerShell/PowerShell/releases/tag/v6.1.5",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v6.1.5/PowerShell-6.1.5-win-x64.zip",
+            "hash": "f5e230d50921a134d0383df7db4e40b274093d801559807d05cf6b93139690af"
+        },
+        "32bit": {
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v6.1.5/PowerShell-6.1.5-win-x86.zip",
+            "hash": "2a5dfc5b0b81d9e27befe76f7f232f3817a81e9680008ef3b5eccad6cbd3c57a"
+        },
+        "arm64": {
+            "url": "https://github.com/PowerShell/PowerShell/releases/download/v6.1.5/PowerShell-6.1.5-win-arm64.zip",
+            "hash": "d331713d471ad2edf69355652ddc54d76a5131107d7d8c8b94dddfe059e7aa3a"
+        }
+    },
+    "pre_install": "Test-Persistence 'Microsoft.PowerShell_profile.ps1', 'profile.ps1'",
+    "bin": [
+        [
+            "pwsh.exe",
+            "pwsh",
+            "-NoLogo"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "pwsh.exe",
+            "PowerShell Core",
+            "-NoLogo"
+        ]
+    ],
+    "persist": [
+        "Microsoft.PowerShell_profile.ps1",
+        "profile.ps1"
+    ]
+}
