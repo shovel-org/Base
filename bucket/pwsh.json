@@ -21,7 +21,7 @@
             "hash": "345f4b16e5daa0c2c6d2cb0758098b39b2fdb26d5c8b181ff16424b6c37c529f"
         }
     },
-    "pre_install": "Test-Persistence 'profile.ps1'",
+    "pre_install": "Test-Persistence 'Microsoft.PowerShell_profile.ps1', 'profile.ps1'",
     "bin": [
         [
             "pwsh.exe",
@@ -36,7 +36,10 @@
             "-NoLogo"
         ]
     ],
-    "persist": "profile.ps1",
+    "persist": [
+        "Microsoft.PowerShell_profile.ps1",
+        "profile.ps1"
+    ],
     "checkver": "github",
     "autoupdate": {
         "archive": true,
