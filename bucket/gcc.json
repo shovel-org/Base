@@ -25,6 +25,7 @@
                 "http://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-pkg-config-0.29.2-3-any.pkg.tar.zst",
                 "http://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-windows-default-manifest-6.4-3-any.pkg.tar.xz",
                 "http://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libwinpthread-git-9.0.0.6272.1db0f476f-2-any.pkg.tar.zst",
+                "http://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-winpthreads-git-9.0.0.6294.f5ac9206e-1-any.pkg.tar.zst"
                 "http://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-zlib-1.2.11-9-any.pkg.tar.zst"
             ],
             "hash": [
@@ -47,6 +48,7 @@
                 "867c946174c2a2db9f7836edf68aa317c8453b1417ff7851d994f99015e7a9a5",
                 "6c0ea4adcef503dc8174e9d4d70a10aee8295d620db4494f78fa512df0589dcf",
                 "b3e8a129884dc1204f3a12006825169600361cf142a454bc4827c10d60371adf",
+                "d3131ac90aad875f5d23077968386129f16e8504a56356b87a41710f34d3b0ae",
                 "9da9ebafaef832dba2f442ad44d9ae8759784b86478dcbe326500195f8ea6339"
             ]
         },
@@ -71,6 +73,7 @@
                 "http://repo.msys2.org/mingw/i686/mingw-w64-i686-pkg-config-0.29.2-3-any.pkg.tar.zst",
                 "http://repo.msys2.org/mingw/i686/mingw-w64-i686-windows-default-manifest-6.4-3-any.pkg.tar.xz",
                 "http://repo.msys2.org/mingw/i686/mingw-w64-i686-libwinpthread-git-9.0.0.6272.1db0f476f-2-any.pkg.tar.zst",
+                "http://repo.msys2.org/mingw/i686/mingw-w64-i686-winpthreads-git-9.0.0.6294.f5ac9206e-1-any.pkg.tar.zst",
                 "http://repo.msys2.org/mingw/i686/mingw-w64-i686-zlib-1.2.11-9-any.pkg.tar.zst"
             ],
             "hash": [
@@ -93,6 +96,7 @@
                 "c564ce30f11f6e80bee34daa22ca22fbe001f2aa50aa661b0bcac8177557cbd7",
                 "56323bc39c7de0ff727915c09c4aaa25b8396efc0d7eda0006d5951bb6a6b983",
                 "3ce8d593ce7c921bfcbf5f8996241a14b823285aac76f8826410eee7534d1b6b",
+                "0127ee285b573d5283cff9e7e4daa461f43841783c734eaed68f181179cdfbfe",
                 "8d594fc14497d41a66415bfdd200d7d1d56a6ecd3fe81b9190bec0c4841a5eff"
             ]
         }
