@@ -219,6 +219,23 @@
                 "instanceLimit": 99,
             },
         },
+        {
+            "label": "Test Homepage",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}",
+            },
+            "command": "curl",
+            "args": [
+                "-v",
+                "'${selectedText}'",
+                "*>&1",
+                "|",
+                "Select-String",
+                "'< HTTP/', '< Location:'",
+            ],
+            "problemMatcher": [],
+        },
     ],
     "inputs": [
         {
