@@ -1,24 +1,24 @@
 {
-    "version": "4.15.0-beta.1",
+    "version": "4.15.0",
     "description": "Reads and applies migrations in correct order to a database.",
     "homepage": "https://github.com/golang-migrate/migrate",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/golang-migrate/migrate/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/golang-migrate/migrate/releases/tag/v4.15.0-beta.1",
+    "changelog": "https://github.com/golang-migrate/migrate/releases/tag/v4.15.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/golang-migrate/migrate/releases/download/v4.15.0-beta.1/migrate.windows-amd64.zip",
-            "hash": "09437d341714ff31d53af6a7d119d3bd6f221ae78a2afaf312047bacf394d9b6"
+            "url": "https://github.com/golang-migrate/migrate/releases/download/v4.15.0/migrate.windows-amd64.zip",
+            "hash": "554e655f94c7e8d2178e76ebad489ae43b7fc1e95442f175668c9fd9075f93a1"
         },
         "32bit": {
-            "url": "https://github.com/golang-migrate/migrate/releases/download/v4.15.0-beta.1/migrate.windows-386.zip",
-            "hash": "f5d9133592bca1a04953674351269c0623ba46f5bfed5cb25c3200598d7f00db"
+            "url": "https://github.com/golang-migrate/migrate/releases/download/v4.15.0/migrate.windows-386.zip",
+            "hash": "8dd5d7221a933dd865ef8d1a612defa82aa3635dc6e76160d1d1e02bbda63fd1"
         },
         "arm64": {
-            "url": "https://github.com/golang-migrate/migrate/releases/download/v4.15.0-beta.1/migrate.windows-armv7.zip",
-            "hash": "556805649c97585ac7c027ee6498dae0f4b4fa1a5afe6525cc7d97dc765fd3ff"
+            "url": "https://github.com/golang-migrate/migrate/releases/download/v4.15.0/migrate.windows-arm64.zip",
+            "hash": "0ac183fee67e6d86cb7d26e21af2df62d7432227c0e931d837121c647f60e455"
         }
     },
     "bin": "migrate.exe",
@@ -33,7 +33,7 @@
                 "url": "https://github.com/golang-migrate/migrate/releases/download/v$version/migrate.windows-386.zip"
             },
             "arm64": {
-                "url": "https://github.com/golang-migrate/migrate/releases/download/v$version/migrate.windows-armv7.zip"
+                "url": "https://github.com/golang-migrate/migrate/releases/download/v$version/migrate.windows-arm64.zip"
             }
         },
         "hash": {
