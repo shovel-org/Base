@@ -29,13 +29,24 @@ foreach ($f in Get-ChildItem '../Extras/bucket/', '../Main/bucket/', '../Ash258/
 
 # Replace amd64 to known arm strings
 $all64 = $urls | Where-Object { $_ -like '*amd64*' }
+$all64 += $urls | Where-Object { $_ -like '*x86_64*' }
+$all64 = $all64 | Select-Object -Unique
+
 $arm = $all64 -replace 'amd64', 'arm64'
-$aaa = $all64 -replace 'amd64', 'aarch64'
-$all = @($arm + $aaa)
+$arch = $all64 -replace 'amd64', 'aarch64'
+$x64arm = $all64 -replace 'x86_64', 'arm64'
+$x64arch = $all64 -replace 'x86_64', 'aarch64'
+
+$all = @($arm + $arch + $x64arch + $x64arm)
+$all = $all | Where-Object { $_ -notlike '*amd64*' } | Where-Object { $_ -notlike '*x86_64*' }
 $valid = @()
 
 # Test all urls
+$i = 0
 foreach ($a in $all) {
+    ++$i
+    Write-Progress -Id 1 -Activity "Processing '$a'" -PercentComplete ((100 / $all.Count) * $i)
+
     $request = [System.Net.WebRequest]::Create($a) # TODO: Consider spliting #/ from URL to prevent potential faulty response
     $request.AllowAutoRedirect = $true
     $request.Headers.Add('Referer', ($a -split '/')[-1])
@@ -48,6 +59,7 @@ foreach ($a in $all) {
         continue
     }
 
+    Write-Verbose "Hit: $a"
     $valid += $a
 }
 
