@@ -1,24 +1,24 @@
 {
-    "version": "0.180.0",
+    "version": "0.180.3",
     "description": "Release automation tool for Go projects",
     "homepage": "https://goreleaser.com",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/goreleaser/goreleaser/blob/master/LICENSE.md"
     },
-    "changelog": "https://github.com/goreleaser/goreleaser/releases/v0.180.0",
+    "changelog": "https://github.com/goreleaser/goreleaser/releases/v0.180.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.180.0/goreleaser_Windows_x86_64.zip",
-            "hash": "3c2b0e1fedfbb4c78938da6ba0d00442816da91446c1579faa28ed3995174b29"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.180.3/goreleaser_Windows_x86_64.zip",
+            "hash": "90148728dcddd414817a1bc9ddfed439e2dc0666a687fe1faf42ca40c2d4b09a"
         },
         "32bit": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.180.0/goreleaser_Windows_i386.zip",
-            "hash": "c93998c788e4b7d09d03139149e955c68a5a417604c00c759d865e0b03ce3599"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.180.3/goreleaser_Windows_i386.zip",
+            "hash": "97acd540c3039f1d69bdbdac69296cd2e4ea1cd08c885267be772e183aa632c6"
         },
         "arm64": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.180.0/goreleaser_Windows_arm64.zip",
-            "hash": "b189b4dbe45daad90cbedbbca63c4e878ca79a6a358e59f1a33872acfb225c42"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.180.3/goreleaser_Windows_arm64.zip",
+            "hash": "42f0774698af14c1d51ef437b430027934ad33a19c4b461353e61fea1b05e5a7"
         }
     },
     "bin": "goreleaser.exe",
@@ -39,7 +39,7 @@
             }
         },
         "hash": {
-            "url": "$baseurl/goreleaser_checksums.txt"
+            "url": "$baseurl/checksums.txt"
         }
     }
 }
