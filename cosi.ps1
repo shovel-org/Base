@@ -6,6 +6,9 @@ $excludes = @(
     'teleport'
     'ngrok'
     'diun'
+    'rust-msvc'
+    'rust-msvc-nightly'
+    'rust-nightly'
 )
 
 # Get all URLS
