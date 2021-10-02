@@ -5,7 +5,10 @@ $excludes = @(
     'forego'
     'teleport'
     'ngrok'
-    'dinun'
+    'diun'
+    'rust-msvc'
+    'rust-msvc-nightly'
+    'rust-nightly'
 )
 
 # Get all URLS
@@ -37,7 +40,7 @@ $arch = $all64 -replace 'amd64', 'aarch64'
 $x64arm = $all64 -replace 'x86_64', 'arm64'
 $x64arch = $all64 -replace 'x86_64', 'aarch64'
 
-$all = @($arm + $arch + $x64arch + $x64arm)
+$all = @($arm + $arch + $x64arm + $x64arch)
 $all = $all | Where-Object { $_ -notlike '*amd64*' } | Where-Object { $_ -notlike '*x86_64*' }
 $valid = @()
 
