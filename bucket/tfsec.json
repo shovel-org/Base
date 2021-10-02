@@ -1,20 +1,20 @@
 {
-    "version": "0.58.11",
+    "version": "0.58.12",
     "description": "A static analysis security scanner for Terraform code",
     "homepage": "https://tfsec.dev",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/aquasecurity/tfsec/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/aquasecurity/tfsec/releases/tag/v0.58.11",
+    "changelog": "https://github.com/aquasecurity/tfsec/releases/tag/v0.58.12",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aquasecurity/tfsec/releases/download/v0.58.11/tfsec-windows-amd64.exe#/tfsec.exe",
-            "hash": "1493e090c5d9dc7184a58b5cd3d7d81e4035211687492d3995458ea148565c18"
+            "url": "https://github.com/aquasecurity/tfsec/releases/download/v0.58.12/tfsec-windows-amd64.exe#/tfsec.exe",
+            "hash": "5d92f0073346a1bb4c99140773144e302658841a66490e4f73d93eb79cbf83ce"
         },
         "arm64": {
-            "url": "https://github.com/aquasecurity/tfsec/releases/download/v0.58.11/tfsec-windows-arm64.exe#/tfsec.exe",
-            "hash": "db3a0e413e8e43897c4386230296aa1e8475ada3f2c6a37e581dec0b6f1a04a6"
+            "url": "https://github.com/aquasecurity/tfsec/releases/download/v0.58.12/tfsec-windows-arm64.exe#/tfsec.exe",
+            "hash": "31f2660f79e368222fd3f6eae4d3783a296bfee2ef1e3a0f24ea3002398448a3"
         }
     },
     "bin": "tfsec.exe",
