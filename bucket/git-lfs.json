@@ -6,13 +6,13 @@
         "identifier": "MIT",
         "url": "https://github.com/git-lfs/git-lfs/blob/main/LICENSE.md"
     },
+    "changelog": "https://github.com/git-lfs/git-lfs/releases/tag/v3.0.1",
     "suggest": {
         "Git": [
             "git",
             "git-with-openssh"
         ]
     },
-    "changelog": "https://github.com/git-lfs/git-lfs/releases/tag/v3.0.1",
     "architecture": {
         "64bit": {
             "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.0.1/git-lfs-windows-amd64-v3.0.1.zip",
