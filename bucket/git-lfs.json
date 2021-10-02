@@ -1,0 +1,49 @@
+{
+    "version": "3.0.1",
+    "description": "Git extension for versioning large files",
+    "homepage": "https://git-lfs.github.com",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/git-lfs/git-lfs/blob/main/LICENSE.md"
+    },
+    "suggest": {
+        "Git": [
+            "git",
+            "git-with-openssh"
+        ]
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.0.1/git-lfs-windows-amd64-v3.0.1.zip",
+            "hash": "d476f6a441be522cc4881b9c5eee3508f461c9739f45abfc8229cd272b2f0f1e"
+        },
+        "32bit": {
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.0.1/git-lfs-windows-386-v3.0.1.zip",
+            "hash": "e3fa836fd87769a72b72854d7796b29be4687890b077a5a9d614ec50c00177b8"
+        },
+        "arm64": {
+            "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.0.1/git-lfs-windows-arm64-v3.0.1.zip",
+            "hash": "e46cdfeab55b0afb23ae545c97db3412bdc5035428b06f7cbd6109ad66c855f7"
+        }
+    },
+    "bin": "git-lfs.exe",
+    "checkver": {
+        "github": "https://github.com/git-lfs/git-lfs"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/git-lfs/git-lfs/releases/download/v$version/git-lfs-windows-amd64-v$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/git-lfs/git-lfs/releases/download/v$version/git-lfs-windows-386-v$version.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/git-lfs/git-lfs/releases/download/v$version/git-lfs-windows-arm64-v$version.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/sha256sums.asc"
+        }
+    }
+}
