@@ -12,6 +12,7 @@
             "git-with-openssh"
         ]
     },
+    "changelog": "https://github.com/git-lfs/git-lfs/releases/tag/v3.0.1",
     "architecture": {
         "64bit": {
             "url": "https://github.com/git-lfs/git-lfs/releases/download/v3.0.1/git-lfs-windows-amd64-v3.0.1.zip",
@@ -31,6 +32,7 @@
         "github": "https://github.com/git-lfs/git-lfs"
     },
     "autoupdate": {
+        "changelog": "https://github.com/git-lfs/git-lfs/releases/tag/v$version",
         "architecture": {
             "64bit": {
                 "url": "https://github.com/git-lfs/git-lfs/releases/download/v$version/git-lfs-windows-amd64-v$version.zip"
