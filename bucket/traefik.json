@@ -24,6 +24,7 @@
     },
     "bin": "traefik.exe",
     "checkver": {
+        "disable": true,
         "github": "https://github.com/traefik/traefik"
     },
     "autoupdate": {
