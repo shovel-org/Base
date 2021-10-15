@@ -55,8 +55,15 @@ foreach ($a in $all) {
 
     $request = [System.Net.WebRequest]::Create($a) # TODO: Consider spliting #/ from URL to prevent potential faulty response
     $request.AllowAutoRedirect = $true
-    $request.Headers.Add('Referer', ($a -split '/')[-1])
-    $request.Headers.Add('User-Agent', 'Shovel/1.0 (+https://shovel.ash258.com) PowerShell/7.2 (Windows NT 10.0.22000.0; )')
+    $ua = 'Shovel/1.0 (+https://shovel.ash258.com) PowerShell/7.2 (Windows NT 10.0.22000.0; )'
+    $split = ($a -split '/')[-1]
+    if ($PSVersionTable.PSVersion.Major -lt 6) {
+        $request.Referer = $split
+        $request.UserAgent = $ua
+    } else {
+        $request.Headers.Add('Referer', $split)
+        $request.Headers.Add('User-Agent', $ua)
+    }
 
     try {
         $response = $request.GetResponse()
