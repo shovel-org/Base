@@ -6,7 +6,7 @@
         "identifier": "MIT",
         "url": "https://github.com/muesli/duf/blob/master/LICENSE"
     },
-    "changelog": "MIT",
+    "changelog": "https://github.com/muesli/duf/releases/tag/v0.6.2",
     "architecture": {
         "64bit": {
             "url": "https://github.com/muesli/duf/releases/download/v0.6.2/duf_0.6.2_Windows_x86_64.zip",
