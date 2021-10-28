@@ -1,0 +1,30 @@
+{
+    "version": "1.49.0",
+    "description": "A language empowering everyone to build reliable and efficient software. (MSVC toolchain)",
+    "homepage": "https://www.rust-lang.org",
+    "license": {
+        "identifier": "MIT|Apache-2.0",
+        "url": "https://www.rust-lang.org/policies/licenses"
+    },
+    "changelog": "https://github.com/rust-lang/rust/releases/tag/1.49.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://static.rust-lang.org/dist/rust-1.49.0-x86_64-pc-windows-msvc.msi",
+            "hash": "eebeff39ecd8ae39e345dcecbcced631a27f3f3616e109ac3150c1fe2c3abbdc"
+        },
+        "32bit": {
+            "url": "https://static.rust-lang.org/dist/rust-1.49.0-i686-pc-windows-msvc.msi",
+            "hash": "1f54e748329dad4aaeb9b34a3a3a717c24a07bbd87a9fe86ff688ada8e4257af"
+        },
+        "arm64": {
+            "url": "https://static.rust-lang.org/dist/rust-1.49.0-aarch64-pc-windows-msvc.msi",
+            "hash": "c7ed7036fd0888247cdc78bbf2b863b684418b10a0be73b922a43979ae8f913f"
+        }
+    },
+    "extract_dir": "Rust",
+    "bin": [
+        "bin\\rustc.exe",
+        "bin\\rustdoc.exe",
+        "bin\\cargo.exe"
+    ]
+}
