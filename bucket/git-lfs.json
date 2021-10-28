@@ -6,6 +6,7 @@
         "identifier": "MIT",
         "url": "https://github.com/git-lfs/git-lfs/blob/main/LICENSE.md"
     },
+    "changelog": "https://github.com/git-lfs/git-lfs/releases/tag/v3.0.1",
     "suggest": {
         "Git": [
             "git",
@@ -31,6 +32,7 @@
         "github": "https://github.com/git-lfs/git-lfs"
     },
     "autoupdate": {
+        "changelog": "https://github.com/git-lfs/git-lfs/releases/tag/v$version",
         "architecture": {
             "64bit": {
                 "url": "https://github.com/git-lfs/git-lfs/releases/download/v$version/git-lfs-windows-amd64-v$version.zip"

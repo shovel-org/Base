@@ -24,7 +24,8 @@
     },
     "bin": "traefik.exe",
     "checkver": {
-        "github": "https://github.com/traefik/traefik"
+        "url": "https://api.github.com/repos/traefik/traefik/releases",
+        "regex": "\"v?(2\\.[\\d.]+)\""
     },
     "autoupdate": {
         "changelog": "https://github.com/traefik/traefik/releases/tag/v$version",
