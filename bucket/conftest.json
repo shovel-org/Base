@@ -1,20 +1,20 @@
 {
-    "version": "0.28.2",
+    "version": "0.28.3",
     "description": "Test utility for structured configuration files",
     "homepage": "https://www.conftest.dev",
     "license": {
         "identifier": "Apache-2.0",
         "url": "https://github.com/open-policy-agent/conftest/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/open-policy-agent/conftest/releases/tag/v0.28.2",
+    "changelog": "https://github.com/open-policy-agent/conftest/releases/tag/v0.28.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/open-policy-agent/conftest/releases/download/v0.28.2/conftest_0.28.2_Windows_x86_64.zip",
-            "hash": "083156d4b1d921b92e2ef0dfe375dd669e1394c7fa949a829bcfed00593e36a0"
+            "url": "https://github.com/open-policy-agent/conftest/releases/download/v0.28.3/conftest_0.28.3_Windows_x86_64.zip",
+            "hash": "ea1903204be6965bcc32e49736549ba0af724f75c1a664429a8d53f3f21797d1"
         },
         "arm64": {
-            "url": "https://github.com/open-policy-agent/conftest/releases/download/v0.28.2/conftest_0.28.2_Windows_arm64.zip",
-            "hash": "6ea84df4b4f164b7a6b7d87b62054d8b516695c2da15929feeb6d1e99fa9a507"
+            "url": "https://github.com/open-policy-agent/conftest/releases/download/v0.28.3/conftest_0.28.3_Windows_arm64.zip",
+            "hash": "93025f86e6c5b9ea82769a610a8c260abb0441b2c566e50ee1aaeb38ed20d8c5"
         }
     },
     "bin": "conftest.exe",
