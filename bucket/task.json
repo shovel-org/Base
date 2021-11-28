@@ -1,24 +1,24 @@
 {
-    "version": "3.9.0",
+    "version": "3.9.1",
     "description": "A task runner / build tool that aims to be simpler and easier to use",
     "homepage": "https://taskfile.dev",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/go-task/task/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/go-task/task/releases/tag/v3.9.0",
+    "changelog": "https://github.com/go-task/task/releases/tag/v3.9.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/go-task/task/releases/download/v3.9.0/task_windows_amd64.zip",
-            "hash": "8a9ed4c33c94d014c09ac3cf214ed2687f00f4a9bcfa570b603f36f755fe97af"
+            "url": "https://github.com/go-task/task/releases/download/v3.9.1/task_windows_amd64.zip",
+            "hash": "27a2100ebca44d097cfe7700c0162a51a95d2695c7a6f0aef488381972782795"
         },
         "32bit": {
-            "url": "https://github.com/go-task/task/releases/download/v3.9.0/task_windows_386.zip",
-            "hash": "aad0c5b65b02e3df19035ad5eba4570b5d495c8acf2bd101e9c078fff9ae53c7"
+            "url": "https://github.com/go-task/task/releases/download/v3.9.1/task_windows_386.zip",
+            "hash": "a21a5e4f77e8e9674fcc0576ca8363dcf4c29b557a84834eb5032938173c1325"
         },
         "arm64": {
-            "url": "https://github.com/go-task/task/releases/download/v3.9.0/task_windows_arm64.zip",
-            "hash": "f7f68826d8480fe45647357e55a6b7cdd0eed5c4269e53d819070dbdd4716669"
+            "url": "https://github.com/go-task/task/releases/download/v3.9.1/task_windows_arm64.zip",
+            "hash": "0a995a4e2aa5679a9fbd90b96a263c24d81ddcd9bb228e5e632a7e05d9424033"
         }
     },
     "bin": "task.exe",
