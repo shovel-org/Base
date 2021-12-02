@@ -1,24 +1,24 @@
 {
-    "version": "1.5.7",
+    "version": "1.5.8",
     "description": "Git wrapper for easier project maintenance",
     "homepage": "https://github.com/Milo123459/glitter",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/Milo123459/glitter/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/Milo123459/glitter/releases/tag/v1.5.7",
+    "changelog": "https://github.com/Milo123459/glitter/releases/tag/v1.5.8",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Milo123459/glitter/releases/download/v1.5.7/glitter-x86_64-pc-windows-msvc.zip",
-            "hash": "256d51d55b4bb7f3de034afa28a113bdcc32a77c7eed010fb99f6c93e3554674"
+            "url": "https://github.com/Milo123459/glitter/releases/download/v1.5.8/glitter-x86_64-pc-windows-msvc.zip",
+            "hash": "a514a2fe8194d689306d5c303754b888761dc201a46faff1ff8dd18c198279c4"
         },
         "32bit": {
-            "url": "https://github.com/Milo123459/glitter/releases/download/v1.5.7/glitter-i686-pc-windows-msvc.zip",
-            "hash": "b4c4630bde6bf2c34b6d7398d930202cd31c39d0d50a9a42eedbd657fb37bece"
+            "url": "https://github.com/Milo123459/glitter/releases/download/v1.5.8/glitter-i686-pc-windows-msvc.zip",
+            "hash": "841da81c3217acca894a38f91a5011d8379e6d1bc1fcd7b887ae0b0c1beb170b"
         },
         "arm64": {
-            "url": "https://github.com/Milo123459/glitter/releases/download/v1.5.7/glitter-aarch64-pc-windows-msvc.zip",
-            "hash": "85bf634553653af13967152a2eac53c18a09d3deb2a62cd64ae23a3c4b9d83ec"
+            "url": "https://github.com/Milo123459/glitter/releases/download/v1.5.8/glitter-aarch64-pc-windows-msvc.zip",
+            "hash": "1aaed5346f55d8083d710f11d2370419c786338f675a45e41de78d61b13f83e4"
         }
     },
     "bin": "glitter.exe",
