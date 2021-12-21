@@ -1,24 +1,24 @@
 {
-    "version": "0.15.0",
+    "version": "0.15.1",
     "description": "Changelog generator",
     "homepage": "https://github.com/git-chglog/git-chglog",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/git-chglog/git-chglog/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/git-chglog/git-chglog/releases/tag/v0.15.0",
+    "changelog": "https://github.com/git-chglog/git-chglog/releases/tag/v0.15.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/git-chglog/git-chglog/releases/download/v0.15.0/git-chglog_0.15.0_windows_amd64.zip",
-            "hash": "d44ca8282c547c5e02529e10a4fcc11ff00d149b6d2c411ae6cb1b3b1b44ecb4"
+            "url": "https://github.com/git-chglog/git-chglog/releases/download/v0.15.1/git-chglog_0.15.1_windows_amd64.zip",
+            "hash": "4ea2684d4eaf8b59cf04ffe1af17075f7988d2b6053da8ab51b2baea5108afbc"
         },
         "32bit": {
-            "url": "https://github.com/git-chglog/git-chglog/releases/download/v0.15.0/git-chglog_0.15.0_windows_386.zip",
-            "hash": "648965dd72e41eb04e23b95b860ff91a27ebf668025d8a7667c9f96b9a7a206c"
+            "url": "https://github.com/git-chglog/git-chglog/releases/download/v0.15.1/git-chglog_0.15.1_windows_386.zip",
+            "hash": "229ded8c7c5557000e44289d45fc8e0cbc1aef83e66e073c6fe3988d12db5bbf"
         },
         "arm64": {
-            "url": "https://github.com/git-chglog/git-chglog/releases/download/v0.15.0/git-chglog_0.15.0_windows_armv6.zip",
-            "hash": "7ef2aaf88e3d257019b8e4d3eb91ceae6bcc174664814acc7e754a96f0e15c75"
+            "url": "https://github.com/git-chglog/git-chglog/releases/download/v0.15.1/git-chglog_0.15.1_windows_armv6.zip",
+            "hash": "25d6bfaffdf39b0d37acfdc05df6d6eb7f91b96149f38041dbf5f6bb3418b2e7"
         }
     },
     "bin": "git-chglog.exe",
