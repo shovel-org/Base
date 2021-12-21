@@ -1,0 +1,45 @@
+{
+    "version": "0.12.0",
+    "description": "Fast, continuous, multidirectional file synchronization for remote development",
+    "homepage": "https://mutagen.io",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/mutagen-io/mutagen/blob/master/LICENSE"
+    },
+    "changelog": "https://github.com/mutagen-io/mutagen/releases/tag/v0.12.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/mutagen-io/mutagen/releases/download/v0.12.0/mutagen_windows_amd64_v0.12.0.zip",
+            "hash": "9a9b1e73213d7afc563256d8c1fc9e2223345b3a2602bcd4acad0d995ff4df74"
+        },
+        "32bit": {
+            "url": "https://github.com/mutagen-io/mutagen/releases/download/v0.12.0/mutagen_windows_386_v0.12.0.zip",
+            "hash": "50cdd713c79617145f0965ee0c14c35a75ce68988d5c54f32ffe9e3ecda206a5"
+        },
+        "arm64": {
+            "url": "https://github.com/mutagen-io/mutagen/releases/download/v0.12.0/mutagen_windows_arm64_v0.12.0.tar.gz",
+            "hash": "7abf0242900d9580c0e99e94a79612e1b411b9b4dda54db825506ab4e9586854"
+        }
+    },
+    "bin": "mutagen.exe",
+    "checkver": {
+        "github": "https://github.com/mutagen-io/mutagen"
+    },
+    "autoupdate": {
+        "changelog": "https://github.com/mutagen-io/mutagen/releases/tag/v$version",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_amd64_v$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_386_v$version.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_arm64_v$version.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHA256SUMS"
+        }
+    }
+}
