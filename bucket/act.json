@@ -2,7 +2,10 @@
     "version": "0.2.25",
     "description": "Local Github actions runner",
     "homepage": "https://github.com/nektos/act",
-    "license": "MIT",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/nektos/act/blob/master/LICENSE"
+    },
     "changelog": "https://github.com/nektos/act/releases/tag/v0.2.25",
     "architecture": {
         "64bit": {
