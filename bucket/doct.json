@@ -1,0 +1,45 @@
+{
+    "version": "1.68.0",
+    "description": "The official command line interface for the DigitalOcean API",
+    "homepage": "https://docs.digitalocean.com/reference/doctl/",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/digitalocean/doctl/blob/main/LICENSE.txt"
+    },
+    "changelog": "https://github.com/digitalocean/doctl/releases/tag/v1.68.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/digitalocean/doctl/releases/download/v1.68.0/doctl-1.68.0-windows-amd64.zip",
+            "hash": "c09e8ec4b237bc5ec4a2efd191b98a244066a69ea2eaaaa03088b70f726f2af6"
+        },
+        "32bit": {
+            "url": "https://github.com/digitalocean/doctl/releases/download/v1.68.0/doctl-1.68.0-windows-386.zip",
+            "hash": "4de530f50bfed7f42dd87ce3bba82aff7915d7f6a59630054acdd70274cee2f7"
+        },
+        "arm64": {
+            "url": "https://github.com/digitalocean/doctl/releases/download/v1.68.0/doctl-1.68.0-windows-arm64.zip",
+            "hash": "592673c0c7e8dc94d6635ed61690f2fa9eb385a991cf0ddb9c26e5d9c4db5309"
+        }
+    },
+    "bin": "doctl.exe",
+    "checkver": {
+        "github": "https://github.com/digitalocean/doctl"
+    },
+    "autoupdate": {
+        "changelog": "https://github.com/digitalocean/doctl/releases/tag/v$version",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/digitalocean/doctl/releases/download/v$version/doctl-$version-windows-arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/doctl-$version-checksums.sha256"
+        }
+    }
+}
