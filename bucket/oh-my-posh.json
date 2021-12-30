@@ -1,24 +1,24 @@
 {
-    "version": "6.42.3",
+    "version": "6.42.4",
     "description": "A prompt theme engine for any shell",
     "homepage": "https://ohmyposh.dev",
     "license": {
         "identifier": "GPL-3.0-only",
         "url": "https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/COPYING"
     },
-    "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v6.42.3",
+    "changelog": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v6.42.4",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.42.3/posh-windows-amd64.exe#/oh-my-posh.exe",
-            "hash": "89af5bfcb091045aa136f457b6c8dd882c89b296eb1a42481c32d911a436afab"
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.42.4/posh-windows-amd64.exe#/oh-my-posh.exe",
+            "hash": "194269465fa31c5c47c4295e181da4d51f26cb1385fcd307f48d193d4606cde0"
         },
         "32bit": {
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.42.3/posh-windows-386.exe#/oh-my-posh.exe",
-            "hash": "03ba3f587f2430da84ff30f4fa4ce696f90bab4b59bbf1acdb13dc8713e88392"
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.42.4/posh-windows-386.exe#/oh-my-posh.exe",
+            "hash": "6f8d29949b0fef2567c00c5285dfed50e2673a5f668187ab174e5bb78b5d7de2"
         },
         "arm64": {
-            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.42.3/posh-windows-arm64.exe#/oh-my-posh.exe",
-            "hash": "c6e7942b9e61153fa11b954bb61a1e8815611fdf3f9554bf177117b0ff6f3942"
+            "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v6.42.4/posh-windows-arm64.exe#/oh-my-posh.exe",
+            "hash": "b671e5eb5317012dada4cdcbd6b03a72cc144160fa65b9fbb1677e2274decfbe"
         }
     },
     "bin": "oh-my-posh.exe",
