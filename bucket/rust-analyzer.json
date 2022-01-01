@@ -10,11 +10,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/rust-analyzer/rust-analyzer/releases/download/2021-12-27/rust-analyzer-x86_64-pc-windows-msvc.gz",
-            "hash": "d857ffe4d26357489282b70359d826b81f6be7ffd41c2b2e015de0d2bab0237e"
+            "hash": "1533be42fb2e612d18dde89f790f1b33ab9ed37422c9ab6b596ff460b10134ae"
         },
         "arm64": {
             "url": "https://github.com/rust-analyzer/rust-analyzer/releases/download/2021-12-27/rust-analyzer-aarch64-pc-windows-msvc.gz",
-            "hash": "30c733a82f841b1c2c14a2a7c3a0d75b05d774f288dd675da5be28a9b8dae7b9"
+            "hash": "1b096e2bc361dd98a8567db07db64256d102da4dfb49592a72aea17166621378"
         }
     },
     "pre_install": "Rename-Item \"$dir\\$($fname -replace '\\.gz$')\" 'rust-analyzer.exe'",
