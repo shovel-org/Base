@@ -22,6 +22,7 @@
         "github": "https://github.com/aquasecurity/tfsec"
     },
     "autoupdate": {
+        "disable": true,
         "changelog": "https://github.com/aquasecurity/tfsec/releases/tag/v$version",
         "architecture": {
             "64bit": {
