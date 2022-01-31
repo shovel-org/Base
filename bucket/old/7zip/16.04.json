@@ -9,15 +9,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.7-zip.org/a/7z1604-x64.msi",
-            "hash": "b3885b2f090f1e9b5cf2b9f802b07fe88e472d70d60732db9f830209ac296067"
+            "url": "https://stor.shovel.ash258.com/7zip/7z1604-x64.zip",
+            "hash": "ded5d8351cc601c6407587aa9d53fc619bd796ed9adfe991ee561adbf29843ae",
+            "extract_dir": "7z1604-x64"
         },
         "32bit": {
-            "url": "https://www.7-zip.org/a/7z1604.msi",
-            "hash": "d9b62c0ed0eb48d2df86d8b83394048414a2a4e1d64a50adb9abcff643471d20"
+            "url": "https://stor.shovel.ash258.com/7zip/7z1604.zip",
+            "hash": "5535542f808f0fd86b7719f4836a226b86adbdb98b70f9e3add2a2f8553b7793",
+            "extract_dir": "7z1604"
         }
     },
-    "extract_dir": "Files\\7-Zip",
     "bin": "7z.exe",
     "shortcuts": [
         [

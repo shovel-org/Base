@@ -9,15 +9,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.7-zip.org/a/7z1900-x64.msi",
-            "hash": "a7803233eedb6a4b59b3024ccf9292a6fffb94507dc998aa67c5b745d197a5dc"
+            "url": "https://stor.shovel.ash258.com/7zip/7z1900-x64.zip",
+            "hash": "8f047e4a7762d7f8f51361de3ea8fa8d2c7ca22220b63c3914a488e1d15c022c",
+            "extract_dir": "7z1900-x64"
         },
         "32bit": {
-            "url": "https://www.7-zip.org/a/7z1900.msi",
-            "hash": "b49d55a52bc0eab14947c8982c413d9be141c337da1368a24aa0484cbb5e89cd"
+            "url": "https://stor.shovel.ash258.com/7zip/7z1900.zip",
+            "hash": "9979fb1a42586799fea562aeb719d78abeb5edb9053f9cda2756b26167cf86c7",
+            "extract_dir": "7z1900"
         }
     },
-    "extract_dir": "Files\\7-Zip",
     "bin": "7z.exe",
     "shortcuts": [
         [
