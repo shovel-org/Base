@@ -10,7 +10,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/goreleaser/goreleaser/releases/download/v1.5.0/goreleaser_Windows_x86_64.zip",
-            "hash": "2d2c0ba962b74403a540f85ddd9f7c0c86ea49e3509570e27aae4fd46639e19a"
+            "hash": "9132179d7896f1ba856beae71ff3b914703e68150b3b91a378f8fb8a997080cc"
         },
         "32bit": {
             "url": "https://github.com/goreleaser/goreleaser/releases/download/v1.5.0/goreleaser_Windows_i386.zip",
@@ -18,7 +18,7 @@
         },
         "arm64": {
             "url": "https://github.com/goreleaser/goreleaser/releases/download/v1.5.0/goreleaser_Windows_arm64.zip",
-            "hash": "6f4aa8d9e3f87d67ba57dc99c853ce52d30a0e9199017074d70549fb702bf548"
+            "hash": "a77ad4fad40b1d68b315d7f253b6859792fd781a19dbb41238054198586dd465"
         }
     },
     "bin": "goreleaser.exe",
@@ -39,7 +39,8 @@
             }
         },
         "hash": {
-            "url": "$baseurl/checksums.txt"
+            "url": "$baseurl/checksums.txt",
+            "regex": "$sha256\\s+$basename[\\s$]"
         }
     }
 }
