@@ -1,17 +1,17 @@
 {
-    "version": "1.18.8",
+    "version": "1.18.9",
     "description": "Execute commands in response to file modifications",
     "homepage": "https://github.com/watchexec/watchexec",
     "license": {
         "identifier": "Apache-2.0",
         "url": "https://github.com/watchexec/watchexec/blob/main/LICENSE"
     },
-    "changelog": "https://github.com/watchexec/watchexec/releases/tag/cli-v1.18.8",
+    "changelog": "https://github.com/watchexec/watchexec/releases/tag/cli-v1.18.9",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/watchexec/watchexec/releases/download/cli-v1.18.8/watchexec-1.18.8-x86_64-pc-windows-msvc.zip",
-            "hash": "sha512:32b782ed30940a087dfa2d03bd76ae5de6f3a4e9b8961ffeb6d8d94960104d02984537673bc04876ad8834328d50631fc1251255d6d8bd8d4d7cbd4aec05bcd9",
-            "extract_dir": "watchexec-1.18.8-x86_64-pc-windows-msvc"
+            "url": "https://github.com/watchexec/watchexec/releases/download/cli-v1.18.9/watchexec-1.18.9-x86_64-pc-windows-msvc.zip",
+            "hash": "sha512:d07bde5c34691b45ab56a074eaae7fd0628fe10cd304433a2a6da900b575c0597a7726a916a2e212e87a784c7d6ff84e803d7bb33a6223e9bb6d62795ace8f3c",
+            "extract_dir": "watchexec-1.18.9-x86_64-pc-windows-msvc"
         }
     },
     "bin": "watchexec.exe",
