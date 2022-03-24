@@ -1,28 +1,28 @@
 {
     "##": "TODO: Suggest rework",
-    "version": "1.4.2",
+    "version": "1.5.4",
     "description": "The minimal, blazing fast, and extremely customizable prompt for any shell",
     "homepage": "https://starship.rs",
     "license": {
         "identifier": "ISC",
         "url": "https://github.com/starship/starship/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/starship/starship/releases/tag/v1.4.2",
+    "changelog": "https://github.com/starship/starship/releases/tag/v1.5.4",
     "suggest": {
         "vcredist": "extras/vcredist2019"
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/starship/starship/releases/download/v1.4.2/starship-x86_64-pc-windows-msvc.zip",
-            "hash": "25853e22041c50a67764e6850c5e5cc188d2293e3eec7d36ec7eb5bde3ea3f56"
+            "url": "https://github.com/starship/starship/releases/download/v1.5.4/starship-x86_64-pc-windows-msvc.zip",
+            "hash": "72197646a68e55449373ad8e9fe54a40465473a9668a9292f00c33bebc0ca107"
         },
         "32bit": {
-            "url": "https://github.com/starship/starship/releases/download/v1.4.2/starship-i686-pc-windows-msvc.zip",
-            "hash": "07939e9c5cb014b14ebfbe0b9fad69230725ec28399fe25f5d96fce90310e02f"
+            "url": "https://github.com/starship/starship/releases/download/v1.5.4/starship-i686-pc-windows-msvc.zip",
+            "hash": "2038854a11e2c1dd719b1ea4700886bd641f4c18703653c6e6223fddcb7efbc2"
         },
         "arm64": {
-            "url": "https://github.com/starship/starship/releases/download/v1.4.2/starship-aarch64-pc-windows-msvc.zip",
-            "hash": "f429979a98bc958669eb2f37efe9cdda76eb7c68c159aa71fc76b64d1af85788"
+            "url": "https://github.com/starship/starship/releases/download/v1.5.4/starship-aarch64-pc-windows-msvc.zip",
+            "hash": "b82e9f3fdb6e4c659f54950c4c968f03e43f98238cac3338a6eaad4020a08149"
         }
     },
     "bin": "starship.exe",
