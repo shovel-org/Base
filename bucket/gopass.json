@@ -1,20 +1,20 @@
 {
-    "version": "1.14.0",
+    "version": "1.14.1",
     "description": "Versatile command line based password manager",
     "homepage": "https://www.gopass.pw",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/gopasspw/gopass/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/gopasspw/gopass/releases/v1.14.0",
+    "changelog": "https://github.com/gopasspw/gopass/releases/v1.14.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gopasspw/gopass/releases/download/v1.14.0/gopass-1.14.0-windows-amd64.zip",
-            "hash": "07b8c9d11004da46b3482a8f1e64dcaef6e57824a250f2d1dbd803a0c0e3e884"
+            "url": "https://github.com/gopasspw/gopass/releases/download/v1.14.1/gopass-1.14.1-windows-amd64.zip",
+            "hash": "1543caeca37665623516184de9e7642c2e907b3e86898603f258b33882f86e03"
         },
         "arm64": {
-            "url": "https://github.com/gopasspw/gopass/releases/download/v1.14.0/gopass-1.14.0-windows-arm64.zip",
-            "hash": "50875c56b774790fb10c9a0d1bcbf5aed26f9128cc0db7ae80a7fadc24ab69ae"
+            "url": "https://github.com/gopasspw/gopass/releases/download/v1.14.1/gopass-1.14.1-windows-arm64.zip",
+            "hash": "e9c943edb97615349e28ef48281bd3d8e0adb931d8ae2c5ca0310277fb8dbd4b"
         }
     },
     "bin": "gopass.exe",
