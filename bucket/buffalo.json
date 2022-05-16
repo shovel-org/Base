@@ -1,5 +1,5 @@
 {
-    "version": "0.18.4",
+    "version": "0.18.5",
     "description": "A Go web development eco-system",
     "homepage": "https://gobuffalo.io/en",
     "license": {
@@ -8,16 +8,16 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gobuffalo/cli/releases/download/v0.18.4/buffalo_0.18.4_windows_x86_64.tar.gz",
-            "hash": "4ccbb7e14c99cf46156f7afd6e98a53a539f734686ce3faa9a5f3241d8aa91db"
+            "url": "https://github.com/gobuffalo/cli/releases/download/v0.18.5/buffalo_0.18.5_windows_x86_64.tar.gz",
+            "hash": "cffb651516975da1ee7b50586d2265510a89379b0ee92b57cb733d03324b9e3d"
         },
         "32bit": {
-            "url": "https://github.com/gobuffalo/cli/releases/download/v0.18.4/buffalo_0.18.4_windows_i386.tar.gz",
-            "hash": "066a81ef55eb88e5a0eabe2e82364ed45c1b9f29cf9bff954c407245317d88c4"
+            "url": "https://github.com/gobuffalo/cli/releases/download/v0.18.5/buffalo_0.18.5_windows_i386.tar.gz",
+            "hash": "785ac31cabbcfab6091037e9f0a0e2f15b89019d73646178e909e0d9716e85d9"
         },
         "arm64": {
-            "url": "https://github.com/gobuffalo/cli/releases/download/v0.18.4/buffalo_0.18.4_windows_arm64.tar.gz",
-            "hash": "0c2c36251d711e83f1f296755629dd8a1e5807b996f5fc5b512504c86a6e2130"
+            "url": "https://github.com/gobuffalo/cli/releases/download/v0.18.5/buffalo_0.18.5_windows_arm64.tar.gz",
+            "hash": "9c763d894ece68979fd5ca03537c824456ab48119f434761fd4c37c008ffd1fe"
         }
     },
     "bin": "buffalo.exe",
