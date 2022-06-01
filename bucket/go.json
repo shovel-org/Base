@@ -1,5 +1,5 @@
 {
-    "version": "1.18.2",
+    "version": "1.18.3",
     "description": "Programming language that makes it easy to build simple, reliable, and efficient software.",
     "homepage": "https://golang.org",
     "license": {
@@ -14,16 +14,16 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/go/go1.18.2.windows-amd64.zip",
-            "hash": "41fc44109c39a98e0c3672989ac5ad205cbb5768067e099dc4fb2b75cba922cf"
+            "url": "https://dl.google.com/go/go1.18.3.windows-amd64.zip",
+            "hash": "9c46023f3ad0300fcfd1e62f2b6c2dfd9667b1f2f5c7a720b14b792af831f071"
         },
         "32bit": {
-            "url": "https://dl.google.com/go/go1.18.2.windows-386.zip",
-            "hash": "ac190f91bbdaae7db993b0f12eea59eec2b3b92e1e9d8b068c565fc49f7ec9a8"
+            "url": "https://dl.google.com/go/go1.18.3.windows-386.zip",
+            "hash": "6661798e9669c3f03498a2e018ed948d9f53a90c5ccbd05b4e4b36303facb33e"
         },
         "arm64": {
-            "url": "https://dl.google.com/go/go1.18.2.windows-arm64.zip",
-            "hash": "dad24eefa1fb388baf6553ccb5f3c1bd890295ecc2856cc7f943b350c3ca3583"
+            "url": "https://dl.google.com/go/go1.18.3.windows-arm64.zip",
+            "hash": "ea8fab36a03e5a62b747e2ab0977be2d0f3e2f04b41397b4abf57a8c24f0034c"
         }
     },
     "extract_dir": "go",
