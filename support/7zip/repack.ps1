@@ -1,6 +1,9 @@
+#!/usr/bin/env pwsh
 param([Parameter(Mandatory)] [String] $Version, [String] $ScpTarget)
 
 $ProgressPreference = 'SilentlyContinue'
+
+Start-Transcript "$PSScriptRoot/log.txt"
 
 $_v = $Version -replace '\.'
 
@@ -20,9 +23,9 @@ Set-Content "$PSScriptRoot/README.md" @'
 
 Zero dependency zip package of 7-zip mainly for NanoServer installations and use for Shovel installer.
 
-All archived were built by [script](https://github.com/shovel-org/Base/main/support/7zip/repack.ps1) using 7zip
+All archives were built by [script](https://github.com/shovel-org/Base/main/support/7zip/repack.ps1) using 7zip.
 
-Original site, source code and artifcats are avaialble at <https://www.7-zip.org>
+Original site, source code and artifacts are available at <https://www.7-zip.org>
 '@ -Encoding 'utf8'
 
 $7zPath = (Get-Command -Name '7z' -CommandType 'Application').Source
@@ -40,8 +43,9 @@ Get-ChildItem -LiteralPath $PSScriptRoot -Include '*.exe' -File | ForEach-Object
 
 # Create new zips
 Get-ChildItem -LiteralPath $PSScriptRoot -Directory | ForEach-Object {
-    Write-Output "Repackaing '$($_.BaseName).zip'"
+    Write-Output "Repacking '$($_.BaseName).zip'"
 
+    Copy-Item "$PSScriptRoot/7z${_v}-src.tar.xz" $_.FullName
     & $7zPath a "$PSScriptRoot/$($_.BaseName).zip" $_.FullName
 
     $zipHash = (Get-FileHash -LiteralPath "$($_.FullName).zip" -Algorithm 'SHA256').Hash
@@ -55,5 +59,7 @@ if ($ScpTarget) {
     scp "$PSScriptRoot/*" $ScpTarget
 
     # Remove all temporary files
-    Get-ChildItem -LiteralPath $PSScriptRoot -Exclude '*.ps1' | Remove-Item -Force -Recurse
+    Get-ChildItem -LiteralPath $PSScriptRoot -Exclude '*.ps1', '*.txt', 'README.md' | Remove-Item -Force -Recurse
 }
+
+Stop-Transcript

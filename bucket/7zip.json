@@ -1,6 +1,6 @@
 {
     "##": "TODO: Associations, context menu",
-    "version": "21.07",
+    "version": "22.00",
     "description": "File archiver with a high compression ratio",
     "homepage": "https://www.7-zip.org",
     "license": {
@@ -9,19 +9,19 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://stor.shovel.ash258.com/7zip/7z2107-x64.zip",
-            "hash": "b10324340c82c05a7b237f24049dd6cffa8d66ad16f68f9642bd4d12dfbc3ef5",
-            "extract_dir": "7z2107-x64"
+            "url": "https://stor.shovel.ash258.com/7zip/7z2200-x64.zip",
+            "hash": "ad1f1b07cfa1d31f79faf2aa52796352608808d0dde1e0b1f3cb8e4dbac2d99f",
+            "extract_dir": "7z2200-x64"
         },
         "32bit": {
-            "url": "https://stor.shovel.ash258.com/7zip/7z2107.zip",
-            "hash": "9b1ef46b9b02853bbc1f55d9c9ac3cdc660813154405dbe03d3fb0387e9393ec",
-            "extract_dir": "7z2107"
+            "url": "https://stor.shovel.ash258.com/7zip/7z2200.zip",
+            "hash": "7ff18a66f11dcd9cd0df9bf9632405c0b3abd3e22f358881b5f437f98eccdfe2",
+            "extract_dir": "7z2200"
         },
         "arm64": {
-            "url": "https://stor.shovel.ash258.com/7zip/7z2107-arm64.zip",
-            "hash": "944cb106d21a32a71b8565921bb0b8e4f17615f611f6ee3a9b117da2aacfb1c5",
-            "extract_dir": "7z2107-arm64"
+            "url": "https://stor.shovel.ash258.com/7zip/7z2200-arm64.zip",
+            "hash": "451bb472c02681807fe17afced6ff5f1cade4960c44b53366aeea544d00d1aa8",
+            "extract_dir": "7z2200-arm64"
         }
     },
     "bin": "7z.exe",
