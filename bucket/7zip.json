@@ -1,0 +1,52 @@
+{
+    "##": "TODO: Associations, context menu",
+    "version": "22.00",
+    "description": "File archiver with a high compression ratio",
+    "homepage": "https://www.7-zip.org",
+    "license": {
+        "identifier": "Freeware,LGPL-2.0-only,BSD-3-Clause",
+        "url": "https://www.7-zip.org/license.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://stor.shovel.ash258.com/7zip/7z2200-x64.zip",
+            "hash": "ecadef9d9c69670ddb1f217534c53df0d7a1abfda1d2f63cb7a809830f0508b9",
+            "extract_dir": "7z2200-x64"
+        },
+        "32bit": {
+            "url": "https://stor.shovel.ash258.com/7zip/7z2200.zip",
+            "hash": "c85335a5afd4ee26562f20284b5d9fa909b17ec0f54c1b98f8bdc85f31ecb5e5",
+            "extract_dir": "7z2200"
+        },
+        "arm64": {
+            "url": "https://stor.shovel.ash258.com/7zip/7z2200-arm64.zip",
+            "hash": "fe106f6ce357884b6b455bed721f9bf8609b60b2a368cec7e133ccd19860a43e",
+            "extract_dir": "7z2200-arm64"
+        }
+    },
+    "bin": "7z.exe",
+    "shortcuts": [
+        [
+            "7zFM.exe",
+            "7-Zip"
+        ]
+    ],
+    "checkver": "\\s+([\\d.]+)\\s+\\(\\d+",
+    "autoupdate": {
+        "archive": true,
+        "architecture": {
+            "64bit": {
+                "url": "https://stor.shovel.ash258.com/7zip/7z${cleanVersion}-x64.zip",
+                "extract_dir": "7z${cleanVersion}-x64"
+            },
+            "32bit": {
+                "url": "https://stor.shovel.ash258.com/7zip/7z${cleanVersion}.zip",
+                "extract_dir": "7z${cleanVersion}"
+            },
+            "arm64": {
+                "url": "https://stor.shovel.ash258.com/7zip/7z${cleanVersion}-arm64.zip",
+                "extract_dir": "7z${cleanVersion}-arm64"
+            }
+        }
+    }
+}
