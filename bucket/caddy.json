@@ -1,20 +1,20 @@
 {
-    "version": "2.4.6",
+    "version": "2.5.1",
     "description": "HTTP/2 web server with automatic HTTPS",
     "homepage": "https://caddyserver.com",
     "license": {
         "identifier": "Apache-2.0",
         "url": "https://github.com/caddyserver/caddy/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/caddyserver/caddy/releases/tag/v2.4.6",
+    "changelog": "https://github.com/caddyserver/caddy/releases/tag/v2.5.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/caddyserver/caddy/releases/download/v2.4.6/caddy_2.4.6_windows_amd64.zip",
-            "hash": "sha512:08fe8b50664644f5672a7357a7fe4c4835828c2464965ad78ec5f483dd2cd5643c64ea929d2f131601c48d71d2ddaebe251eb608d435ae1e31abe39d0687aebb"
+            "url": "https://github.com/caddyserver/caddy/releases/download/v2.5.1/caddy_2.5.1_windows_amd64.zip",
+            "hash": "sha512:4294796c4bd4bed0c593d83606a5413de30f35f88d624e1b1e5b6cd8672ffbcc7a689d7ce4ef30c1abea0e95eda62220faac15d2a6aca0c3e2b418abe7a74118"
         },
         "arm64": {
-            "url": "https://github.com/caddyserver/caddy/releases/download/v2.4.6/caddy_2.4.6_windows_arm64.zip",
-            "hash": "sha512:5cf6faf9d059225d2bb4f22feb2aa256461282e5930b8561062d1d6415f1169afc4ac8548b28657544c75003d9a9f9c88f5ae4f1ea7ea1269f321a116eb245b7"
+            "url": "https://github.com/caddyserver/caddy/releases/download/v2.5.1/caddy_2.5.1_windows_arm64.zip",
+            "hash": "sha512:76c2cb6c831d32c192cccaf769331eb836a85c72c61be738170f5c410c71edc412fca8dc1dc18ebae6aa3573c68d44020139216a24da6ee72a2cd0c4c50c3761"
         }
     },
     "bin": "caddy.exe",
