@@ -10,17 +10,17 @@
     "architecture": {
         "64bit": {
             "url": "https://stor.shovel.ash258.com/7zip/7z2200-x64.zip",
-            "hash": "ecadef9d9c69670ddb1f217534c53df0d7a1abfda1d2f63cb7a809830f0508b9",
+            "hash": "ad1f1b07cfa1d31f79faf2aa52796352608808d0dde1e0b1f3cb8e4dbac2d99f",
             "extract_dir": "7z2200-x64"
         },
         "32bit": {
             "url": "https://stor.shovel.ash258.com/7zip/7z2200.zip",
-            "hash": "c85335a5afd4ee26562f20284b5d9fa909b17ec0f54c1b98f8bdc85f31ecb5e5",
+            "hash": "7ff18a66f11dcd9cd0df9bf9632405c0b3abd3e22f358881b5f437f98eccdfe2",
             "extract_dir": "7z2200"
         },
         "arm64": {
             "url": "https://stor.shovel.ash258.com/7zip/7z2200-arm64.zip",
-            "hash": "fe106f6ce357884b6b455bed721f9bf8609b60b2a368cec7e133ccd19860a43e",
+            "hash": "451bb472c02681807fe17afced6ff5f1cade4960c44b53366aeea544d00d1aa8",
             "extract_dir": "7z2200-arm64"
         }
     },

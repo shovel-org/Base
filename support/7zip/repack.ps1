@@ -43,8 +43,9 @@ Get-ChildItem -LiteralPath $PSScriptRoot -Include '*.exe' -File | ForEach-Object
 
 # Create new zips
 Get-ChildItem -LiteralPath $PSScriptRoot -Directory | ForEach-Object {
-    Write-Output "Repackaing '$($_.BaseName).zip'"
+    Write-Output "Repacking '$($_.BaseName).zip'"
 
+    Copy-Item "$PSScriptRoot/7z${_v}-src.tar.xz" $_.FullName
     & $7zPath a "$PSScriptRoot/$($_.BaseName).zip" $_.FullName
 
     $zipHash = (Get-FileHash -LiteralPath "$($_.FullName).zip" -Algorithm 'SHA256').Hash
@@ -58,7 +59,7 @@ if ($ScpTarget) {
     scp "$PSScriptRoot/*" $ScpTarget
 
     # Remove all temporary files
-    Get-ChildItem -LiteralPath $PSScriptRoot -Exclude '*.ps1' | Remove-Item -Force -Recurse
+    Get-ChildItem -LiteralPath $PSScriptRoot -Exclude '*.ps1', '*.txt', 'README.md' | Remove-Item -Force -Recurse
 }
 
 Stop-Transcript
