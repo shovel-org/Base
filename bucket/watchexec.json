@@ -1,27 +1,22 @@
 {
-    "version": "1.17.1",
+    "version": "1.20.4",
     "description": "Execute commands in response to file modifications",
     "homepage": "https://github.com/watchexec/watchexec",
     "license": {
         "identifier": "Apache-2.0",
         "url": "https://github.com/watchexec/watchexec/blob/main/LICENSE"
     },
-    "changelog": "https://github.com/watchexec/watchexec/releases/tag/cli-v1.17.1",
+    "changelog": "https://github.com/watchexec/watchexec/releases/tag/cli-v1.20.4",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/watchexec/watchexec/releases/download/cli-v1.17.1/watchexec-1.17.1-x86_64-pc-windows-msvc.zip",
-            "hash": "sha512:c32671b6e4830550c323f97dd269d3270887e0a4875b2bd03e01186ab115b29cd9d76a9613bcccecbc0336a28e2b539bdb1767b6cf8dbc9f57386111986dbb03",
-            "extract_dir": "watchexec-1.17.1-x86_64-pc-windows-msvc"
-        },
-        "arm64": {
-            "url": "https://github.com/watchexec/watchexec/releases/download/cli-v1.17.1/watchexec-1.17.1-aarch64-pc-windows-msvc.zip",
-            "hash": "sha512:4152725a566d08c624481d1d42b18868c8fb36ef61a26098668371c21d39afb2a1dc82a9626f6ea9c8af3dc9852f84df6925ec4a6804e763a80174885bd3897e",
-            "extract_dir": "watchexec-1.17.1-aarch64-pc-windows-msvc"
+            "url": "https://github.com/watchexec/watchexec/releases/download/cli-v1.20.4/watchexec-1.20.4-x86_64-pc-windows-msvc.zip",
+            "hash": "sha512:9284e19083eb6b4994c08da288eea8f8248ed6799aefbd38b718cc776a8cbacdc98fd7678ffdb72f0a29c3491ced79121e9f7060e48705062a67ded3c44627ee",
+            "extract_dir": "watchexec-1.20.4-x86_64-pc-windows-msvc"
         }
     },
     "bin": "watchexec.exe",
     "checkver": {
-        "github": "https://github.com/watchexec/watchexec",
+        "url": "https://github.com/watchexec/watchexec/releases",
         "regex": "download/cli-v([\\d.]+)/"
     },
     "autoupdate": {
@@ -30,10 +25,6 @@
             "64bit": {
                 "url": "https://github.com/watchexec/watchexec/releases/download/cli-v$version/watchexec-$version-x86_64-pc-windows-msvc.zip",
                 "extract_dir": "watchexec-$version-x86_64-pc-windows-msvc"
-            },
-            "arm64": {
-                "url": "https://github.com/watchexec/watchexec/releases/download/cli-v$version/watchexec-$version-aarch64-pc-windows-msvc.zip",
-                "extract_dir": "watchexec-$version-aarch64-pc-windows-msvc"
             }
         },
         "hash": {
