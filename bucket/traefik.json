@@ -1,25 +1,25 @@
 {
-    "version": "2.5.6",
+    "version": "2.8.1",
     "description": "HTTP reverse proxy and load balancer",
     "homepage": "https://traefik.io",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/traefik/traefik/blob/master/LICENSE.md"
     },
-    "changelog": "https://github.com/traefik/traefik/releases/tag/v2.5.6",
+    "changelog": "https://github.com/traefik/traefik/releases/tag/v2.8.1",
     "notes": "Run with a configuration file 'traefik -c <yourconfig.toml>' or 'traefik --help' for all options.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/traefik/traefik/releases/download/v2.5.6/traefik_v2.5.6_windows_amd64.zip",
-            "hash": "efe42eef176471aeba78139bce44de934d11722ca24767605bf075059ff0dcce"
+            "url": "https://github.com/traefik/traefik/releases/download/v2.8.1/traefik_v2.8.1_windows_amd64.zip",
+            "hash": "1c227bfb922998bc6584e50fb1897a4b5fa3ccae864a0aa6d9a4d02b235ece65"
         },
         "32bit": {
-            "url": "https://github.com/traefik/traefik/releases/download/v2.5.6/traefik_v2.5.6_windows_386.zip",
-            "hash": "be2bdbe1966fa1e1800f6f1fbdd78bf973961fc4ee433b3c6dddebe32eb54463"
+            "url": "https://github.com/traefik/traefik/releases/download/v2.8.1/traefik_v2.8.1_windows_386.zip",
+            "hash": "0b52306647059992843722e24338ce0b83cbfeff8d21f41bec14bcdf4b99ed81"
         },
         "arm64": {
-            "url": "https://github.com/traefik/traefik/releases/download/v2.5.6/traefik_v2.5.6_windows_arm64.zip",
-            "hash": "a548ae0cfe52f1bc73bcf415515ffd4c67ef764085bc59af120ccb5215b2dc2d"
+            "url": "https://github.com/traefik/traefik/releases/download/v2.8.1/traefik_v2.8.1_windows_arm64.zip",
+            "hash": "aed05063083e4c8d5588c8f635c80497ee9976c7560dc42444ee32b89f2be868"
         }
     },
     "bin": "traefik.exe",
