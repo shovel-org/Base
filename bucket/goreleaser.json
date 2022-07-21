@@ -1,24 +1,24 @@
 {
-    "version": "1.1.0",
+    "version": "1.10.2",
     "description": "Release automation tool for Go projects",
     "homepage": "https://goreleaser.com",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/goreleaser/goreleaser/blob/master/LICENSE.md"
     },
-    "changelog": "https://github.com/goreleaser/goreleaser/releases/v1.1.0",
+    "changelog": "https://github.com/goreleaser/goreleaser/releases/v1.10.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v1.1.0/goreleaser_Windows_x86_64.zip",
-            "hash": "4e12988db79a3a004215d6a247366b8f6533c0dacacf63b9946d6fade1a25d85"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v1.10.2/goreleaser_Windows_x86_64.zip",
+            "hash": "e038d88d7906b81120a16cb6520ab5441fc725dca4d3434ea021cd7457fd4f5f"
         },
         "32bit": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v1.1.0/goreleaser_Windows_i386.zip",
-            "hash": "875da705a458e0712c95f5253a5cd0c800edaf3138819742f54d0dbeb54324f6"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v1.10.2/goreleaser_Windows_i386.zip",
+            "hash": "380b75024b044f57b4bd136589ffd6b948ebdba5286eb751230a50774a8991f3"
         },
         "arm64": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v1.1.0/goreleaser_Windows_arm64.zip",
-            "hash": "a9f4296680dd24a90adeeaae1cb7f6a474b9c8dbdfa57e706f3a880d8a03c3e2"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v1.10.2/goreleaser_Windows_arm64.zip",
+            "hash": "2913ac3001df75ce92dc46f2007c0574ca321b6605408e2a61f63d78e66cfa4c"
         }
     },
     "bin": "goreleaser.exe",
@@ -39,7 +39,8 @@
             }
         },
         "hash": {
-            "url": "$baseurl/checksums.txt"
+            "url": "$baseurl/checksums.txt",
+            "regex": "$sha256\\s+$basename[\\s$]"
         }
     }
 }
