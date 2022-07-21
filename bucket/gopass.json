@@ -10,11 +10,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/gopasspw/gopass/releases/download/v1.14.3/gopass-1.14.3-windows-amd64.zip",
-            "hash": "f9227155fb18d105708a19ebc8fe9703029c6f45caac162f654749d077c4a42e"
+            "hash": "29eb0f9a7bf742b67b37e68d6eff1c372f223d700a87e2c940cde73906692199"
         },
         "arm64": {
             "url": "https://github.com/gopasspw/gopass/releases/download/v1.14.3/gopass-1.14.3-windows-arm64.zip",
-            "hash": "189bd99e4d729a2079cb45080b9fed70306bb8389f8e634e5b9c3af26f34f4f3"
+            "hash": "c34862b0e89dde936e260398997eb25a2f92c5fb7722cbbff3d360d47a4580c3"
         }
     },
     "bin": "gopass.exe",
