@@ -1,5 +1,5 @@
 {
-    "version": "8.8p1-1",
+    "version": "8.9p1-3",
     "description": "A suite of secure networking utilities based on the Secure Shell protocol.",
     "homepage": "https://www.openssh.com/",
     "license": "ISC",
@@ -7,36 +7,36 @@
     "architecture": {
         "64bit": {
             "url": [
-                "http://repo.msys2.org/msys/x86_64/bash-5.1.008-1-x86_64.pkg.tar.zst",
-                "http://repo.msys2.org/msys/x86_64/gcc-libs-9.3.0-1-x86_64.pkg.tar.xz",
+                "http://repo.msys2.org/msys/x86_64/bash-5.1.016-1-x86_64.pkg.tar.zst",
+                "http://repo.msys2.org/msys/x86_64/gcc-libs-11.3.0-1-x86_64.pkg.tar.zst",
                 "http://repo.msys2.org/msys/x86_64/heimdal-7.7.0-3-x86_64.pkg.tar.zst",
                 "http://repo.msys2.org/msys/x86_64/heimdal-libs-7.7.0-3-x86_64.pkg.tar.zst",
                 "http://repo.msys2.org/msys/x86_64/libcrypt-2.1-3-x86_64.pkg.tar.zst",
                 "http://repo.msys2.org/msys/x86_64/libdb-5.3.28-3-x86_64.pkg.tar.zst",
                 "http://repo.msys2.org/msys/x86_64/libedit-20210910_3.1-1-x86_64.pkg.tar.zst",
-                "http://repo.msys2.org/msys/x86_64/libopenssl-1.1.1.l-1-x86_64.pkg.tar.zst",
-                "http://repo.msys2.org/msys/x86_64/libsqlite-3.36.0-3-x86_64.pkg.tar.zst",
-                "http://repo.msys2.org/msys/x86_64/msys2-runtime-3.3.3-1-x86_64.pkg.tar.zst",
-                "http://repo.msys2.org/msys/x86_64/ncurses-6.2-1-x86_64.pkg.tar.xz",
-                "http://repo.msys2.org/msys/x86_64/openssh-8.8p1-1-x86_64.pkg.tar.zst",
-                "http://repo.msys2.org/msys/x86_64/openssl-1.1.1.l-1-x86_64.pkg.tar.zst",
-                "http://repo.msys2.org/msys/x86_64/zlib-1.2.11-1-x86_64.pkg.tar.xz"
+                "http://repo.msys2.org/msys/x86_64/libopenssl-1.1.1.p-1-x86_64.pkg.tar.zst",
+                "http://repo.msys2.org/msys/x86_64/libsqlite-3.38.5-1-x86_64.pkg.tar.zst",
+                "http://repo.msys2.org/msys/x86_64/msys2-runtime-3.3.5-2-x86_64.pkg.tar.zst",
+                "http://repo.msys2.org/msys/x86_64/ncurses-6.3-3-x86_64.pkg.tar.zst",
+                "http://repo.msys2.org/msys/x86_64/openssh-8.9p1-3-x86_64.pkg.tar.zst",
+                "http://repo.msys2.org/msys/x86_64/openssl-1.1.1.p-1-x86_64.pkg.tar.zst",
+                "http://repo.msys2.org/msys/x86_64/zlib-1.2.12-2-x86_64.pkg.tar.zst"
             ],
             "hash": [
-                "1111c47c37116bf461d2ab7d0e7a6fb0ee3b4a6bea362309c58a2e0ea5f198ff",
-                "79a74bb1ef1d7f4eb12f7437ac24371ec9e41a3d96b653a2ec7f09d1e7aa9c63",
+                "95a0f9154a6c4a228ad836214de393c8d410fa8078d5ba287413be8a7b41d128",
+                "19b9d9063f18dac7ddf6c2a564a4dcb2e275ef320de1422c5634642d2713723d",
                 "156d153901cd7a803fac242303e733779de830bbb82346254846d03e46345c4a",
                 "adfc7d3a7eaa8c66696c3f3543d82a9056188caa578ddaf56abd8724d131c590",
                 "2ed4842520063192fc09ebc50d150e53b1f2224485833fa89582789ee462d8ac",
                 "00caef39902d34112fe9f9e5f9aad063cbde3922c212558ce4cec5f8c33534ee",
                 "3e78ff30d730fe382c31221807ba91fcec999331e22247da2fa62d8e43d4b4f1",
-                "6657a7a2bef09df5368c08fe088c21402e9cb5e41a3cfe903c469f8b1d220aee",
-                "a18e525f4c185576aaf6e314213cc805dbac81846e4cb34ce4c4d78f18280561",
-                "7aadfd6ae1990989f305abba41541fa1286d74181346e96643533afa2e1377e2",
-                "0943eb05da94d3ab8efac1a923bfcd515a9ba7251186e29401f06f155ce4d2ba",
-                "be56d258b00051e3bec88f2c5829cee807b56921265ee68bc8dd47c5214e08fd",
-                "da3fff40aab97f4811684d83bdc53154713f584000c6b8d10229c345f1cec7da",
-                "4af63558e39e7a4941292132b2985cb2650e78168ab21157a082613215e4839a"
+                "d4ac6b4aeacd1901facd23dea1790e2016f1c3e69b5d4004c55b780972fa31ad",
+                "15b10838b98ca4e3a78d456a0c5e34ed0129a5547f65d3d0a26ded672a3ac474",
+                "79d51ded0df2697751ef17aab667c0ad0cca130d2547321d6c7630bde9cf9036",
+                "70d1146a4e9ec57830e0b5b29e75bdd3107565430d5904565a23f49ed2a48ee6",
+                "81ea9f65a61203bfb46fcfc607c8a0ba775b92a7c9ddffde4234c953b9eb2f0a",
+                "33b255e8f1a04680377822cd8d27309dbfaf25cca66509fad663bf904ef9de8a",
+                "0d1fdd8545faa9265b631b1accc8a4d297c75d0a7f686f520c1a7e63a9450b09"
             ]
         }
     },
