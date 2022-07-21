@@ -1,20 +1,20 @@
 {
-    "version": "0.33.0",
+    "version": "0.38.1",
     "description": "A Terraform linter focused on possible errors, best practices, naming conventions, ...",
     "homepage": "https://github.com/terraform-linters/tflint",
     "license": {
         "identifier": "MPL-2.0",
         "url": "https://github.com/terraform-linters/tflint/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/terraform-linters/tflint/releases/tag/v0.33.0",
+    "changelog": "https://github.com/terraform-linters/tflint/releases/tag/v0.38.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/terraform-linters/tflint/releases/download/v0.33.0/tflint_windows_amd64.zip",
-            "hash": "46d0af62d0b8f51e5d7e81bdd0242b79bffd1ed5d60735bdbd767d2b50dc829b"
+            "url": "https://github.com/terraform-linters/tflint/releases/download/v0.38.1/tflint_windows_amd64.zip",
+            "hash": "75f457dff88c8dd0a596dd9bb97a150fde780312cdef22cd9b64b5cfbf076306"
         },
         "32bit": {
-            "url": "https://github.com/terraform-linters/tflint/releases/download/v0.33.0/tflint_windows_386.zip",
-            "hash": "ee9f293767fa509476dec134b3309a24c60c7951e2a57d64d2fd86f2b1af18e2"
+            "url": "https://github.com/terraform-linters/tflint/releases/download/v0.38.1/tflint_windows_386.zip",
+            "hash": "895b3b6c77796fe1f0e30543207dafd1259e742f0bfc256fcddd89875f41ee48"
         }
     },
     "bin": "tflint.exe",
