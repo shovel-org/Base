@@ -1,12 +1,12 @@
 {
-    "version": "1.17.2",
+    "version": "1.18.4",
     "description": "Programming language that makes it easy to build simple, reliable, and efficient software.",
     "homepage": "https://golang.org",
     "license": {
         "identifier": "BSD-3-Clause",
         "url": "https://golang.org/LICENSE"
     },
-    "changelog": "https://golang.org/doc/devel/release#go1.17",
+    "changelog": "https://golang.org/doc/devel/release#go1.18",
     "notes": [
         "Your GOROOT has been set to: '$dir'",
         "You can run 'go env GOROOT' to view this at any time.",
@@ -14,16 +14,16 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/go/go1.17.2.windows-amd64.zip",
-            "hash": "fa6da0b829a66f5fab7e4e312fd6aa1b2d8f045c7ecee83b3d00f6fe5306759a"
+            "url": "https://dl.google.com/go/go1.18.4.windows-amd64.zip",
+            "hash": "dfb93c517e050ba0cfc066802b38a8e7cda2ef666efd634859356b33f543cc49"
         },
         "32bit": {
-            "url": "https://dl.google.com/go/go1.17.2.windows-386.zip",
-            "hash": "8a85257a351996fdf045fe95ed5fdd6917dd48636d562dd11dedf193005a53e0"
+            "url": "https://dl.google.com/go/go1.18.4.windows-386.zip",
+            "hash": "6343010a13ab783e553786b3cc3b4d63080128f61cf1e963505139c71ca66a0d"
         },
         "arm64": {
-            "url": "https://dl.google.com/go/go1.17.2.windows-arm64.zip",
-            "hash": "00575c85dc7a129ba892685a456b27a3f3670f71c8bfde1c5ad151f771d55df7"
+            "url": "https://dl.google.com/go/go1.18.4.windows-arm64.zip",
+            "hash": "7d0d7b73592019d276f2bd44ee3cda0d8bd99356fdbf04fdb40c263518108ae4"
         }
     },
     "extract_dir": "go",
