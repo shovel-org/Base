@@ -1,20 +1,20 @@
 {
-    "version": "0.7.5",
+    "version": "0.8.2",
     "description": "A faster way to navigate filesystem",
     "homepage": "https://github.com/ajeetdsouza/zoxide",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/ajeetdsouza/zoxide/blob/main/LICENSE"
     },
-    "changelog": "https://github.com/ajeetdsouza/zoxide/releases/tag/v0.7.5",
+    "changelog": "https://github.com/ajeetdsouza/zoxide/releases/tag/v0.8.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.7.5/zoxide-x86_64-pc-windows-msvc.zip",
-            "hash": "e209700efcd09eda92398b1aeed8a5a92652c00ddd557371bdf49162a1067ce2"
+            "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.8.2/zoxide-0.8.2-x86_64-pc-windows-msvc.zip",
+            "hash": "36b05197f465bafa631691df2ffcf2732430172a9729212b304a43f581a39d2d"
         },
         "arm64": {
-            "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.7.5/zoxide-aarch64-pc-windows-msvc.zip",
-            "hash": "a30d0cbb972bc3c15214dad113ee497622f3fb2dafb618342f02ecf554d2820c"
+            "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.8.2/zoxide-0.8.2-aarch64-pc-windows-msvc.zip",
+            "hash": "07515dc7f6ecbdf518f68dda4d83c4e19d54b89f56981006871eb29d70eac3fe"
         }
     },
     "bin": "zoxide.exe",
@@ -27,10 +27,10 @@
         "changelog": "https://github.com/ajeetdsouza/zoxide/releases/tag/v$version",
         "architecture": {
             "64bit": {
-                "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v$version/zoxide-x86_64-pc-windows-msvc.zip"
+                "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v$version/zoxide-$version-x86_64-pc-windows-msvc.zip"
             },
             "arm64": {
-                "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v$version/zoxide-aarch64-pc-windows-msvc.zip"
+                "url": "https://github.com/ajeetdsouza/zoxide/releases/download/v$version/zoxide-$version-aarch64-pc-windows-msvc.zip"
             }
         }
     }

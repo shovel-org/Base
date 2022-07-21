@@ -1,24 +1,24 @@
 {
-    "version": "0.180.3",
+    "version": "1.10.2",
     "description": "Release automation tool for Go projects",
     "homepage": "https://goreleaser.com",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/goreleaser/goreleaser/blob/master/LICENSE.md"
     },
-    "changelog": "https://github.com/goreleaser/goreleaser/releases/v0.180.3",
+    "changelog": "https://github.com/goreleaser/goreleaser/releases/v1.10.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.180.3/goreleaser_Windows_x86_64.zip",
-            "hash": "90148728dcddd414817a1bc9ddfed439e2dc0666a687fe1faf42ca40c2d4b09a"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v1.10.2/goreleaser_Windows_x86_64.zip",
+            "hash": "e038d88d7906b81120a16cb6520ab5441fc725dca4d3434ea021cd7457fd4f5f"
         },
         "32bit": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.180.3/goreleaser_Windows_i386.zip",
-            "hash": "97acd540c3039f1d69bdbdac69296cd2e4ea1cd08c885267be772e183aa632c6"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v1.10.2/goreleaser_Windows_i386.zip",
+            "hash": "380b75024b044f57b4bd136589ffd6b948ebdba5286eb751230a50774a8991f3"
         },
         "arm64": {
-            "url": "https://github.com/goreleaser/goreleaser/releases/download/v0.180.3/goreleaser_Windows_arm64.zip",
-            "hash": "42f0774698af14c1d51ef437b430027934ad33a19c4b461353e61fea1b05e5a7"
+            "url": "https://github.com/goreleaser/goreleaser/releases/download/v1.10.2/goreleaser_Windows_arm64.zip",
+            "hash": "2913ac3001df75ce92dc46f2007c0574ca321b6605408e2a61f63d78e66cfa4c"
         }
     },
     "bin": "goreleaser.exe",
@@ -39,7 +39,8 @@
             }
         },
         "hash": {
-            "url": "$baseurl/checksums.txt"
+            "url": "$baseurl/checksums.txt",
+            "regex": "$sha256\\s+$basename[\\s$]"
         }
     }
 }

@@ -1,24 +1,24 @@
 {
-    "version": "1.37.2",
+    "version": "1.37.3",
     "description": "DNS53 to DNS-over-HTTPS (DoH) proxy with advanced capabilities to get the most out of the NextDNS service.",
     "homepage": "https://nextdns.io/cli",
     "license": {
         "identifier": "MIT",
         "url": "https://github.com/nextdns/nextdns/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/nextdns/nextdns/releases/tag/v1.37.2",
+    "changelog": "https://github.com/nextdns/nextdns/releases/tag/v1.37.3",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/nextdns/nextdns/releases/download/v1.37.2/nextdns_1.37.2_windows_amd64.zip",
-            "hash": "4cdf6c3081527a006f4288295c98563a57ad6be8f3447968d309e1a4fc62d3fb"
+            "url": "https://github.com/nextdns/nextdns/releases/download/v1.37.3/nextdns_1.37.3_windows_amd64.zip",
+            "hash": "0f7d4ea439d00ffb111b3d8f41493bbc757414177906c2984210858fc7452302"
         },
         "32bit": {
-            "url": "https://github.com/nextdns/nextdns/releases/download/v1.37.2/nextdns_1.37.2_windows_386.zip",
-            "hash": "154e715f0362144156b0decd341e13f39866509e95339870c01bcf168064584a"
+            "url": "https://github.com/nextdns/nextdns/releases/download/v1.37.3/nextdns_1.37.3_windows_386.zip",
+            "hash": "2f1a196c20300ceeca75f0badee2868bd8f2f921a938ae668a8327587a72f015"
         },
         "arm64": {
-            "url": "https://github.com/nextdns/nextdns/releases/download/v1.37.2/nextdns_1.37.2_windows_arm64.zip",
-            "hash": "565d81d0739be7895a5716d91744bbb5c49b3f94a3aa5ec729ab85bb27fd6bf4"
+            "url": "https://github.com/nextdns/nextdns/releases/download/v1.37.3/nextdns_1.37.3_windows_arm64.zip",
+            "hash": "41be59cc2129eeb89011281360dbfdafeccb5d710fbb825da0ef368d1b18c6bc"
         }
     },
     "bin": "nextdns.exe",
@@ -26,6 +26,7 @@
         "github": "https://github.com/nextdns/nextdns"
     },
     "autoupdate": {
+        "disable": true,
         "changelog": "https://github.com/nextdns/nextdns/releases/tag/v$version",
         "architecture": {
             "64bit": {
