@@ -26,6 +26,7 @@
         "github": "https://github.com/nextdns/nextdns"
     },
     "autoupdate": {
+        "disable": true,
         "changelog": "https://github.com/nextdns/nextdns/releases/tag/v$version",
         "architecture": {
             "64bit": {
