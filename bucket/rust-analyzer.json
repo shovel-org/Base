@@ -1,20 +1,20 @@
 {
-    "version": "2022-09-12",
+    "version": "2022-09-19",
     "description": "Modular compiler frontend for the Rust language",
     "homepage": "https://rust-analyzer.github.io",
     "license": {
         "identifier": "Apache-2.0|MIT",
         "url": "https://github.com/rust-analyzer/rust-analyzer/tree/master#license"
     },
-    "changelog": "https://github.com/rust-analyzer/rust-analyzer/releases/tag/2022-09-12",
+    "changelog": "https://github.com/rust-analyzer/rust-analyzer/releases/tag/2022-09-19",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rust-analyzer/rust-analyzer/releases/download/2022-09-12/rust-analyzer-x86_64-pc-windows-msvc.gz",
-            "hash": "1bcbf59caa7d86feff891ce516a09613bbbb58f66bd3f6dd93ec313602471393"
+            "url": "https://github.com/rust-analyzer/rust-analyzer/releases/download/2022-09-19/rust-analyzer-x86_64-pc-windows-msvc.gz",
+            "hash": "2ede55d1fd05ed5d0ab6370f4e8aa7df433c68226cf0d672328fb4d386c38c3a"
         },
         "arm64": {
-            "url": "https://github.com/rust-analyzer/rust-analyzer/releases/download/2022-09-12/rust-analyzer-aarch64-pc-windows-msvc.gz",
-            "hash": "24e9f4686bf63e8c707f941c022d67353638320de92186aefebc8f5f5ef37c8d"
+            "url": "https://github.com/rust-analyzer/rust-analyzer/releases/download/2022-09-19/rust-analyzer-aarch64-pc-windows-msvc.gz",
+            "hash": "a9cb17a7e87cddeb4ab05142f4a290c24757ae39f808de0d8f3a32757e47b77a"
         }
     },
     "pre_install": "Rename-Item \"$dir\\$($fname -replace '\\.gz$')\" 'rust-analyzer.exe'",
