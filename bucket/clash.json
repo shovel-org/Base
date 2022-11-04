@@ -1,24 +1,24 @@
 {
-    "version": "1.11.8",
+    "version": "1.11.12",
     "description": "A rule-based tunnel",
     "homepage": "https://github.com/Dreamacro/clash",
     "license": {
         "identifier": "GPL-3.0-only",
         "url": "https://github.com/Dreamacro/clash/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/Dreamacro/clash/releases/tag/v1.11.8",
+    "changelog": "https://github.com/Dreamacro/clash/releases/tag/v1.11.12",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Dreamacro/clash/releases/download/v1.11.8/clash-windows-amd64-v1.11.8.zip",
-            "hash": "1f429f7660136ac22dbe52c9e486b4a3468639b6af00fc63c2041b49ebd12e0d"
+            "url": "https://github.com/Dreamacro/clash/releases/download/v1.11.12/clash-windows-amd64-v1.11.12.zip",
+            "hash": "c23866f2c3301b489f651b460b4fb77db943aef7ba6b671652d32eaaa55a1c5f"
         },
         "32bit": {
-            "url": "https://github.com/Dreamacro/clash/releases/download/v1.11.8/clash-windows-386-v1.11.8.zip",
-            "hash": "b6d8ccbfd32071cb436b4e2ded7567a1b2c5ecf8710f41a973192990b0dfdc7a"
+            "url": "https://github.com/Dreamacro/clash/releases/download/v1.11.12/clash-windows-386-v1.11.12.zip",
+            "hash": "ec51a850c2f5123284862f0bc5392e945c0d1114e13a6fc2b965be612edad152"
         },
         "arm64": {
-            "url": "https://github.com/Dreamacro/clash/releases/download/v1.11.8/clash-windows-arm64-v1.11.8.zip",
-            "hash": "f7517ae2523fc04ed4665c3c3b3de021701f0a0ac44dbee0a11728592575ae00"
+            "url": "https://github.com/Dreamacro/clash/releases/download/v1.11.12/clash-windows-arm64-v1.11.12.zip",
+            "hash": "778b2fb915fceae6ca3002c908f715bd2efa1c9126447e8a8733fe27cad1190f"
         }
     },
     "pre_install": "Rename-Item \"$dir\\$($fname -replace \"-v$version\\.zip$\").exe\" 'clash.exe'",
