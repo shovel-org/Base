@@ -1,34 +1,31 @@
 {
-    "version": "1.20.5",
+    "version": "1.21.0",
     "description": "Execute commands in response to file modifications",
-    "homepage": "https://github.com/watchexec/watchexec",
+    "homepage": "https://watchexec.github.io",
     "license": {
         "identifier": "Apache-2.0",
         "url": "https://github.com/watchexec/watchexec/blob/main/LICENSE"
     },
-    "changelog": "https://github.com/watchexec/watchexec/releases/tag/cli-v1.20.5",
+    "changelog": "https://github.com/watchexec/watchexec/releases/tag/v1.21.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/watchexec/watchexec/releases/download/cli-v1.20.5/watchexec-1.20.5-x86_64-pc-windows-msvc.zip",
-            "hash": "sha512:3ba0b6cb47492501cd4623a642eaf66b203e4acba448e68dfcfe6e60bf8f87910204574b9c8a8d4f6c63067e7ab44e4a6f95f2bdfe72622d640b8f4b77dfce4d",
-            "extract_dir": "watchexec-1.20.5-x86_64-pc-windows-msvc"
+            "url": "https://github.com/watchexec/watchexec/releases/download/v1.21.0/watchexec-1.21.0-x86_64-pc-windows-msvc.zip",
+            "hash": "177d10795feaf6510c7d1f7564b5be41f216a82bb37f62aba8be7f7330a44929",
+            "extract_dir": "watchexec-1.21.0-x86_64-pc-windows-msvc"
         }
     },
     "bin": "watchexec.exe",
     "checkver": {
         "url": "https://github.com/watchexec/watchexec/releases",
-        "regex": "download/cli-v([\\d.]+)/"
+        "regex": "download/v([\\d.]+)/watchexec-"
     },
     "autoupdate": {
-        "changelog": "https://github.com/watchexec/watchexec/releases/tag/cli-v$version",
+        "changelog": "https://github.com/watchexec/watchexec/releases/tag/v$version",
         "architecture": {
             "64bit": {
-                "url": "https://github.com/watchexec/watchexec/releases/download/cli-v$version/watchexec-$version-x86_64-pc-windows-msvc.zip",
+                "url": "https://github.com/watchexec/watchexec/releases/download/v$version/watchexec-$version-x86_64-pc-windows-msvc.zip",
                 "extract_dir": "watchexec-$version-x86_64-pc-windows-msvc"
             }
-        },
-        "hash": {
-            "url": "$baseurl/SHA512SUMS"
         }
     }
 }
