@@ -14,7 +14,7 @@
         },
         "arm64": {
             "url": "https://github.com/gopasspw/gopass/releases/download/v1.15.3/gopass-1.15.3-windows-arm64.zip",
-            "hash": "697f5ae9ec95c273988be777c64a8fcc06d2d154c8f0b3f1794b10fca00c3009"
+            "hash": "e2dfe131f3ef797a20095d1ae53f714172f95c5e3c209169861278b47ad8bce4"
         }
     },
     "bin": "gopass.exe",
@@ -32,7 +32,8 @@
             }
         },
         "hash": {
-            "url": "$baseurl/gopass_$version_SHA256SUMS"
+            "url": "$baseurl/gopass_$version_SHA256SUMS",
+            "regex": "$sha256\\s+$basename[^.]"
         }
     }
 }
