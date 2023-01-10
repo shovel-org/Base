@@ -6,31 +6,30 @@
         "identifier": "Apache-2.0|MIT",
         "url": "https://github.com/rust-analyzer/rust-analyzer/tree/master#license"
     },
-    "changelog": "https://github.com/rust-analyzer/rust-analyzer/releases/tag/2023-01-09",
+    "changelog": "https://github.com/rust-lang/rust-analyzer/releases/tag/2023-01-09",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/rust-analyzer/rust-analyzer/releases/download/2023-01-09/rust-analyzer-x86_64-pc-windows-msvc.gz",
-            "hash": "bfff08058a147ccf4039f6de54482dd06f36aa19ec233ae0d4320f2760d6fdcd"
+            "url": "https://github.com/rust-lang/rust-analyzer/releases/download/2023-01-09/rust-analyzer-x86_64-pc-windows-msvc.zip",
+            "hash": "3968986c1bc7a0f9e5cbbed95970cf2db93ba249b07473437cbb2e0db30bf642"
         },
         "arm64": {
-            "url": "https://github.com/rust-analyzer/rust-analyzer/releases/download/2023-01-09/rust-analyzer-aarch64-pc-windows-msvc.gz",
-            "hash": "06ee750cbf7f9ea3b9b8de8aeda55d1f10092ead190f59d9c1c33c076b827f8c"
+            "url": "https://github.com/rust-lang/rust-analyzer/releases/download/2023-01-09/rust-analyzer-aarch64-pc-windows-msvc.zip",
+            "hash": "d7e748968ac383125723ccd5004f5105bba21cb1393600d5de1642127a3e7737"
         }
     },
-    "pre_install": "Rename-Item \"$dir\\$($fname -replace '\\.gz$')\" 'rust-analyzer.exe'",
     "bin": "rust-analyzer.exe",
     "checkver": {
-        "github": "https://github.com/rust-analyzer/rust-analyzer",
+        "github": "https://github.com/rust-lang/rust-analyzer",
         "regex": "releases/tag/([\\d-]+)"
     },
     "autoupdate": {
-        "changelog": "https://github.com/rust-analyzer/rust-analyzer/releases/tag/$version",
+        "changelog": "https://github.com/rust-lang/rust-analyzer/releases/tag/$version",
         "architecture": {
             "64bit": {
-                "url": "https://github.com/rust-analyzer/rust-analyzer/releases/download/$version/rust-analyzer-x86_64-pc-windows-msvc.gz"
+                "url": "https://github.com/rust-lang/rust-analyzer/releases/download/$version/rust-analyzer-x86_64-pc-windows-msvc.zip"
             },
             "arm64": {
-                "url": "https://github.com/rust-analyzer/rust-analyzer/releases/download/$version/rust-analyzer-aarch64-pc-windows-msvc.gz"
+                "url": "https://github.com/rust-lang/rust-analyzer/releases/download/$version/rust-analyzer-aarch64-pc-windows-msvc.zip"
             }
         }
     }
