@@ -1,20 +1,20 @@
 {
-    "version": "0.125.0",
+    "version": "0.126.0",
     "description": "Official CLI tool for creating clusters on Amazon EKS",
     "homepage": "https://eksctl.io",
     "license": {
         "identifier": "Apache-2.0",
         "url": "https://github.com/weaveworks/eksctl/blob/main/LICENSE"
     },
-    "changelog": "https://github.com/weaveworks/eksctl/releases/tag/v0.125.0",
+    "changelog": "https://github.com/weaveworks/eksctl/releases/tag/v0.126.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/weaveworks/eksctl/releases/download/v0.125.0/eksctl_Windows_amd64.zip",
-            "hash": "5cf68aa85ecb37819b8b910e820b7849dc32ad0c4e47b93255bb27cb1049aed4"
+            "url": "https://github.com/weaveworks/eksctl/releases/download/v0.126.0/eksctl_Windows_amd64.zip",
+            "hash": "ac58bb3cf55b9a9c8f8353db75ebd23f5cc809c1b2e88a82feddbff349f6e0f7"
         },
         "arm64": {
-            "url": "https://github.com/weaveworks/eksctl/releases/download/v0.125.0/eksctl_Windows_arm64.zip",
-            "hash": "c10cb4b608b250594291a425b7e4d4e1ce603747feb39de85189a0e9cb5effb4"
+            "url": "https://github.com/weaveworks/eksctl/releases/download/v0.126.0/eksctl_Windows_arm64.zip",
+            "hash": "c599aac68668b6ded5573aa101ca2ec8bb06cd07e1adbc99e10843287eb350d4"
         }
     },
     "bin": "eksctl.exe",
