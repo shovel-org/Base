@@ -1,27 +1,27 @@
 {
-    "version": "1.50.1",
+    "version": "1.51.0",
     "description": "Fast go linters runner",
     "homepage": "https://golangci-lint.run",
     "license": {
         "identifier": "GPL-3.0-only",
         "url": "https://github.com/golangci/golangci-lint/blob/master/LICENSE"
     },
-    "changelog": "https://github.com/golangci/golangci-lint/releases/tag/v1.50.1",
+    "changelog": "https://github.com/golangci/golangci-lint/releases/tag/v1.51.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/golangci/golangci-lint/releases/download/v1.50.1/golangci-lint-1.50.1-windows-amd64.zip",
-            "hash": "8c2da214884db02fb7f3d929672c515ae3b9d10defad4dd661c4ab365a316d68",
-            "extract_dir": "golangci-lint-1.50.1-windows-amd64"
+            "url": "https://github.com/golangci/golangci-lint/releases/download/v1.51.0/golangci-lint-1.51.0-windows-amd64.zip",
+            "hash": "5e8173ab78c41e35903634c4e98971e2346488ea6b3dd1d58f2d3991f34d61f7",
+            "extract_dir": "golangci-lint-1.51.0-windows-amd64"
         },
         "32bit": {
-            "url": "https://github.com/golangci/golangci-lint/releases/download/v1.50.1/golangci-lint-1.50.1-windows-386.zip",
-            "hash": "6d11fb6ed91ba3aecbf2ea8e1a95dce16cf0449d54aa77c607ac4e75cc43213a",
-            "extract_dir": "golangci-lint-1.50.1-windows-386"
+            "url": "https://github.com/golangci/golangci-lint/releases/download/v1.51.0/golangci-lint-1.51.0-windows-386.zip",
+            "hash": "05dce78aeca810543f98aa6658b1017dc15c7a1fffc317daaaadc0b6e5095bdf",
+            "extract_dir": "golangci-lint-1.51.0-windows-386"
         },
         "arm64": {
-            "url": "https://github.com/golangci/golangci-lint/releases/download/v1.50.1/golangci-lint-1.50.1-windows-arm64.zip",
-            "hash": "7fd52d1da270fa8448c975d2500b6ef2d19db143b6cfc205de16612d6f4effa9",
-            "extract_dir": "golangci-lint-1.50.1-windows-arm64"
+            "url": "https://github.com/golangci/golangci-lint/releases/download/v1.51.0/golangci-lint-1.51.0-windows-arm64.zip",
+            "hash": "b531640ad3aa7084823c630ca098626c937cbfa2190a7294e0f1207c0b053232",
+            "extract_dir": "golangci-lint-1.51.0-windows-arm64"
         }
     },
     "bin": "golangci-lint.exe",
