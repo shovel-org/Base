@@ -1,38 +1,26 @@
-{
-    "version": "1.28.1",
-    "description": "A static analysis security scanner for Terraform code",
-    "homepage": "https://tfsec.dev",
-    "license": {
-        "identifier": "MIT",
-        "url": "https://github.com/aquasecurity/tfsec/blob/master/LICENSE"
-    },
-    "changelog": "https://github.com/aquasecurity/tfsec/releases/tag/v1.28.1",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/aquasecurity/tfsec/releases/download/v1.28.1/tfsec-windows-amd64.exe#/tfsec.exe",
-            "hash": "4fd5e7beec2a5edebcd687217cce1b7df0d52d0ab9283f19e04454dd6fe9a551"
-        },
-        "arm64": {
-            "url": "https://github.com/aquasecurity/tfsec/releases/download/v1.28.1/tfsec-windows-arm64.exe#/tfsec.exe",
-            "hash": "b7c458c6480f96a80213702b1225b45e4344b8f1ce62f2bc56844af770fda4bb"
-        }
-    },
-    "bin": "tfsec.exe",
-    "checkver": {
-        "github": "https://github.com/aquasecurity/tfsec"
-    },
-    "autoupdate": {
-        "changelog": "https://github.com/aquasecurity/tfsec/releases/tag/v$version",
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/aquasecurity/tfsec/releases/download/v$version/tfsec-windows-amd64.exe#/tfsec.exe"
-            },
-            "arm64": {
-                "url": "https://github.com/aquasecurity/tfsec/releases/download/v$version/tfsec-windows-arm64.exe#/tfsec.exe"
-            }
-        },
-        "hash": {
-            "url": "$baseurl/tfsec_checksums.txt"
-        }
-    }
-}
+version: 1.28.1
+description: A static analysis security scanner for Terraform code
+homepage: https://tfsec.dev
+license:
+  identifier: MIT
+  url: https://github.com/aquasecurity/tfsec/blob/master/LICENSE
+changelog: https://github.com/aquasecurity/tfsec/releases/tag/v1.28.1
+architecture:
+  64bit:
+    url: https://github.com/aquasecurity/tfsec/releases/download/v1.28.1/tfsec-windows-amd64.exe#/tfsec.exe
+    hash: 4fd5e7beec2a5edebcd687217cce1b7df0d52d0ab9283f19e04454dd6fe9a551
+  arm64:
+    url: https://github.com/aquasecurity/tfsec/releases/download/v1.28.1/tfsec-windows-arm64.exe#/tfsec.exe
+    hash: b7c458c6480f96a80213702b1225b45e4344b8f1ce62f2bc56844af770fda4bb
+bin: tfsec.exe
+checkver:
+  github: https://github.com/aquasecurity/tfsec
+autoupdate:
+  changelog: https://github.com/aquasecurity/tfsec/releases/tag/v$version
+  architecture:
+    64bit:
+      url: https://github.com/aquasecurity/tfsec/releases/download/v$version/tfsec-windows-amd64.exe#/tfsec.exe
+    arm64:
+      url: https://github.com/aquasecurity/tfsec/releases/download/v$version/tfsec-windows-arm64.exe#/tfsec.exe
+  hash:
+    url: $baseurl/tfsec_checksums.txt

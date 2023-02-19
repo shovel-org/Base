@@ -1,30 +1,22 @@
-{
-    "version": "1.62.0",
-    "description": "A language empowering everyone to build reliable and efficient software. (MSVC toolchain)",
-    "homepage": "https://www.rust-lang.org",
-    "license": {
-        "identifier": "MIT|Apache-2.0",
-        "url": "https://www.rust-lang.org/policies/licenses"
-    },
-    "changelog": "https://github.com/rust-lang/rust/releases/tag/1.62.0",
-    "architecture": {
-        "64bit": {
-            "url": "https://static.rust-lang.org/dist/rust-1.62.0-x86_64-pc-windows-msvc.msi",
-            "hash": "ad42034a128e14db3b015861dfb89efa180bbbfcdf9f6b552a482e2a91fad64f"
-        },
-        "32bit": {
-            "url": "https://static.rust-lang.org/dist/rust-1.62.0-i686-pc-windows-msvc.msi",
-            "hash": "1d0fde5e380a492ac0cb7feca87849d9ccae918c0af8429b23d9eff3b22b59dd"
-        },
-        "arm64": {
-            "url": "https://static.rust-lang.org/dist/rust-1.62.0-aarch64-pc-windows-msvc.msi",
-            "hash": "9f49aa2bc28dae4f5a9f4a7deac117be82851f4b871c07ee4998f7c78b318a05"
-        }
-    },
-    "extract_dir": "Rust",
-    "bin": [
-        "bin\\rustc.exe",
-        "bin\\rustdoc.exe",
-        "bin\\cargo.exe"
-    ]
-}
+version: 1.62.0
+description: A language empowering everyone to build reliable and efficient software. (MSVC toolchain)
+homepage: https://www.rust-lang.org
+license:
+  identifier: MIT|Apache-2.0
+  url: https://www.rust-lang.org/policies/licenses
+changelog: https://github.com/rust-lang/rust/releases/tag/1.62.0
+architecture:
+  64bit:
+    url: https://static.rust-lang.org/dist/rust-1.62.0-x86_64-pc-windows-msvc.msi
+    hash: ad42034a128e14db3b015861dfb89efa180bbbfcdf9f6b552a482e2a91fad64f
+  32bit:
+    url: https://static.rust-lang.org/dist/rust-1.62.0-i686-pc-windows-msvc.msi
+    hash: 1d0fde5e380a492ac0cb7feca87849d9ccae918c0af8429b23d9eff3b22b59dd
+  arm64:
+    url: https://static.rust-lang.org/dist/rust-1.62.0-aarch64-pc-windows-msvc.msi
+    hash: 9f49aa2bc28dae4f5a9f4a7deac117be82851f4b871c07ee4998f7c78b318a05
+extract_dir: Rust
+bin:
+- bin\rustc.exe
+- bin\rustdoc.exe
+- bin\cargo.exe

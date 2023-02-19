@@ -1,43 +1,29 @@
-{
-    "version": "7.1.2",
-    "description": "PowerShell Core. Task automation and configuration management framework/tool.",
-    "homepage": "https://github.com/PowerShell/PowerShell",
-    "license": {
-        "identifier": "MIT",
-        "url": "https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt"
-    },
-    "changelog": "https://github.com/PowerShell/PowerShell/releases/tag/v7.1.2",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.2/PowerShell-7.1.2-win-x64.zip",
-            "hash": "d32856f3406670fa8c3903f33004810fe5c1e568210e8933a22017cee60d38c7"
-        },
-        "32bit": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.2/PowerShell-7.1.2-win-x86.zip",
-            "hash": "63b96dfa3e31b6d885ac21b8df427f1cd2cd747916db5873a120855f1829dc81"
-        },
-        "arm64": {
-            "url": "https://github.com/PowerShell/PowerShell/releases/download/v7.1.2/PowerShell-7.1.2-win-arm64.zip",
-            "hash": "89304eec86ac69cf31f431ddc26456a1e84daf52a02989411af2ce2887004825"
-        }
-    },
-    "pre_install": "Test-Persistence 'Microsoft.PowerShell_profile.ps1', 'profile.ps1'",
-    "bin": [
-        [
-            "pwsh.exe",
-            "pwsh",
-            "-NoLogo"
-        ]
-    ],
-    "shortcuts": [
-        [
-            "pwsh.exe",
-            "PowerShell Core",
-            "-NoLogo"
-        ]
-    ],
-    "persist": [
-        "Microsoft.PowerShell_profile.ps1",
-        "profile.ps1"
-    ]
-}
+version: 7.1.2
+description: PowerShell Core. Task automation and configuration management framework/tool.
+homepage: https://github.com/PowerShell/PowerShell
+license:
+  identifier: MIT
+  url: https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt
+changelog: https://github.com/PowerShell/PowerShell/releases/tag/v7.1.2
+architecture:
+  64bit:
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.1.2/PowerShell-7.1.2-win-x64.zip
+    hash: d32856f3406670fa8c3903f33004810fe5c1e568210e8933a22017cee60d38c7
+  32bit:
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.1.2/PowerShell-7.1.2-win-x86.zip
+    hash: 63b96dfa3e31b6d885ac21b8df427f1cd2cd747916db5873a120855f1829dc81
+  arm64:
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.1.2/PowerShell-7.1.2-win-arm64.zip
+    hash: 89304eec86ac69cf31f431ddc26456a1e84daf52a02989411af2ce2887004825
+pre_install: Test-Persistence 'Microsoft.PowerShell_profile.ps1', 'profile.ps1'
+bin:
+- - pwsh.exe
+  - pwsh
+  - -NoLogo
+shortcuts:
+- - pwsh.exe
+  - PowerShell Core
+  - -NoLogo
+persist:
+- Microsoft.PowerShell_profile.ps1
+- profile.ps1

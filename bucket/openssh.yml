@@ -1,76 +1,63 @@
-{
-    "version": "9.1p1-2",
-    "description": "A suite of secure networking utilities based on the Secure Shell protocol.",
-    "homepage": "https://www.openssh.com/",
-    "license": "ISC",
-    "changelog": "https://www.openssh.com/txt/release-9.1",
-    "architecture": {
-        "64bit": {
-            "url": [
-                "https://repo.msys2.org/msys/x86_64/bash-5.2.009-1-x86_64.pkg.tar.zst",
-                "https://repo.msys2.org/msys/x86_64/gcc-libs-11.3.0-2-x86_64.pkg.tar.zst",
-                "https://repo.msys2.org/msys/x86_64/heimdal-7.8.0-3-x86_64.pkg.tar.zst",
-                "https://repo.msys2.org/msys/x86_64/heimdal-libs-7.8.0-3-x86_64.pkg.tar.zst",
-                "https://repo.msys2.org/msys/x86_64/libcrypt-2.1-4-x86_64.pkg.tar.zst",
-                "https://repo.msys2.org/msys/x86_64/libdb-5.3.28-4-x86_64.pkg.tar.zst",
-                "https://repo.msys2.org/msys/x86_64/libedit-20210910_3.1-2-x86_64.pkg.tar.zst",
-                "https://repo.msys2.org/msys/x86_64/libopenssl-1.1.1.s-2-x86_64.pkg.tar.zst",
-                "https://repo.msys2.org/msys/x86_64/libsqlite-3.40.1-1-x86_64.pkg.tar.zst",
-                "https://repo.msys2.org/msys/x86_64/msys2-runtime-3.4.3-4-x86_64.pkg.tar.zst",
-                "https://repo.msys2.org/msys/x86_64/ncurses-6.3-3-x86_64.pkg.tar.zst",
-                "https://repo.msys2.org/msys/x86_64/openssh-9.1p1-2-x86_64.pkg.tar.zst",
-                "https://repo.msys2.org/msys/x86_64/openssl-1.1.1.s-2-x86_64.pkg.tar.zst",
-                "https://repo.msys2.org/msys/x86_64/zlib-1.2.13-1-x86_64.pkg.tar.zst"
-            ],
-            "hash": [
-                "26de820a96eea4713940782c7e3807992209b0972999a5a84da72ceded2e9710",
-                "675055b2bb864ebf8da9b147a03e51caae2f351a1044b0c92c230edff0bdc2de",
-                "b153680b12ee4f90790c7dad382f8ee1e94c35b0f45ef53bbf00eacf2ebd3fec",
-                "cac32556612cf88026514e7fe7d939c4a467f4a9c2d43c452f053f60ead9b966",
-                "1e2cb116c35aa91778b658bde639a3b4e549b6e475fe9aee904db26358cb7857",
-                "225cafc40ce7dc798fce2af37acd79d25a6525d356a22ec7d68a715d6d2c973e",
-                "54a54c452280e88322e82b9dc3de022f724d183bdd30cc404b6596f71904d23d",
-                "3bb4c037e8640c04bf0ae7248dca614c082b75eaac788a72ce06c50a83254d88",
-                "5562dacd1f192205a338a4c1557eded3e42785870e437b4ca09189d4bb33cff3",
-                "6cc81329dd1fd880579595117bfdc1bef341040b4c1c0a147cb231b1d092e50c",
-                "70d1146a4e9ec57830e0b5b29e75bdd3107565430d5904565a23f49ed2a48ee6",
-                "9f33c87430a39d3d0b62525c58313d226bdf90aa1f11d268681c00313ab918db",
-                "d2724072244249312fd7d819ceed5f35e1cbcbcd17997b35f67aadf788ee4351",
-                "a41f63f3f283647f9a157c1fd7db9dfaf7e02cea9ed867bedd373466d6d90f84"
-            ]
-        }
-    },
-    "pre_install": [
-        "Confirm-DirectoryExistence \"$dir\\tmp\" | Out-Null",
-        "Confirm-DirectoryExistence \"$dir\\home\" | Out-Null",
-        "Confirm-DirectoryExistence \"$dir\\home\\$env:UserName\" | Out-Null",
-        "Confirm-DirectoryExistence \"$env:UserProfile\\.ssh\" | Out-Null",
-        "#TODO: Drop manual mklink",
-        "cmd /c mklink /j \"$dir\\home\\%UserName%\\.ssh\" \"%UserProfile%\\.ssh\""
-    ],
-    "bin": [
-        [
-            "usr\\bin\\sh.exe",
-            "findssl.sh",
-            "$dir/usr/bin/findssl.sh"
-        ],
-        "usr\\bin\\scp.exe",
-        "usr\\bin\\sftp.exe",
-        "usr\\bin\\ssh.exe",
-        "usr\\bin\\ssh-add.exe",
-        "usr\\bin\\ssh-agent.exe",
-        [
-            "usr\\bin\\sh.exe",
-            "ssh-copy-id",
-            "$dir/usr/bin/ssh-copy-id"
-        ],
-        "usr\\bin\\ssh-keygen.exe",
-        "usr\\bin\\ssh-keyscan.exe",
-        "usr\\bin\\sshd.exe"
-    ],
-    "checkver": {
-        "url": "http://repo.msys2.org/msys/x86_64/",
-        "regex": "openssh-([\\w.-]+)-x86",
-        "reverse": true
-    }
-}
+version: 9.1p1-2
+description: A suite of secure networking utilities based on the Secure Shell protocol.
+homepage: https://www.openssh.com/
+license: ISC
+changelog: https://www.openssh.com/txt/release-9.1
+architecture:
+  64bit:
+    url:
+    - https://repo.msys2.org/msys/x86_64/bash-5.2.009-1-x86_64.pkg.tar.zst
+    - https://repo.msys2.org/msys/x86_64/gcc-libs-11.3.0-2-x86_64.pkg.tar.zst
+    - https://repo.msys2.org/msys/x86_64/heimdal-7.8.0-3-x86_64.pkg.tar.zst
+    - https://repo.msys2.org/msys/x86_64/heimdal-libs-7.8.0-3-x86_64.pkg.tar.zst
+    - https://repo.msys2.org/msys/x86_64/libcrypt-2.1-4-x86_64.pkg.tar.zst
+    - https://repo.msys2.org/msys/x86_64/libdb-5.3.28-4-x86_64.pkg.tar.zst
+    - https://repo.msys2.org/msys/x86_64/libedit-20210910_3.1-2-x86_64.pkg.tar.zst
+    - https://repo.msys2.org/msys/x86_64/libopenssl-1.1.1.s-2-x86_64.pkg.tar.zst
+    - https://repo.msys2.org/msys/x86_64/libsqlite-3.40.1-1-x86_64.pkg.tar.zst
+    - https://repo.msys2.org/msys/x86_64/msys2-runtime-3.4.3-4-x86_64.pkg.tar.zst
+    - https://repo.msys2.org/msys/x86_64/ncurses-6.3-3-x86_64.pkg.tar.zst
+    - https://repo.msys2.org/msys/x86_64/openssh-9.1p1-2-x86_64.pkg.tar.zst
+    - https://repo.msys2.org/msys/x86_64/openssl-1.1.1.s-2-x86_64.pkg.tar.zst
+    - https://repo.msys2.org/msys/x86_64/zlib-1.2.13-1-x86_64.pkg.tar.zst
+    hash:
+    - 26de820a96eea4713940782c7e3807992209b0972999a5a84da72ceded2e9710
+    - 675055b2bb864ebf8da9b147a03e51caae2f351a1044b0c92c230edff0bdc2de
+    - b153680b12ee4f90790c7dad382f8ee1e94c35b0f45ef53bbf00eacf2ebd3fec
+    - cac32556612cf88026514e7fe7d939c4a467f4a9c2d43c452f053f60ead9b966
+    - 1e2cb116c35aa91778b658bde639a3b4e549b6e475fe9aee904db26358cb7857
+    - 225cafc40ce7dc798fce2af37acd79d25a6525d356a22ec7d68a715d6d2c973e
+    - 54a54c452280e88322e82b9dc3de022f724d183bdd30cc404b6596f71904d23d
+    - 3bb4c037e8640c04bf0ae7248dca614c082b75eaac788a72ce06c50a83254d88
+    - 5562dacd1f192205a338a4c1557eded3e42785870e437b4ca09189d4bb33cff3
+    - 6cc81329dd1fd880579595117bfdc1bef341040b4c1c0a147cb231b1d092e50c
+    - 70d1146a4e9ec57830e0b5b29e75bdd3107565430d5904565a23f49ed2a48ee6
+    - 9f33c87430a39d3d0b62525c58313d226bdf90aa1f11d268681c00313ab918db
+    - d2724072244249312fd7d819ceed5f35e1cbcbcd17997b35f67aadf788ee4351
+    - a41f63f3f283647f9a157c1fd7db9dfaf7e02cea9ed867bedd373466d6d90f84
+pre_install:
+- Confirm-DirectoryExistence "$dir\tmp" | Out-Null
+- Confirm-DirectoryExistence "$dir\home" | Out-Null
+- Confirm-DirectoryExistence "$dir\home\$env:UserName" | Out-Null
+- Confirm-DirectoryExistence "$env:UserProfile\.ssh" | Out-Null
+- '#TODO: Drop manual mklink'
+- cmd /c mklink /j "$dir\home\%UserName%\.ssh" "%UserProfile%\.ssh"
+bin:
+- - usr\bin\sh.exe
+  - findssl.sh
+  - $dir/usr/bin/findssl.sh
+- usr\bin\scp.exe
+- usr\bin\sftp.exe
+- usr\bin\ssh.exe
+- usr\bin\ssh-add.exe
+- usr\bin\ssh-agent.exe
+- - usr\bin\sh.exe
+  - ssh-copy-id
+  - $dir/usr/bin/ssh-copy-id
+- usr\bin\ssh-keygen.exe
+- usr\bin\ssh-keyscan.exe
+- usr\bin\sshd.exe
+checkver:
+  url: http://repo.msys2.org/msys/x86_64/
+  regex: openssh-([\w.-]+)-x86
+  reverse: true

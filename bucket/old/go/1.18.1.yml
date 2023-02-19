@@ -1,39 +1,29 @@
-{
-    "version": "1.18.1",
-    "description": "Programming language that makes it easy to build simple, reliable, and efficient software.",
-    "homepage": "https://golang.org",
-    "license": {
-        "identifier": "BSD-3-Clause",
-        "url": "https://golang.org/LICENSE"
-    },
-    "changelog": "https://golang.org/doc/devel/release#go1.18",
-    "notes": [
-        "Your GOROOT has been set to: '$dir'",
-        "You can run 'go env GOROOT' to view this at any time.",
-        "\"$env:USERPROFILE\\go\\bin\" has been added to your PATH."
-    ],
-    "architecture": {
-        "64bit": {
-            "url": "https://dl.google.com/go/go1.18.1.windows-amd64.zip",
-            "hash": "c30bc3f1f7314a953fe208bd9cd5e24bd9403392a6c556ced3677f9f70f71fe1"
-        },
-        "32bit": {
-            "url": "https://dl.google.com/go/go1.18.1.windows-386.zip",
-            "hash": "49ae65551acbfaa57b52fbefa0350b2072512ae3103b8cf1a919a02626dbc743"
-        },
-        "arm64": {
-            "url": "https://dl.google.com/go/go1.18.1.windows-arm64.zip",
-            "hash": "2c4a8265030eac37f906634f5c13c22c3d0ea725f2488e1bca005c6b981653d7"
-        }
-    },
-    "extract_dir": "go",
-    "pre_install": "add_first_in_path \"$env:USERPROFILE\\go\\bin\" $false",
-    "pre_uninstall": "remove_from_path \"$env:USERPROFILE\\go\\bin\" $false",
-    "bin": [
-        "bin\\go.exe",
-        "bin\\gofmt.exe"
-    ],
-    "env_set": {
-        "GOROOT": "$dir"
-    }
-}
+version: 1.18.1
+description: Programming language that makes it easy to build simple, reliable, and efficient software.
+homepage: https://golang.org
+license:
+  identifier: BSD-3-Clause
+  url: https://golang.org/LICENSE
+changelog: https://golang.org/doc/devel/release#go1.18
+notes:
+- "Your GOROOT has been set to: '$dir'"
+- You can run 'go env GOROOT' to view this at any time.
+- '"$env:USERPROFILE\go\bin" has been added to your PATH.'
+architecture:
+  64bit:
+    url: https://dl.google.com/go/go1.18.1.windows-amd64.zip
+    hash: c30bc3f1f7314a953fe208bd9cd5e24bd9403392a6c556ced3677f9f70f71fe1
+  32bit:
+    url: https://dl.google.com/go/go1.18.1.windows-386.zip
+    hash: 49ae65551acbfaa57b52fbefa0350b2072512ae3103b8cf1a919a02626dbc743
+  arm64:
+    url: https://dl.google.com/go/go1.18.1.windows-arm64.zip
+    hash: 2c4a8265030eac37f906634f5c13c22c3d0ea725f2488e1bca005c6b981653d7
+extract_dir: go
+pre_install: add_first_in_path "$env:USERPROFILE\go\bin" $false
+pre_uninstall: remove_from_path "$env:USERPROFILE\go\bin" $false
+bin:
+- bin\go.exe
+- bin\gofmt.exe
+env_set:
+  GOROOT: $dir
