@@ -1,20 +1,20 @@
-version: 0.16.5
+version: 0.17.0
 description: Fast, continuous, multidirectional file synchronization for remote development
 homepage: https://mutagen.io
 license:
   identifier: MIT
   url: https://github.com/mutagen-io/mutagen/blob/master/LICENSE
-changelog: https://github.com/mutagen-io/mutagen/releases/tag/v0.16.5
+changelog: https://github.com/mutagen-io/mutagen/releases/tag/v0.17.0
 architecture:
   64bit:
-    url: https://github.com/mutagen-io/mutagen/releases/download/v0.16.5/mutagen_windows_amd64_v0.16.5.zip
-    hash: a6afbf5c08ba228ed6e5f06c4295f8918f926abe515f70763a2208b5b3d5a91f
+    url: https://github.com/mutagen-io/mutagen/releases/download/v0.17.0/mutagen_windows_amd64_v0.17.0.zip
+    hash: b08083cdc83237601aa9829c73caaf4482fc66781ff0157d5da997dc05731493
   32bit:
-    url: https://github.com/mutagen-io/mutagen/releases/download/v0.16.5/mutagen_windows_386_v0.16.5.zip
-    hash: 879956b449c456cdc75e0519a4d4ab1d18cc94892e73a463a8c5ddea459c22c5
+    url: https://github.com/mutagen-io/mutagen/releases/download/v0.17.0/mutagen_windows_386_v0.17.0.zip
+    hash: 4d33159bcf49284d25552fd9b720f0bfc2713f62ed2e387243c0f922c6060022
   arm64:
-    url: https://github.com/mutagen-io/mutagen/releases/download/v0.16.5/mutagen_windows_arm64_v0.16.5.tar.gz
-    hash: 027189f639abcbbd5170212be17f5efd1b42c76dac9359ded0e41488e5c25cc3
+    url: https://github.com/mutagen-io/mutagen/releases/download/v0.17.0/mutagen_windows_arm64_v0.17.0.tar.gz
+    hash: a377d1f42afa1ac161dbf9bb4ad164da8585cc1778cf181f110d0d1eb4e7f032
 bin: mutagen.exe
 checkver:
   github: https://github.com/mutagen-io/mutagen
