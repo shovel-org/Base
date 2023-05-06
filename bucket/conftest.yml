@@ -1,17 +1,17 @@
-version: 0.41.0
+version: 0.42.0
 description: Test utility for structured configuration files
 homepage: https://www.conftest.dev
 license:
   identifier: Apache-2.0
   url: https://github.com/open-policy-agent/conftest/blob/master/LICENSE
-changelog: https://github.com/open-policy-agent/conftest/releases/tag/v0.41.0
+changelog: https://github.com/open-policy-agent/conftest/releases/tag/v0.42.0
 architecture:
   64bit:
-    url: https://github.com/open-policy-agent/conftest/releases/download/v0.41.0/conftest_0.41.0_Windows_x86_64.zip
-    hash: 08bf88b39381e72f0e9b1be7f3834b4918b784d79dbab3796ab172be031bcf97
+    url: https://github.com/open-policy-agent/conftest/releases/download/v0.42.0/conftest_0.42.0_Windows_x86_64.zip
+    hash: 70404b3711965e30f6c3e95707bc9c3190feb3e5685c456cd83c7c43dc707c30
   arm64:
-    url: https://github.com/open-policy-agent/conftest/releases/download/v0.41.0/conftest_0.41.0_Windows_arm64.zip
-    hash: 198581eecaa9a10ddf33810800e834ced2fa5494435592a72225fd1780d906f9
+    url: https://github.com/open-policy-agent/conftest/releases/download/v0.42.0/conftest_0.42.0_Windows_arm64.zip
+    hash: 68681fc9785f9d0e307eb10ccf96675e609c0ac30d04c8a102ba150b21c11432
 bin: conftest.exe
 checkver:
   github: https://github.com/open-policy-agent/conftest
