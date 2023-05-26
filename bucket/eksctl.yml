@@ -1,17 +1,17 @@
-version: 0.142.0
+version: 0.143.0
 description: Official CLI tool for creating clusters on Amazon EKS
 homepage: https://eksctl.io
 license:
   identifier: Apache-2.0
   url: https://github.com/weaveworks/eksctl/blob/main/LICENSE
-changelog: https://github.com/weaveworks/eksctl/releases/tag/v0.142.0
+changelog: https://github.com/weaveworks/eksctl/releases/tag/v0.143.0
 architecture:
   64bit:
-    url: https://github.com/weaveworks/eksctl/releases/download/v0.142.0/eksctl_Windows_amd64.zip
-    hash: 461b31e198a0cb596312bb73fc75dc12a8b22b075b8eaac356b7cd9a2121cd39
+    url: https://github.com/weaveworks/eksctl/releases/download/v0.143.0/eksctl_Windows_amd64.zip
+    hash: 5625148ce2bce00bbc8f573005a387ede76d84e3f095294c558bed8c10ecf4e6
   arm64:
-    url: https://github.com/weaveworks/eksctl/releases/download/v0.142.0/eksctl_Windows_arm64.zip
-    hash: 1378110861005af1033c07aa6463f8d4a9f512f1b787f6306afa51bf3f312438
+    url: https://github.com/weaveworks/eksctl/releases/download/v0.143.0/eksctl_Windows_arm64.zip
+    hash: 2b98eedaa6d820c7e2c2ee27916d0a7d5b4fe4aba3d0c8ae35e46c003327b252
 bin: eksctl.exe
 checkver:
   github: https://github.com/weaveworks/eksctl
