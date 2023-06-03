@@ -1,23 +1,23 @@
-version: 1.53.1
+version: 1.53.2
 description: Fast go linters runner
 homepage: https://golangci-lint.run
 license:
   identifier: GPL-3.0-only
   url: https://github.com/golangci/golangci-lint/blob/master/LICENSE
-changelog: https://github.com/golangci/golangci-lint/releases/tag/v1.53.1
+changelog: https://github.com/golangci/golangci-lint/releases/tag/v1.53.2
 architecture:
   64bit:
-    url: https://github.com/golangci/golangci-lint/releases/download/v1.53.1/golangci-lint-1.53.1-windows-amd64.zip
-    hash: 8dfd46aded7b21f30fe1ba9a35a01fb58cec74be61cee2a27d76656c53270c8c
-    extract_dir: golangci-lint-1.53.1-windows-amd64
+    url: https://github.com/golangci/golangci-lint/releases/download/v1.53.2/golangci-lint-1.53.2-windows-amd64.zip
+    hash: 7bf18716b68c4d5a99d88d3adc4aab642a7045813afa212db2aac0d56db33e97
+    extract_dir: golangci-lint-1.53.2-windows-amd64
   32bit:
-    url: https://github.com/golangci/golangci-lint/releases/download/v1.53.1/golangci-lint-1.53.1-windows-386.zip
-    hash: 261bbde18022ade02889b1335c91ab8177e1ea08b7ec55250f39567e0c24c6c8
-    extract_dir: golangci-lint-1.53.1-windows-386
+    url: https://github.com/golangci/golangci-lint/releases/download/v1.53.2/golangci-lint-1.53.2-windows-386.zip
+    hash: a4ae07b2b9b96d1d08cd868e2d63abf461b5356bd7bae5d62fdbc98ee24c5e55
+    extract_dir: golangci-lint-1.53.2-windows-386
   arm64:
-    url: https://github.com/golangci/golangci-lint/releases/download/v1.53.1/golangci-lint-1.53.1-windows-arm64.zip
-    hash: 10e96e7e0be1181f6018e7eebe6d1959cf6f13ef8bc32d2cf4cdafe130ca0d4f
-    extract_dir: golangci-lint-1.53.1-windows-arm64
+    url: https://github.com/golangci/golangci-lint/releases/download/v1.53.2/golangci-lint-1.53.2-windows-arm64.zip
+    hash: e0cf9da4dfdcf58322f10cee1ff8a64c817a0f26b2574cc16f30920cfaaa4e4f
+    extract_dir: golangci-lint-1.53.2-windows-arm64
 bin: golangci-lint.exe
 checkver:
   github: https://github.com/golangci/golangci-lint
