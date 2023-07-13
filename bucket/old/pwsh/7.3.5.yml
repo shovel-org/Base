@@ -1,0 +1,29 @@
+version: 7.3.5
+description: PowerShell Core. Task automation and configuration management framework/tool.
+homepage: https://github.com/PowerShell/PowerShell
+license:
+  identifier: MIT
+  url: https://github.com/PowerShell/PowerShell/blob/master/LICENSE.txt
+changelog: https://github.com/PowerShell/PowerShell/releases/tag/v7.3.5
+architecture:
+  64bit:
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.3.5/PowerShell-7.3.5-win-x64.zip
+    hash: c529d644cfef5a3a7e81f9b68e354ef887f345c7822e3581e9abd7a627f1a03e
+  32bit:
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.3.5/PowerShell-7.3.5-win-x86.zip
+    hash: 9c269eb3a8acda5f263d66842015ba39dc3cece72b87d482d1dc00d5c5e931ab
+  arm64:
+    url: https://github.com/PowerShell/PowerShell/releases/download/v7.3.5/PowerShell-7.3.5-win-arm64.zip
+    hash: e5aff3d6e1c08527dad7d4e563a38060060c4f8c70741152ccba9577c9538f9f
+pre_install: Test-Persistence 'Microsoft.PowerShell_profile.ps1', 'profile.ps1'
+bin:
+- - pwsh.exe
+  - pwsh
+  - -NoLogo
+shortcuts:
+- - pwsh.exe
+  - PowerShell Core
+  - -NoLogo
+persist:
+- Microsoft.PowerShell_profile.ps1
+- profile.ps1
