@@ -1,20 +1,20 @@
-version: 3.27.1
+version: 3.28.0
 description: A task runner / build tool that aims to be simpler and easier to use
 homepage: https://taskfile.dev
 license:
   identifier: MIT
   url: https://github.com/go-task/task/blob/master/LICENSE
-changelog: https://github.com/go-task/task/releases/tag/v3.27.1
+changelog: https://github.com/go-task/task/releases/tag/v3.28.0
 architecture:
   64bit:
-    url: https://github.com/go-task/task/releases/download/v3.27.1/task_windows_amd64.zip
-    hash: dcb83450d3ffd7ba9d3855f8f99cc17c4804a39564be2db2d1f9ad4010a790ff
+    url: https://github.com/go-task/task/releases/download/v3.28.0/task_windows_amd64.zip
+    hash: d46e1f3a8ce6951e2d7978c5094661b3f1473cba291bcc2fa53a7af224c403a8
   32bit:
-    url: https://github.com/go-task/task/releases/download/v3.27.1/task_windows_386.zip
-    hash: 4b76d7d6efef43b1ca4aebaf595972fc9dfce2503d908b2c8d6262f1c144b310
+    url: https://github.com/go-task/task/releases/download/v3.28.0/task_windows_386.zip
+    hash: a7fd49978db94496b19141519b5f457aeeda0b92be2ec7e61aeba13cda8461c7
   arm64:
-    url: https://github.com/go-task/task/releases/download/v3.27.1/task_windows_arm64.zip
-    hash: 8ae226fe2a1587acfd66d07a0953c1572c1f74bcc5e60ef5d0ce8949763f77ce
+    url: https://github.com/go-task/task/releases/download/v3.28.0/task_windows_arm64.zip
+    hash: 6092dc97bdbc53ca13c7451b5b4de83fad98a8058bcfdb4a1621a91e8fb320b0
 bin: task.exe
 checkver:
   github: https://github.com/go-task/task
