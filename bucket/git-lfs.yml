@@ -1,25 +1,25 @@
-version: 3.3.0
+version: 3.4.0
 description: Git extension for versioning large files
 homepage: https://git-lfs.github.com
 license:
   identifier: MIT
   url: https://github.com/git-lfs/git-lfs/blob/main/LICENSE.md
-changelog: https://github.com/git-lfs/git-lfs/releases/tag/v3.3.0
+changelog: https://github.com/git-lfs/git-lfs/releases/tag/v3.4.0
 suggest:
   Git:
   - git
   - git-with-openssh
 architecture:
   64bit:
-    url: https://github.com/git-lfs/git-lfs/releases/download/v3.3.0/git-lfs-windows-amd64-v3.3.0.zip
-    hash: 1df5874f22c35c679159f0aaf9e24333051f52768eade0204d22200b79141743
+    url: https://github.com/git-lfs/git-lfs/releases/download/v3.4.0/git-lfs-windows-amd64-v3.4.0.zip
+    hash: 5edafb149bc6cf7e2e8e52d18b031bdaad9a26101cc9dbbf8a3a5da03ac066f2
   32bit:
-    url: https://github.com/git-lfs/git-lfs/releases/download/v3.3.0/git-lfs-windows-386-v3.3.0.zip
-    hash: 81fd4b01719e1e0ccf347596293f19a07fba8573c6aee1e1521b2932d9b6179d
+    url: https://github.com/git-lfs/git-lfs/releases/download/v3.4.0/git-lfs-windows-386-v3.4.0.zip
+    hash: e44184a6e62a4e8d6b18f224912a9b411be265a39aef46221c490d8a926bc102
   arm64:
-    url: https://github.com/git-lfs/git-lfs/releases/download/v3.3.0/git-lfs-windows-arm64-v3.3.0.zip
-    hash: cf16b91ba10009b98bd641897609d9fd6994941705435aac60d12938322fbdbe
-extract_dir: git-lfs-3.3.0
+    url: https://github.com/git-lfs/git-lfs/releases/download/v3.4.0/git-lfs-windows-arm64-v3.4.0.zip
+    hash: 0b333d6e2614fdc1fb1521e3c2fe961f1f7d6b5d6701c6e311d56ea8bf5b6099
+extract_dir: git-lfs-3.4.0
 bin: git-lfs.exe
 checkver:
   github: https://github.com/git-lfs/git-lfs
