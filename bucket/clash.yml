@@ -1,20 +1,20 @@
-version: 1.17.0
+version: 1.18.0
 description: A rule-based tunnel
 homepage: https://github.com/Dreamacro/clash
 license:
   identifier: GPL-3.0-only
   url: https://github.com/Dreamacro/clash/blob/master/LICENSE
-changelog: https://github.com/Dreamacro/clash/releases/tag/v1.17.0
+changelog: https://github.com/Dreamacro/clash/releases/tag/v1.18.0
 architecture:
   64bit:
-    url: https://github.com/Dreamacro/clash/releases/download/v1.17.0/clash-windows-amd64-v1.17.0.zip
-    hash: 81c6fdf813b27065f37b151daa7fd475178057a3981c5d5d191fd387c792f4bb
+    url: https://github.com/Dreamacro/clash/releases/download/v1.18.0/clash-windows-amd64-v1.18.0.zip
+    hash: 1766594ddbae7c49c901ce56eeef802dc9c5f9500157af468121271bf5d6183c
   32bit:
-    url: https://github.com/Dreamacro/clash/releases/download/v1.17.0/clash-windows-386-v1.17.0.zip
-    hash: f2494a8a29ef47e5a66a6a7c32b2ddd37034e91857fdc68b6387b077af4a514b
+    url: https://github.com/Dreamacro/clash/releases/download/v1.18.0/clash-windows-386-v1.18.0.zip
+    hash: 8cb3978c80f9c889acf00d0e6505f3ad7362ccdd510860f2efbc88b8cecb82c2
   arm64:
-    url: https://github.com/Dreamacro/clash/releases/download/v1.17.0/clash-windows-arm64-v1.17.0.zip
-    hash: a62c20e3b9ae6f16d7d7cb90897fc203818938b5c7ca2419266e4745a32bee74
+    url: https://github.com/Dreamacro/clash/releases/download/v1.18.0/clash-windows-arm64-v1.18.0.zip
+    hash: 25082b5c8589bc4d43200e4e6bf60670182a732566f09d61904421689a20f62c
 pre_install: Rename-Item "$dir\$($fname -replace "-v$version\.zip$").exe" 'clash.exe'
 bin: clash.exe
 checkver: github
