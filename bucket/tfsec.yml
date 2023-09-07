@@ -1,17 +1,17 @@
-version: 1.28.1
+version: 1.28.2
 description: A static analysis security scanner for Terraform code
 homepage: https://tfsec.dev
 license:
   identifier: MIT
   url: https://github.com/aquasecurity/tfsec/blob/master/LICENSE
-changelog: https://github.com/aquasecurity/tfsec/releases/tag/v1.28.1
+changelog: https://github.com/aquasecurity/tfsec/releases/tag/v1.28.2
 architecture:
   64bit:
-    url: https://github.com/aquasecurity/tfsec/releases/download/v1.28.1/tfsec-windows-amd64.exe#/tfsec.exe
-    hash: 4fd5e7beec2a5edebcd687217cce1b7df0d52d0ab9283f19e04454dd6fe9a551
+    url: https://github.com/aquasecurity/tfsec/releases/download/v1.28.2/tfsec-windows-amd64.exe#/tfsec.exe
+    hash: c3f674066482d1c6c075a47cc79915f1cead77cb4944debc09b3b5006e335beb
   arm64:
-    url: https://github.com/aquasecurity/tfsec/releases/download/v1.28.1/tfsec-windows-arm64.exe#/tfsec.exe
-    hash: b7c458c6480f96a80213702b1225b45e4344b8f1ce62f2bc56844af770fda4bb
+    url: https://github.com/aquasecurity/tfsec/releases/download/v1.28.2/tfsec-windows-arm64.exe#/tfsec.exe
+    hash: 67e99c7bf852ccfa482258860f09bf6b937debf95654d8dbfa66695401be9b61
 bin: tfsec.exe
 checkver:
   github: https://github.com/aquasecurity/tfsec
