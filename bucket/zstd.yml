@@ -1,14 +1,19 @@
-version: 1.5.4
+version: 1.5.5
 description: High compression ratios compression algorithm
 homepage: https://facebook.github.io/zstd/
 license:
   identifier: BSD-3-Clause
   url: https://github.com/facebook/zstd/blob/master/LICENSE
-changelog: https://github.com/facebook/zstd/releases/tag/v1.5.4
+changelog: https://github.com/facebook/zstd/releases/tag/v1.5.5
 architecture:
   64bit:
-    url: https://github.com/facebook/zstd/releases/download/v1.5.4/zstd-v1.5.4-win64.zip
-    hash: 0f4e67626f8d758a219c24e780a556a88a7baf4793e95802e55a789f9a4d3cc6
+    url: https://github.com/facebook/zstd/releases/download/v1.5.5/zstd-v1.5.5-win64.zip
+    hash: 1ab47163dd8ea8c3ef35311ba77808870347e2f0e3e50acd4e99a21c0d87da2c
+    extract_dir: zstd-v1.5.5-win64
+  32bit:
+    url: https://github.com/facebook/zstd/releases/download/v1.5.5/zstd-v1.5.5-win32.zip
+    hash: dbf0d27ac2fbf0c95ba2a9fabd9f6583d36fa5b223d05fe5a2f8e2559707027e
+    extract_dir: zstd-win_artifacts-win32
 bin: zstd.exe
 checkver:
   github: https://github.com/facebook/zstd
@@ -19,3 +24,6 @@ autoupdate:
   architecture:
     64bit:
       url: https://github.com/facebook/zstd/releases/download/v$version/zstd-v$version-win64.zip
+      extract_dir: zstd-v$version-win64
+    32bit:
+      url: https://github.com/facebook/zstd/releases/download/v$version/zstd-v$version-win32.zip
