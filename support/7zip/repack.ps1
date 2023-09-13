@@ -1,4 +1,5 @@
 #!/usr/bin/env pwsh
+# ScpTarget should be in format user@host:/path/to/root/web/server/without/7zip/subfolder/and/without/trailing/slash
 param([Parameter(Mandatory)] [String] $Version, [String] $ScpTarget)
 
 $ProgressPreference = 'SilentlyContinue'
@@ -16,7 +17,9 @@ $_v = $Version -replace '\.'
 
 # Download source code
 Write-Host 'Downloading source code'
-Invoke-WebRequest "https://www.7-zip.org/a/7z${_v}-src.tar.xz" -OutFile "$PSScriptRoot/7z${_v}-src.tar.xz"
+$scTar = "$PSScriptRoot/7z${_v}-src.tar.xz"
+Invoke-WebRequest "https://www.7-zip.org/a/7z${_v}-src.tar.xz" -OutFile $scTar
+$sourceHash = (Get-FileHash -LiteralPath $scTar -Algorithm 'SHA256').Hash
 
 Set-Content "$PSScriptRoot/README.md" @'
 # 7-zip repacked as zip
@@ -28,7 +31,7 @@ All archives were built by [script](https://github.com/shovel-org/Base/main/supp
 Original site, source code and artifacts are available at <https://www.7-zip.org>
 '@ -Encoding 'utf8'
 
-$7zPath = (Get-Command -Name '7z' -CommandType 'Application').Source
+$7zPath = (Get-Command -Name '7z' -CommandType 'Application')[0].Source
 
 # Extract original 7-zips
 Get-ChildItem -LiteralPath $PSScriptRoot -Include '*.exe' -File | ForEach-Object {
@@ -41,25 +44,32 @@ Get-ChildItem -LiteralPath $PSScriptRoot -Include '*.exe' -File | ForEach-Object
     Remove-Item -LiteralPath $_.FullName -Force -Recurse
 }
 
+$checksums = @()
 # Create new zips
 Get-ChildItem -LiteralPath $PSScriptRoot -Directory | ForEach-Object {
     Write-Output "Repacking '$($_.BaseName).zip'"
 
+    # Add source code to final zip
     Copy-Item "$PSScriptRoot/7z${_v}-src.tar.xz" $_.FullName
     & $7zPath a "$PSScriptRoot/$($_.BaseName).zip" $_.FullName
 
     $zipHash = (Get-FileHash -LiteralPath "$($_.FullName).zip" -Algorithm 'SHA256').Hash
-    Write-Output "New '$($_.BaseName).zip' checksum: $zipHash"
+    $zipName = "$($_.BaseName).zip"
+    Write-Output "New '$zipName' checksum: $zipHash"
+    $checksums += "$zipHash  $zipName"
 
     Remove-Item $_.Fullname -Force -Recurse
 }
+$checksums += "$sourceHash  7z${_v}-src.tar.xz"
+Set-Content "$PSScriptRoot/${_v}_checksums.txt" $checksums
 
 if ($ScpTarget) {
     Write-Output 'Copying all required files to server'
-    scp "$PSScriptRoot/*" $ScpTarget
+    Stop-Transcript
+
+    Copy-Item "$PSScriptRoot/log.txt" "$PSScriptRoot/log-$_v.txt"
+    scp -r "$PSScriptRoot/" "$ScpTarget/"
 
     # Remove all temporary files
     Get-ChildItem -LiteralPath $PSScriptRoot -Exclude '*.ps1', '*.txt', 'README.md' | Remove-Item -Force -Recurse
 }
-
-Stop-Transcript

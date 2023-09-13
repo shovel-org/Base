@@ -1,4 +1,5 @@
 /checkver*
 /.cache/
 /.vagrant/
+support/7zip/*
 cosi/

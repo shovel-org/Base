@@ -25,6 +25,8 @@ shortcuts:
 checkver: '\s+([\d.]+)\s+\(\d+'
 autoupdate:
   archive: true
+  hash:
+    url: $baseurl/${cleanVersion}_checksums.txt
   architecture:
     64bit:
       url: https://stor.shovel.ash258.com/7zip/7z${cleanVersion}-x64.zip

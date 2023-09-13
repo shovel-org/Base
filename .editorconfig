@@ -10,6 +10,8 @@ trim_trailing_whitespace = true
 
 [.git/hooks/*]
 end_of_line = lf
+[support/**.ps1]
+end_of_line = lf
 
 [*.{yml,yaml}]
 indent_size = 2
