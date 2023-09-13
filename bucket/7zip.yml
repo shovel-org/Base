@@ -1,5 +1,5 @@
 '##': 'TODO: Associations, context menu'
-version: "22.01"
+version: "23.01"
 description: File archiver with a high compression ratio
 homepage: https://www.7-zip.org
 license:
@@ -7,17 +7,17 @@ license:
   url: https://www.7-zip.org/license.txt
 architecture:
   64bit:
-    url: https://stor.shovel.ash258.com/7zip/7z2201-x64.zip
-    hash: 6f725d6afa31fe5b79226e97026fdacf5fc81c7103ff2a2b7839d8ce1a0b6a40
-    extract_dir: 7z2201-x64
+    url: https://stor.shovel.ash258.com/7zip/7z2301-x64.zip
+    hash: ccef11b040fce0702e2b9292b6469c4bdd63b2c2ca7e191a8fd4d468cf472171
+    extract_dir: 7z2301-x64
   32bit:
-    url: https://stor.shovel.ash258.com/7zip/7z2201.zip
-    hash: b8ce9bcf3e4d3a1a0a36853aa6d81d7356e3ab3cfd63da57f97708765261e98d
-    extract_dir: 7z2201
+    url: https://stor.shovel.ash258.com/7zip/7z2301.zip
+    hash: 5abacd14ca1c8e2bb0de33ed8c1103f5fc2a3c270cd5044e33249caf834a74df
+    extract_dir: 7z2301
   arm64:
-    url: https://stor.shovel.ash258.com/7zip/7z2201-arm64.zip
-    hash: cfb5653c2110b120b830da8a561767dcf6aa208795fc7af577839dea8a2639cc
-    extract_dir: 7z2201-arm64
+    url: https://stor.shovel.ash258.com/7zip/7z2301-arm64.zip
+    hash: 9dc37ce0dbb69d644d7cce436ff122d97edefd4b4162379c308a3a19c570b450
+    extract_dir: 7z2301-arm64
 bin: 7z.exe
 shortcuts:
 - - 7zFM.exe

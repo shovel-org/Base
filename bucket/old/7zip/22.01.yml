@@ -1,0 +1,24 @@
+'##': 'TODO: Associations, context menu'
+version: "22.01"
+description: File archiver with a high compression ratio
+homepage: https://www.7-zip.org
+license:
+  identifier: Freeware,LGPL-2.0-only,BSD-3-Clause
+  url: https://www.7-zip.org/license.txt
+architecture:
+  64bit:
+    url: https://stor.shovel.ash258.com/7zip/7z2201-x64.zip
+    hash: 6f725d6afa31fe5b79226e97026fdacf5fc81c7103ff2a2b7839d8ce1a0b6a40
+    extract_dir: 7z2201-x64
+  32bit:
+    url: https://stor.shovel.ash258.com/7zip/7z2201.zip
+    hash: b8ce9bcf3e4d3a1a0a36853aa6d81d7356e3ab3cfd63da57f97708765261e98d
+    extract_dir: 7z2201
+  arm64:
+    url: https://stor.shovel.ash258.com/7zip/7z2201-arm64.zip
+    hash: cfb5653c2110b120b830da8a561767dcf6aa208795fc7af577839dea8a2639cc
+    extract_dir: 7z2201-arm64
+bin: 7z.exe
+shortcuts:
+- - 7zFM.exe
+  - 7-Zip
