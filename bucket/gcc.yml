@@ -1,96 +1,96 @@
-version: 12.2.0-6
+version: 13.2.0-2
 description: GNU Compiler Collection (Mingw-w64 port from MSYS2 project)
 homepage: https://www.mingw-w64.org
 license: GPL-3.0-or-later,ZPL-2.1,...
 architecture:
   64bit:
     url:
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-binutils-2.39-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-crt-git-10.0.0.r83.gad45df377-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-binutils-2.41-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-crt-git-11.0.0.r18.g9df2e604d-1-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-expat-2.5.0-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-12.2.0-6-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-fortran-12.2.0-6-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-libgfortran-12.2.0-6-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-libs-12.2.0-6-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gettext-0.21-3-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gmp-6.2.1-3-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-headers-git-10.0.0.r83.gad45df377-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-isl-0.25-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libiconv-1.17-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-13.2.0-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-fortran-13.2.0-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-libgfortran-13.2.0-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-libs-13.2.0-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gettext-0.21.1-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gmp-6.3.0-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-headers-git-11.0.0.r18.g9df2e604d-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-isl-0.26-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libiconv-1.17-3-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-make-4.4-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-mpc-1.2.1-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-mpfr-4.1.0.p13-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-mpc-1.3.1-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-mpfr-4.2.1-1-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-pkg-config-0.29.2-3-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-windows-default-manifest-6.4-4-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libwinpthread-git-10.0.0.r83.gad45df377-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-zlib-1.2.13-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libwinpthread-git-11.0.0.r18.g9df2e604d-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-zlib-1.3-1-any.pkg.tar.zst
     hash:
-    - 0f145c17713567ac07bef1e4801a3ee9840659758065bc364f1af33f6eeb5c97
-    - b49571e4d22837c18838ff700e8e7f16d8db7979faff9a22e9c54675622e80c1
+    - ea0910ad8c57bd07dadaf85be0b0174975d31210d43df53dad4843d8347257e4
+    - d2712f9b417573de9b5c60791cd73e983e6e742f2a35355e0388c8275515a6a7
     - d9306e72cc92aecc8b79337a0de5be00fb3f64a807fd3404565fe4e9dafe1926
-    - 1da1e0fe9c51b68433cc05d11ec628eb82313d56491e9a86087a8bc1512e5b6e
-    - 20ccfa1e2d3ca2f07539fcf0af12dda25279fda1046ce43d92c31f7fc55fd6ec
-    - 75d101a2a7751e5afaf109f1e24f8cb1cd48947882b3b9572c8e49ef9830c3a5
-    - 13e6e7d32e9f93f8cb7ed8e09fb93a8dd2d29cb4b84629eb0da6ded2c6a75d82
-    - bb44faad8400299bf9a82dfc773c2b7f67b4a17f8460efed8d2330696c75c7bf
-    - 2c7585d130996dd3d979c972bc03d55d955727cab3a03b8fa12f20891820069c
-    - eb8c52da5229a3752e8c9fb5171fbd95d3a56c1cfeba559e2323fc2262cefd2b
-    - 534810e290d6a39279cc20208a78cef83210a4982edd9ae3d0e147d3ea4b7e42
-    - fffed69b7192148c337780aa5d4bd3b479337bd1f930fd6f93b7569a79e961dd
+    - 6d2f7135e96dea8694cf652fc7af9c226f5220163af3c3ad1f1c5d1fc78f6627
+    - 471d512e5075363874c8a2139fabbbe544e0535cd7e2d4f2c184d933e6fa1f3a
+    - 7b776fdea8a0c815d7ef68df45c9702c0140553de4b852d0cd3c9c87f6381394
+    - accbb4c4f180eca73de3876ba4c39152c8d0d2addc503ff519a451c081f7ad2f
+    - 3dd1de072c05b79b12ddb2bc3adfdf20a94862674ac6e4470f1c2778fbc3493e
+    - ccf36cba0665bbe502d5670d1bb895617b3a32bb4554ce20f246765e0550c56c
+    - 68754402020b11560a236bc0551415afa5791d174f5e4401957c0969ca385c5c
+    - f99e5e9ba418f39ab8e2a21dc368dd881a74d4241618ae1354b30f115764de41
+    - 7047b4f4324ab2682ddc72d8de21c3cdd42390f2502fd50b1002de64dea52d18
     - 5ab807ee92533e030ed4603699be39f6efef836584cca8596f86a3dfc5d59f26
-    - 8c69669df65257ec8abbb38fb4110371da8f73c60f065ecd162811f59489c11c
-    - 26e320bb309eb0b107eccdc026716e00404cdf07224d95353cadb57a8263749e
+    - 934a9242f5e2f8017c8ab39f36f3f6f50bb4f42b6178653eb1a999c27c27f0e4
+    - bd5df52d83ba9b998da0342edcb42c61ffac7ce27b9b326e8461a02d9a565122
     - 867c946174c2a2db9f7836edf68aa317c8453b1417ff7851d994f99015e7a9a5
     - 716b48ad9fe4a9c88c3a323279224943b79a04152bce66797debc83491bb91fa
-    - c52d74f412752a282ccd14023d6a084c847f1f99271abbffbad670b9edba8eea
-    - fe5af6bd54bb761b42751052f285fd72cf3e32f7a6ffb89408e3c5a5f3835833
+    - 7e03adb69e783ead040b6d622fb0d8e96b0a1022745d24fa3abb5941ad824df3
+    - 254a6c5a8a27d1b787377a3e70a39cceb200b47c5f15f4ab5bfa1431b718ef98
   32bit:
     url:
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-binutils-2.39-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-crt-git-10.0.0.r83.gad45df377-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-binutils-2.41-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-crt-git-11.0.0.r18.g9df2e604d-1-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/i686/mingw-w64-i686-expat-2.5.0-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gcc-12.2.0-6-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gcc-fortran-12.2.0-6-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gcc-libgfortran-12.2.0-6-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gcc-libs-12.2.0-6-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gettext-0.21-3-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gmp-6.2.1-3-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-headers-git-10.0.0.r83.gad45df377-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-isl-0.25-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libiconv-1.17-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gcc-13.2.0-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gcc-fortran-13.2.0-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gcc-libgfortran-13.2.0-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gcc-libs-13.2.0-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gettext-0.21.1-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gmp-6.3.0-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-headers-git-11.0.0.r18.g9df2e604d-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-isl-0.26-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libiconv-1.17-3-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/i686/mingw-w64-i686-make-4.4-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-mpc-1.2.1-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-mpfr-4.1.0.p13-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-mpc-1.3.1-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-mpfr-4.2.1-1-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/i686/mingw-w64-i686-pkg-config-0.29.2-3-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/i686/mingw-w64-i686-windows-default-manifest-6.4-4-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libwinpthread-git-10.0.0.r83.gad45df377-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-zlib-1.2.13-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libwinpthread-git-11.0.0.r18.g9df2e604d-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-zlib-1.3-1-any.pkg.tar.zst
     hash:
-    - 1204ca1f99d644c07e0e69aca601def065a30c8b7aa52c7dbc841dd59992c371
-    - 95ffcf095a9b2009e5c5575389680b25253dea9d8bf8c19c84b9c0355f52df92
+    - 6eae016cdfb9682495bb3e10283a3bb5e95f495a5a977ffa31367c88a0aa5f92
+    - b80f1fcd50f2d876dc665188a643766ced787c70a04621e4f7dbbeb2592ac6bd
     - 989b81cf646a67f9c59b0d04db9cdd0370ce442878c137d654a837cb90f636bd
-    - e85fe39f3861e7aadb03c1a24008004a53424096ab18ca23d97daf4f97664dde
-    - f5c402d7971005e602da65bd2dcddbf7b9c2162e730e4828a2a9f88ae0ed434b
-    - e7d0d6a9a3c67c5e1930a7d7bbc239644210af7b3e125be08d05d682c5d51bca
-    - 92a5c5b98f06958622e81777c177462c89cc59ff7e0e957964a1fa187f254cb6
-    - d67c5f7917c2c6c28bbe323b452bccd823277ad0a8ab518fd5c601a062c7e3cd
-    - c299aefeb30c914cf8193b4c7688dc0ba17e5a9b0ca5f9d11415f7a0e4e55afb
-    - a810411276392f0d4381c262f9ead8910e46d051fba36f07deb9708cc8d7f0ae
-    - 13f47d37e6e87d8d020423d60b2da39862987d2d481cd5325ffee0db5a4291ca
-    - aed05369035d1919d769d7ddeaf73af7616a69b89d87bdd9716771c858e32797
+    - abf0f737ed7a1d3c473d072d29ef36870bef07f31aa5b2fa81630f5e2690495f
+    - e30732ed8487053b93fcabfeaf4c29103f12e094d9b47fcc1d19d2f1d03a0d5d
+    - 76bda4a0ef6d47431fc6042a1372926e2d991d041682652462a79d6987e9f460
+    - 2dae8189318a91067cca895572b2b46183bfd2ee97a55127a84f4f418f0b32f3
+    - 7e3f10c9c38c9aca3e206ba776723fcc06046167a6f064954acb160decc3a558
+    - 7b9aa254b393238c5eec588e52ccfd84f2989ce406cb75d1d972e9ed431b749a
+    - 8444f21dcb91d0a22e15e594bc05db5465e18c0fa6146c576031dac91422dfbb
+    - d4bccfcd56e6eff1d22ff012ae601c7b4770db08e49314964bf47dba5bc02da6
+    - f7d5ad45faeb304baf5f727ccd464c53ed82c68dfe2ba8f55f0be3e56a7f5700
     - 7a3619570d9c784ad18a8e42e7ba0ab0938dceb1c335e480af5ebacba2e52d6a
-    - fb6252f23762b93cb302b7db029ba61f36d1798a886a8d96819f996842dfa331
-    - 6359058b1d0adefe866b9ecbfdaeee4b5e8cde5bf4653c5108a4517495320834
+    - 78af89a926557fe3dc170eedcd351c6d6e397237f3268717f6002af8ebc07c41
+    - db4e0dd1678cbcba565b12732de27f8c77572ab53f72314476e9e19d4b523e87
     - c564ce30f11f6e80bee34daa22ca22fbe001f2aa50aa661b0bcac8177557cbd7
     - d17fe93371dde88f46ccdee399320b9e5b4d9a9dcc5f090d1e333d2d6989b105
-    - f215877974a7a236d8dee0b944e31a23b8ebd67529ec4ac6b048a04de9018d8e
-    - a1b763dbe6352bac605760cd36fdbb4b24a1a25db552faf28727a6d1fea3b465
-pre_install:
-- $a = $architecture -replace 'bit'
-- Move-Item "$dir\mingw$a\*" "$dir"
-- Remove-AppdirItem "mingw$a", '.*'
-- Confirm-DirectoryExistence "$dir\bin\bak" | Out-Null
-- Move-Item "$dir\bin\python*.exe" "$dir\bin\bak"
+    - c2a7775157a5436989611a8fac84427f2403d68dc9c951f659ea87718e0976ca
+    - 21bacf3a43073749a4cbdf407c7f1da92bab56c80925b1205f7c4cb289c724a1
+pre_install: |
+  $a = $architecture -replace 'bit'
+  Move-Item "$dir\mingw$a\*" "$dir"
+  Remove-AppdirItem "mingw$a", '.*'
+  Confirm-DirectoryExistence "$dir\bin\bak" | Out-Null
+  Move-Item "$dir\bin\python*.exe" "$dir\bin\bak"
 bin:
 - - bin\mingw32-make.exe
   - make
