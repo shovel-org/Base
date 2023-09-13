@@ -1,132 +1,132 @@
-version: 12.1-5
+version: 13.2.3
 description: GNU Debugger (Mingw-w64 port from MSYS2 project)
 homepage: https://mingw-w64.org
 license: GPL-3.0-or-later
 architecture:
   64bit:
     url:
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-bzip2-1.0.8-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-ca-certificates-20211016-3-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-expat-2.4.8-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-libs-12.1.0-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gdb-12.1-5-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gettext-0.21-3-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gmp-6.2.1-3-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libffi-3.3-4-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libiconv-1.17-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-bzip3-1.3.2-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-ca-certificates-20230311-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-expat-2.5.0-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gcc-libs-13.2.0-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gdb-13.2-3-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gettext-0.21.1-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-gmp-6.3.0-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libffi-3.4.4-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libiconv-1.17-3-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libsystre-1.0.1-4-any.pkg.tar.xz
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libtasn1-4.18.0-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libtasn1-4.19.0-1-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libtre-git-r128.6fb7206-2-any.pkg.tar.xz
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libwinpthread-git-9.0.0.6454.b4445ee52-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-mpc-1.2.1-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-libwinpthread-git-11.0.0.r147.gddc5b0f6e-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-mpc-1.3.1-1-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-mpdecimal-2.5.1-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-mpfr-4.1.0.p13-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-ncurses-6.3-5-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-openssl-1.1.1.p-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-p11-kit-0.24.1-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-python-3.10.5-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-readline-8.1.002-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-sqlite3-3.38.5-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-tcl-8.6.11-5-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-mpfr-4.2.1-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-ncurses-6.4.20230708-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-openssl-3.1.2-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-p11-kit-0.25.0-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-python-3.11.5-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-readline-8.2.001-6-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-sqlite3-3.43.0-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-tcl-8.6.12-2-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-termcap-1.3.1-6-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-tk-8.6.11.1-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-xxhash-0.8.1-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-xz-5.2.5-3-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-zlib-1.2.12-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-tk-8.6.12-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-xxhash-0.8.2-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-xz-5.4.4-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/x86_64/mingw-w64-x86_64-zlib-1.3-1-any.pkg.tar.zst
     hash:
-    - e51f0e316ad670752ca44ae0dd7bdac8067e4376340be02cf48da541b81a0fcf
-    - 04d7ca6487629c72f5f75434ac96c6e3f1990b5bc1c46828aba64abf966da60b
-    - 33140af5ccc22fb4359acb35a061e729f5f519801de85ab4a54eb516cc247ce2
-    - 6d4271a3232d96bd1dbda1ea9a3e9413d43df399accf10582b30ae6cdc367592
-    - 068c2402574e061d2920e04594cb3f9dc0fc16d16ae7c1345486755b0b92111a
-    - bb44faad8400299bf9a82dfc773c2b7f67b4a17f8460efed8d2330696c75c7bf
-    - 2c7585d130996dd3d979c972bc03d55d955727cab3a03b8fa12f20891820069c
-    - 7181ad163738e5f50a493272566418c57223a1ea0d8fdfb67ab6a04371745c47
-    - fffed69b7192148c337780aa5d4bd3b479337bd1f930fd6f93b7569a79e961dd
+    - 131d52495600b035fa4d7d3e267f09e4621bd65ae35cbfe7868bab122ffaf661
+    - dd53ff6b0efafa2c6fbabcfce539f97fff4661e9b6aed4044356c55d2fed9de5
+    - d9306e72cc92aecc8b79337a0de5be00fb3f64a807fd3404565fe4e9dafe1926
+    - accbb4c4f180eca73de3876ba4c39152c8d0d2addc503ff519a451c081f7ad2f
+    - b23ae7c3b5374ddc56f3f41cee43f87a18ccf79b95fec2fc3a819df6f73a5c83
+    - 3dd1de072c05b79b12ddb2bc3adfdf20a94862674ac6e4470f1c2778fbc3493e
+    - ccf36cba0665bbe502d5670d1bb895617b3a32bb4554ce20f246765e0550c56c
+    - be496f51e6ca7536c9ce39239020daf09bba486d2057f13a88c325687d7c43d9
+    - 7047b4f4324ab2682ddc72d8de21c3cdd42390f2502fd50b1002de64dea52d18
     - c1b9ae045e24a91f261dc654d390ac63254d0ca5882d76b52d7722a9d49fef0c
-    - 13113a9581e36cd10478c8d666ed98bb8c2324ebeb088067287556d1c6602153
+    - 65aba29cbe13aba5eeecd5c570e469ed770b46b6350acb2fa8d2cb22bca86f25
     - fd2c0e426a85c4193d34eea19411166495cb2fde58d0fac4e85422399062e336
-    - d61e27f33566909e2f5e76772aacd7ecffb8e39778f60811199a99b8c4a92ea0
-    - 8c69669df65257ec8abbb38fb4110371da8f73c60f065ecd162811f59489c11c
+    - 5be7529cdc0769ef318562ba520c62b2b166a93f755694847337106af98f9470
+    - 934a9242f5e2f8017c8ab39f36f3f6f50bb4f42b6178653eb1a999c27c27f0e4
     - 0a0109eab54dbadae41a1215652251f7892752f1454d15b2d2ebfbc82a53fe32
-    - 26e320bb309eb0b107eccdc026716e00404cdf07224d95353cadb57a8263749e
-    - 08cb0d74548d5352a8f00b0168c948b35f114276e5c41f785590dfc4d7303f09
-    - 1b665a0acc0d84d20e2d5acb454956b10d17078596e360e604cb78bd54f7c915
-    - 37cdadbbc41d96f2766c3ebad7f5314f9130dbdd36f1ba3516e411d5a0d4a1e7
-    - 033c37d72c0514ece4aead4f21050be69e2d0d52f3fa7931e26051c5b04c21d1
-    - 44e17286466d2a5e8653b092dcd358d1d995633a429e89f0a2be64465ebcfcb1
-    - 3085a9ea43d162416402d2a2eb51f6fef3351e066ca88f2d4dc99bd14642f51d
-    - 552b16f0311d789356ef92878516cdd041de42befd9c7be1046780564a377738
+    - bd5df52d83ba9b998da0342edcb42c61ffac7ce27b9b326e8461a02d9a565122
+    - 3b366d653542fd433a863011b3e14859294002adeee8d758cb0317b4b3b1f2ae
+    - 50c080f4d4a70b03e0dd428b9791302d4f0a5569b10debe989b8d2d10b5cdc63
+    - 9ae9f05f695ccc3b915e504f007ad5cc7b6f7fc38d768eb6129b322f2324dc48
+    - 1358eff85f7ffcc08aac3e8354a760b3847a3d70de8a70e521ed1e013f362245
+    - 38420c3fcf07b08121c3aeb97f773b539b001b7dec77781e33e95728f034da28
+    - 6be2b783605316da244d72713f71256b1ab6257d328745799d4741fd4232d48f
+    - d54e18b7e30a9103ffb066410875a7465716f90ca9a530e103909a03fdcc9e9e
     - 782fc19a7ddf10b6f7abc60b9d4227bac622cb3056c91747dd61d73d8afcebf1
-    - 80e810818967f206bf229cb4130379855a4693512f730fe0ccdb47da3f3c992b
-    - 89fbcb3b63cce1c29803d35b8e648683cffa3d22fada907af93e3666d54d994e
-    - d94daf331b3c9ecace335af9ce0e872820096832ea60e55aeb6225b2a3493225
-    - e728df08b4db7b291a52d8fd60b96f19016f059ab15170fc98120e5d580c86ac
-    pre_install:
-    - Move-Item "$dir\mingw64\*" "$dir"
-    - Remove-AppdirItem 'mingw64', '.*'
+    - d1f9a10b0e694976fd01f94ae4a8ce17ba1c724960e0a9c8148c050518dfd648
+    - fd3ded810d9d9dd3dae4c9d72a0ad4fec39470046867097f59c6db1c7f7b13c3
+    - 97f9c2c3c387646b8b90fff4effb0c2a0987b8226677aa53a0cdb7d181af2c37
+    - 254a6c5a8a27d1b787377a3e70a39cceb200b47c5f15f4ab5bfa1431b718ef98
+    pre_install: |
+      Move-Item "$dir\mingw64\*" "$dir"
+      Remove-AppdirItem 'mingw64', '.*'
   32bit:
     url:
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-bzip2-1.0.8-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-ca-certificates-20211016-3-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-expat-2.4.8-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gcc-libs-12.1.0-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gdb-12.1-5-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gettext-0.21-3-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gmp-6.2.1-3-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libffi-3.3-4-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libiconv-1.17-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-bzip3-1.3.2-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-ca-certificates-20230311-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-expat-2.5.0-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gcc-libs-13.2.0-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gdb-13.2-3-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gettext-0.21.1-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-gmp-6.3.0-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libffi-3.4.4-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libiconv-1.17-3-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libsystre-1.0.1-4-any.pkg.tar.xz
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libtasn1-4.18.0-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libtasn1-4.19.0-1-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libtre-git-r128.6fb7206-2-any.pkg.tar.xz
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libwinpthread-git-9.0.0.6454.b4445ee52-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-mpc-1.2.1-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-libwinpthread-git-11.0.0.r147.gddc5b0f6e-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-mpc-1.3.1-1-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/i686/mingw-w64-i686-mpdecimal-2.5.1-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-mpfr-4.1.0.p13-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-ncurses-6.3-5-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-openssl-1.1.1.p-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-p11-kit-0.24.1-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-python-3.10.5-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-readline-8.1.002-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-sqlite3-3.38.5-1-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-tcl-8.6.11-5-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-mpfr-4.2.1-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-ncurses-6.4.20230708-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-openssl-3.1.2-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-p11-kit-0.25.0-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-python-3.11.5-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-readline-8.2.001-6-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-sqlite3-3.43.0-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-tcl-8.6.12-2-any.pkg.tar.zst
     - https://repo.msys2.org/mingw/i686/mingw-w64-i686-termcap-1.3.1-6-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-tk-8.6.11.1-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-xxhash-0.8.1-2-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-xz-5.2.5-3-any.pkg.tar.zst
-    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-zlib-1.2.12-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-tk-8.6.12-2-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-xxhash-0.8.2-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-xz-5.4.4-1-any.pkg.tar.zst
+    - https://repo.msys2.org/mingw/i686/mingw-w64-i686-zlib-1.3-1-any.pkg.tar.zst
     hash:
-    - 23f4d75e2022e08b71e198e2d3d4c6f3e17f6bcdeee34db893c892946c790f4b
-    - ad37f729c50a02e2b506096fb481eab06bef497f30583bffdc10054b56d53c51
-    - 3f9b71d1cdbebc02d43c47987263f94d89e1402696fc41b7cbe7a83be4ff5250
-    - 6932492c39eb5fdc1b2fa83d6aac9e066adc5a80261e902812d557ea227a109b
-    - 4726abc3d23baa3e19b548781c6c579e871781f66e0c6e33c46c92c29158807d
-    - d67c5f7917c2c6c28bbe323b452bccd823277ad0a8ab518fd5c601a062c7e3cd
-    - c299aefeb30c914cf8193b4c7688dc0ba17e5a9b0ca5f9d11415f7a0e4e55afb
-    - a0aa8aee18b0dae3b4677fe4c991031b2970467de67632a3ee72ea1f95c82502
-    - aed05369035d1919d769d7ddeaf73af7616a69b89d87bdd9716771c858e32797
+    - d89fc71ed255749fdb7549fa227f2f04275ff18318224c207d57088054848cf5
+    - 0f64a9250d1cad17d4cc5d5b83decc53f5828e65706f35558801e748573f1b9c
+    - 989b81cf646a67f9c59b0d04db9cdd0370ce442878c137d654a837cb90f636bd
+    - 2dae8189318a91067cca895572b2b46183bfd2ee97a55127a84f4f418f0b32f3
+    - 076ea9ab0ebc56ab70a78d646aad4c92fa7205295b666738f98283b067c3ea6a
+    - 7e3f10c9c38c9aca3e206ba776723fcc06046167a6f064954acb160decc3a558
+    - 7b9aa254b393238c5eec588e52ccfd84f2989ce406cb75d1d972e9ed431b749a
+    - e7928526f30c08fe4d42151b4fc209102c13bb72f17f43f793c4b88c59f2bb47
+    - f7d5ad45faeb304baf5f727ccd464c53ed82c68dfe2ba8f55f0be3e56a7f5700
     - 3a400210f7f366c63d000d910203257643b4de1409d09d12da86e76acb4dd407
-    - e5f1eb0945caba03d2bb0d1fd047cf911d8dae4d9c8d2342ca57d41f07d36609
+    - d3c1671251cd21a6b26e62cf05c5c3af5054a8c25947ab7cd58d2f4146553441
     - cc8ec470688c20d7b6da4ccc5dbaa275edb20242a058041b3b62a1b795ab8048
-    - 7699c37f9125c046b6c0a049eb10f67dbced047a2cee0c3e4c376bab7f84e7c6
-    - fb6252f23762b93cb302b7db029ba61f36d1798a886a8d96819f996842dfa331
+    - 7988a19f1871965def6e2d01d7728b7ae9b1be85e30c50931203bf36a61197cd
+    - 78af89a926557fe3dc170eedcd351c6d6e397237f3268717f6002af8ebc07c41
     - e42bc3d931286e3d19a746a863f641e3fe0b47b121f094820bbe20ebec0677b7
-    - 6359058b1d0adefe866b9ecbfdaeee4b5e8cde5bf4653c5108a4517495320834
-    - 547cfc619429c3d28846619becc2ad722947c31b51a57d77216f7b07343eaf9e
-    - 3d6c05497845237ea0dc6e5bf48a41069029e8f1d7cdebb636de570543ad5c43
-    - e92d70fa9eede6ab49e9d25a600f13c1a511680c8bfacf98d6fd93db984c699c
-    - 4e3773cc69583c273e7d4a24321d609f117051d05571d6a5ca0d4be6b3eafb46
-    - 0faa0a80426de1868b36e23a87b115b719003ea6f5e89bafb09857dd40543cbb
-    - 8a7259163881acf8f6922e4e97f88766fd70a25dbccd7d924b957159a2efb2ae
-    - 077e0212e41a1eceedeac3bc775dd8b6512806224e67856bc415566dbee00060
+    - db4e0dd1678cbcba565b12732de27f8c77572ab53f72314476e9e19d4b523e87
+    - 35b81982807d6389255a8271ecce29384aad0c8623df504eba2ccb4fdccbd757
+    - 032482569362f5325e5f718eca3dc651ba3acd14182384da506b3003040bb7b1
+    - af41ac24dca82597447b10996a33e7e04ba385f5168161f03e44a6a726488766
+    - 9051b9033d4863c6209bcfdb6d8c0c334b568d8f0f2665e0a6fbc6aa630d874b
+    - 0da3247cebef3880c0f08761a0f7518834c33695405ca2bec8d7e92c40c0bfaa
+    - 4ac6f92cb92ea03ea0e9299340ba34bcaee7498067cd1460cdf7ea6ae1c683a7
+    - fe5dd73247af8b4141e3d905fd5f93f8861d07aaa5d0fae583377532c499476c
     - 6d45d5eeb1b7911cd9a7903af8da26589b1b3986a9adcd1b880c569718900e5e
-    - c55623017042b3697316024c23878aa486cc9fa3a20e21d7f1f39a7960f609b5
-    - c8a025c715b6c231b95fcd201f966bc0eeab661ad79d17cfe8235f55906a464a
-    - a94f9a99a89811b416989ddc9378868a188ec0aef08374eb172ea62734e2a167
-    - 74ace327d8e28cdb0c777fffc6003f5097836c247be40cf3b483bd9fd1c23183
-    pre_install:
-    - Move-Item "$dir\mingw32\*" "$dir"
-    - Remove-AppdirItem 'mingw32', '.*'
+    - c0760e1c6a5733764634277c5003db5ee8da9c91e1bb5e6338a8466a627342b4
+    - 0fb7147e4ea95b8e809216bc2ad4fc798bd0107684353a6746af40191fceb719
+    - 4f4a7fbf17e787c031e879bd115ed96c5cda2dd1dfb2c8f383375875d5324e7d
+    - 21bacf3a43073749a4cbdf407c7f1da92bab56c80925b1205f7c4cb289c724a1
+    pre_install: |
+      Move-Item "$dir\mingw32\*" "$dir"
+      Remove-AppdirItem 'mingw32', '.*'
 bin:
 - bin\gdb.exe
 - bin\gdbserver.exe
