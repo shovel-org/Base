@@ -1,15 +1,15 @@
-version: 1.24.0
+version: 1.24.1
 description: Execute commands in response to file modifications
 homepage: https://watchexec.github.io
 license:
   identifier: Apache-2.0
   url: https://github.com/watchexec/watchexec/blob/main/LICENSE
-changelog: https://github.com/watchexec/watchexec/releases/tag/v1.24.0
+changelog: https://github.com/watchexec/watchexec/releases/tag/v1.24.1
 architecture:
   64bit:
-    url: https://github.com/watchexec/watchexec/releases/download/v1.24.0/watchexec-1.24.0-x86_64-pc-windows-msvc.zip
-    hash: 4c091bcd814ff3ab712fec94d281ac1a6db899de3507167944eca461b9349ff8
-    extract_dir: watchexec-1.24.0-x86_64-pc-windows-msvc
+    url: https://github.com/watchexec/watchexec/releases/download/v1.24.1/watchexec-1.24.1-x86_64-pc-windows-msvc.zip
+    hash: 968c456b6fdd4a73ba1ee1404e318c093dc0fcaf9717f779aef0fca37df62ef4
+    extract_dir: watchexec-1.24.1-x86_64-pc-windows-msvc
 bin: watchexec.exe
 checkver:
   url: https://github.com/watchexec/watchexec/releases
