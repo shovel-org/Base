@@ -1,21 +1,21 @@
 '##': 'TODO: Use proper arm64 binaries when available'
-version: 1.44.0
+version: 1.44.1
 description: Command-line interface for Hetzner Cloud
 homepage: https://github.com/hetznercloud/cli
 license:
   identifier: MIT
   url: https://github.com/hetznercloud/cli/blob/master/LICENSE
-changelog: https://github.com/hetznercloud/cli/releases/v1.44.0
+changelog: https://github.com/hetznercloud/cli/releases/v1.44.1
 architecture:
   64bit:
-    url: https://github.com/hetznercloud/cli/releases/download/v1.44.0/hcloud-windows-amd64.zip
-    hash: 9dc1624910aeacd14132f24aad6e1f18ca61122e9b030aa9b4641199789670d9
+    url: https://github.com/hetznercloud/cli/releases/download/v1.44.1/hcloud-windows-amd64.zip
+    hash: 5dd308b8db285a9ae75a763bfd334e1c1cd226ca138125edac84a5dc2fd48c6b
   32bit:
-    url: https://github.com/hetznercloud/cli/releases/download/v1.44.0/hcloud-windows-386.zip
-    hash: 924e112d88366eb061bd66b15cdbd09b8bc2dc39b0d096f8179e3c1bd811e0ae
+    url: https://github.com/hetznercloud/cli/releases/download/v1.44.1/hcloud-windows-386.zip
+    hash: 3a92e600083617c096d7067a6439d63b3e7478e2947fa8e1d931d1c2c5e5da5c
   arm64:
-    url: https://github.com/hetznercloud/cli/releases/download/v1.44.0/hcloud-windows-armv7.zip
-    hash: 75abd4cf28d2bb458bccdf84e3916c28f0d8e728672eeea7b6dceefaa1ad5dcd
+    url: https://github.com/hetznercloud/cli/releases/download/v1.44.1/hcloud-windows-armv7.zip
+    hash: 11279b17b27aa641be9e78e4fa2aa2437d080c74ad5cc905b9392bdc88d56dbe
 bin: hcloud.exe
 checkver: github
 autoupdate:
