@@ -1,20 +1,20 @@
-version: 23.6.4
+version: 23.6.5
 description: A prompt theme engine for any shell
 homepage: https://ohmyposh.dev
 license:
   identifier: GPL-3.0-only
   url: https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/COPYING
-changelog: https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v23.6.4
+changelog: https://github.com/JanDeDobbeleer/oh-my-posh/releases/tag/v23.6.5
 architecture:
   64bit:
-    url: https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v23.6.4/posh-windows-amd64.exe#/oh-my-posh.exe
-    hash: c4d89345133b8d1e750ec2acdd236300fa25430953a96c019dbb1c9d57eedf4c
+    url: https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v23.6.5/posh-windows-amd64.exe#/oh-my-posh.exe
+    hash: b3af8c74ce98388f7df4d3814378bdd80f026ece7f76b551234ec9995fa6816e
   32bit:
-    url: https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v23.6.4/posh-windows-386.exe#/oh-my-posh.exe
-    hash: 5fcde14841c6ef80a2d90b8aa20084666118570b01b3371449a2fbd4db66a116
+    url: https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v23.6.5/posh-windows-386.exe#/oh-my-posh.exe
+    hash: 07f13af8b50df00359d4162141697ff26f0ed1ba42576bd726dd592b4ed33de9
   arm64:
-    url: https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v23.6.4/posh-windows-arm64.exe#/oh-my-posh.exe
-    hash: 138cb6bfa7b63f8ec0f86cfd731f7eb32c498da71464f7b03bb1b92fe90a8a2c
+    url: https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/v23.6.5/posh-windows-arm64.exe#/oh-my-posh.exe
+    hash: 5f8dc6778de72f76770040c184ba1440f366b35a22810dc4cb2a7eae4fe85dfe
 bin: oh-my-posh.exe
 persist: themes
 checkver:
