@@ -1,0 +1,29 @@
+{
+    "##": "TODO: Associations, context menu",
+    "version": "19.00",
+    "description": "File archiver with a high compression ratio",
+    "homepage": "https://www.7-zip.org",
+    "license": {
+        "identifier": "Freeware,LGPL-2.0-only,BSD-3-Clause",
+        "url": "https://www.7-zip.org/license.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://stor.shovel.ash258.com/7zip/7z1900-x64.zip",
+            "hash": "8f047e4a7762d7f8f51361de3ea8fa8d2c7ca22220b63c3914a488e1d15c022c",
+            "extract_dir": "7z1900-x64"
+        },
+        "32bit": {
+            "url": "https://stor.shovel.ash258.com/7zip/7z1900.zip",
+            "hash": "9979fb1a42586799fea562aeb719d78abeb5edb9053f9cda2756b26167cf86c7",
+            "extract_dir": "7z1900"
+        }
+    },
+    "bin": "7z.exe",
+    "shortcuts": [
+        [
+            "7zFM.exe",
+            "7-Zip"
+        ]
+    ]
+}
