@@ -1,20 +1,20 @@
-version: 4.18.1
+version: 4.18.2
 description: Reads and applies migrations in correct order to a database.
 homepage: https://github.com/golang-migrate/migrate
 license:
   identifier: MIT
   url: https://github.com/golang-migrate/migrate/blob/master/LICENSE
-changelog: https://github.com/golang-migrate/migrate/releases/tag/v4.18.1
+changelog: https://github.com/golang-migrate/migrate/releases/tag/v4.18.2
 architecture:
   64bit:
-    url: https://github.com/golang-migrate/migrate/releases/download/v4.18.1/migrate.windows-amd64.zip
-    hash: bdfbbd61094d17cbc08167c0269cf863159f2f98fa389de40e04ceae99880361
+    url: https://github.com/golang-migrate/migrate/releases/download/v4.18.2/migrate.windows-amd64.zip
+    hash: 7d5c029d5bcda9767cadedc5a2cd2127e21a36afb0f0c260e117cd386cf6803b
   32bit:
-    url: https://github.com/golang-migrate/migrate/releases/download/v4.18.1/migrate.windows-386.zip
-    hash: de4d82daa67c50d039ac291e57b206d0bca8d886a2ac65ca19118ef5c8489913
+    url: https://github.com/golang-migrate/migrate/releases/download/v4.18.2/migrate.windows-386.zip
+    hash: 67baefa996b5b0e73ce1f00e7059db5f2cb5e39232ffdb91dd4e6de9c8d1327c
   arm64:
-    url: https://github.com/golang-migrate/migrate/releases/download/v4.18.1/migrate.windows-arm64.zip
-    hash: 515dcff444dd06bc708c396825b1e4517dc85a768091b07a17f23dc29d2ff249
+    url: https://github.com/golang-migrate/migrate/releases/download/v4.18.2/migrate.windows-arm64.zip
+    hash: 37915958d14bb6b916ec97ecac001548c7c1f3ed50cc71212dd4f5dabf2f9d2e
 bin: migrate.exe
 checkver: github
 autoupdate:
