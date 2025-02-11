@@ -1,0 +1,29 @@
+version: 1.23.6
+description: Programming language that makes it easy to build simple, reliable, and efficient software.
+homepage: https://golang.org
+license:
+  identifier: BSD-3-Clause
+  url: https://golang.org/LICENSE
+changelog: https://golang.org/doc/devel/release#go1.23
+notes:
+- "Your GOROOT has been set to: '$dir'"
+- You can run 'go env GOROOT' to view this at any time.
+- '"$env:USERPROFILE\go\bin" has been added to your PATH.'
+architecture:
+  64bit:
+    url: https://dl.google.com/go/go1.23.6.windows-amd64.zip
+    hash: 53fec1586850b2cf5ad6438341ff7adc5f6700dd3ec1cfa3f5e8b141df190243
+  32bit:
+    url: https://dl.google.com/go/go1.23.6.windows-386.zip
+    hash: 96820c0f5d464dd694543329e9b4d413b17c821c03a055717a29e6735b44c2d8
+  arm64:
+    url: https://dl.google.com/go/go1.23.6.windows-arm64.zip
+    hash: a2d2ec1b3759552bdd9cdf58858f91dfbfd6ab3a472f00b5255acbed30b1aa41
+extract_dir: go
+pre_install: add_first_in_path "$env:USERPROFILE\go\bin" $false
+pre_uninstall: remove_from_path "$env:USERPROFILE\go\bin" $false
+bin:
+- bin\go.exe
+- bin\gofmt.exe
+env_set:
+  GOROOT: $dir
