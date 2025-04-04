@@ -1,0 +1,57 @@
+{
+    "version": "0.9.0",
+    "description": "General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",
+    "homepage": "https://ziglang.org",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/ziglang/zig/blob/master/LICENSE"
+    },
+    "suggest": {
+        "vcredist": "extras/vcredist2019"
+    },
+    "changelog": "https://ziglang.org/download/0.9.0/release-notes.html",
+    "architecture": {
+        "64bit": {
+            "url": "https://ziglang.org/download/0.9.0/zig-windows-x86_64-0.9.0.zip",
+            "hash": "084ea2646850aaf068234b0f1a92b914ed629be47075e835f8a67d55c21d880e",
+            "extract_dir": "zig-windows-x86_64-0.9.0"
+        },
+        "32bit": {
+            "url": "https://ziglang.org/download/0.9.0/zig-windows-i386-0.9.0.zip",
+            "hash": "bb839434afc75092015cf4c33319d31463c18512bc01dd719aedf5dcbc368466",
+            "extract_dir": "zig-windows-i386-0.9.0"
+        },
+        "arm64": {
+            "url": "https://ziglang.org/download/0.9.0/zig-windows-aarch64-0.9.0.zip",
+            "hash": "f9018725e3fb2e8992b17c67034726971156eb190685018a9ac8c3a9f7a22340",
+            "extract_dir": "zig-windows-aarch64-0.9.0"
+        }
+    },
+    "bin": "zig.exe",
+    "checkver": {
+        "url": "https://ziglang.org/download/",
+        "regex": ">([\\d.]+)</h"
+    },
+    "autoupdate": {
+        "archive": true,
+        "changelog": "https://ziglang.org/download/$version/release-notes.html",
+        "architecture": {
+            "64bit": {
+                "url": "https://ziglang.org/download/$version/zig-windows-x86_64-$version.zip",
+                "extract_dir": "zig-windows-x86_64-$version"
+            },
+            "32bit": {
+                "url": "https://ziglang.org/download/$version/zig-windows-i386-$version.zip",
+                "extract_dir": "zig-windows-i386-$version"
+            },
+            "arm64": {
+                "url": "https://ziglang.org/download/$version/zig-windows-aarch64-$version.zip",
+                "extract_dir": "zig-windows-aarch64-$version"
+            }
+        },
+        "hash": {
+            "url": "https://ziglang.org/download/",
+            "regex": "(?sm)$basename.*?$sha256"
+        }
+    }
+}
