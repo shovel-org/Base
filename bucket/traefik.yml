@@ -1,21 +1,21 @@
-version: 2.11.22
+version: 2.11.24
 description: HTTP reverse proxy and load balancer
 homepage: https://traefik.io
 license:
   identifier: MIT
   url: https://github.com/traefik/traefik/blob/master/LICENSE.md
-changelog: https://github.com/traefik/traefik/releases/tag/v2.11.22
+changelog: https://github.com/traefik/traefik/releases/tag/v2.11.24
 notes: Run with a configuration file 'traefik -c <yourconfig.toml>' or 'traefik --help' for all options.
 architecture:
   64bit:
-    url: https://github.com/traefik/traefik/releases/download/v2.11.22/traefik_v2.11.22_windows_amd64.zip
-    hash: a01b3dcf5273f7586028e6d284912810648a51d2f9ddcaaf874650667db6d335
+    url: https://github.com/traefik/traefik/releases/download/v2.11.24/traefik_v2.11.24_windows_amd64.zip
+    hash: f528dfcc0d0c70b7d5eae2b93162deeb189978318b1a2b48613de431c2944b1e
   32bit:
-    url: https://github.com/traefik/traefik/releases/download/v2.11.22/traefik_v2.11.22_windows_386.zip
-    hash: 2f656b1260f4dc16c73feca49e9085b6d29fe29a8709a03bbe80338c460a1fb6
+    url: https://github.com/traefik/traefik/releases/download/v2.11.24/traefik_v2.11.24_windows_386.zip
+    hash: 010da1df5593650beb2254d98c482302225d8b59a197cee94682baea9086e568
   arm64:
-    url: https://github.com/traefik/traefik/releases/download/v2.11.22/traefik_v2.11.22_windows_arm64.zip
-    hash: a2c71d13bfa24ce55ed3dfaa112f958ef1b48c15b6e1521bf83f0bfb904aebd9
+    url: https://github.com/traefik/traefik/releases/download/v2.11.24/traefik_v2.11.24_windows_arm64.zip
+    hash: 426f8be808dd8739799b82ea0dbe0bbd96b3deceba8375b3af58df0809724120
 bin: traefik.exe
 checkver:
   url: https://api.github.com/repos/traefik/traefik/releases
