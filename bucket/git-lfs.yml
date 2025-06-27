@@ -1,25 +1,25 @@
-version: 3.6.1
+version: 3.7.0
 description: Git extension for versioning large files
 homepage: https://git-lfs.github.com
 license:
   identifier: MIT
   url: https://github.com/git-lfs/git-lfs/blob/main/LICENSE.md
-changelog: https://github.com/git-lfs/git-lfs/releases/tag/v3.6.1
+changelog: https://github.com/git-lfs/git-lfs/releases/tag/v3.7.0
 suggest:
   Git:
   - git
   - git-with-openssh
 architecture:
   64bit:
-    url: https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-windows-amd64-v3.6.1.zip
-    hash: aaca788e04f91676e58654d5ecf96cf03c76768a63b3a6918281a9678884c20c
+    url: https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-windows-amd64-v3.7.0.zip
+    hash: 10be221ee5a76c6f4fc4d5b0c84d9b6f97b0db4815fb39a1b9579f04d37379ec
   32bit:
-    url: https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-windows-386-v3.6.1.zip
-    hash: 74fd0d4c9ea314719b6890667b0e528c4467726e1a7302e68221afba806a69b5
+    url: https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-windows-386-v3.7.0.zip
+    hash: ea8c5fe2125650fbe6e00b27d139511965b77c2f5f017cb1345b67804de00803
   arm64:
-    url: https://github.com/git-lfs/git-lfs/releases/download/v3.6.1/git-lfs-windows-arm64-v3.6.1.zip
-    hash: ad40ab00a73ef4bf63c969472d0e5a824686b495dbc01ea8e9e4cc456c49a4b0
-extract_dir: git-lfs-3.6.1
+    url: https://github.com/git-lfs/git-lfs/releases/download/v3.7.0/git-lfs-windows-arm64-v3.7.0.zip
+    hash: ec56aef19f3bcd33a239046a82b81a9844db2f66294434c5c54a470aa28ee669
+extract_dir: git-lfs-3.7.0
 bin: git-lfs.exe
 checkver:
   github: https://github.com/git-lfs/git-lfs
