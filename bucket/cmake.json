@@ -1,0 +1,62 @@
+{
+    "version": "3.21.2",
+    "description": "Family of tools designed to build, test and package software",
+    "homepage": "https://cmake.org",
+    "license": "BSD-3-Clause",
+    "changelog": "https://cmake.org/cmake/help/latest/release/3.21.html",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Kitware/CMake/releases/download/v3.21.2/cmake-3.21.2-windows-x86_64.zip",
+            "hash": "213a4e6485b711cb0a48cbd97b10dfe161a46bfe37b8f3205f47e99ffec434d2",
+            "extract_dir": "cmake-3.21.2-windows-x86_64"
+        },
+        "32bit": {
+            "url": "https://github.com/Kitware/CMake/releases/download/v3.21.2/cmake-3.21.2-windows-i386.zip",
+            "hash": "9374249e8ca5cfe899f6a8dc95252e79242290e452b3ce12a88449560143b6e9",
+            "extract_dir": "cmake-3.21.2-windows-i386"
+        },
+        "arm64": {
+            "url": "https://github.com/Kitware/CMake/releases/download/v3.21.2/cmake-3.21.2-windows-i386.zip",
+            "hash": "9374249e8ca5cfe899f6a8dc95252e79242290e452b3ce12a88449560143b6e9",
+            "extract_dir": "cmake-3.21.2-windows-aarch64"
+        }
+    },
+    "bin": [
+        "bin\\cmake.exe",
+        "bin\\cmcldeps.exe",
+        "bin\\cpack.exe",
+        "bin\\ctest.exe",
+        "bin\\cmake-gui.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin\\cmake-gui.exe",
+            "cmake-gui"
+        ]
+    ],
+    "checkver": {
+        "url": "https://cmake.org/download/",
+        "regex": "Latest Release \\(([\\d.]+)\\)"
+    },
+    "autoupdate": {
+        "archive": true,
+        "changelog": "https://cmake.org/cmake/help/latest/release/$majorVersion.$minorVersion.html",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-x86_64.zip",
+                "extract_dir": "cmake-$version-windows-x86_64"
+            },
+            "32bit": {
+                "url": "https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-i386.zip",
+                "extract_dir": "cmake-$version-windows-i386"
+            },
+            "arm64": {
+                "url": "https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-i386.zip",
+                "extract_dir": "cmake-$version-windows-aarch64"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/cmake-$version-SHA-256.txt"
+        }
+    }
+}
