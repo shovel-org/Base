@@ -1,0 +1,22 @@
+version: 1.88.0
+description: A language empowering everyone to build reliable and efficient software. (MSVC toolchain)
+homepage: https://www.rust-lang.org
+license:
+  identifier: MIT|Apache-2.0
+  url: https://www.rust-lang.org/policies/licenses
+changelog: https://github.com/rust-lang/rust/releases/tag/1.88.0
+architecture:
+  64bit:
+    url: https://static.rust-lang.org/dist/rust-1.88.0-x86_64-pc-windows-msvc.msi
+    hash: edb19a21448a8d965fe01a0e9edcb50460a70cf72cf344bebf8980647a8b6448
+  32bit:
+    url: https://static.rust-lang.org/dist/rust-1.88.0-i686-pc-windows-msvc.msi
+    hash: a3e6b4919a6bfa5bb159fa3e1c254e77575dac211dfe0ebebeec23e08ee4193d
+  arm64:
+    url: https://static.rust-lang.org/dist/rust-1.88.0-aarch64-pc-windows-msvc.msi
+    hash: 8b0e5f1d8cb429683cdc6d613a26971ec0dc680d35b4bc9bd7e5063e683e3075
+extract_dir: Rust
+bin:
+- bin\rustc.exe
+- bin\rustdoc.exe
+- bin\cargo.exe
