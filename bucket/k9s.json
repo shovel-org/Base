@@ -1,0 +1,38 @@
+{
+    "version": "0.25.16",
+    "description": "Terminal based UI to interact with Kubernetes clusters",
+    "homepage": "https://k9scli.io",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/derailed/k9s/blob/master/LICENSE"
+    },
+    "changelog": "https://github.com/derailed/k9s/releases/tag/v0.25.16",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/derailed/k9s/releases/download/v0.25.16/k9s_Windows_x86_64.tar.gz",
+            "hash": "14e060b8c6db0c67307aced4675b933265d313f0909bdd56b226f377e94ca60c"
+        },
+        "arm64": {
+            "url": "https://github.com/derailed/k9s/releases/download/v0.25.16/k9s_Windows_arm64.tar.gz",
+            "hash": "c9bf8d6eb15953327006cdc6129ec92fda03dd13b5850e6b58e5552e17e6a99a"
+        }
+    },
+    "bin": "k9s.exe",
+    "checkver": {
+        "github": "https://github.com/derailed/k9s"
+    },
+    "autoupdate": {
+        "changelog": "https://github.com/derailed/k9s/releases/tag/v$version",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/derailed/k9s/releases/download/v$version/k9s_Windows_x86_64.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/derailed/k9s/releases/download/v$version/k9s_Windows_arm64.tar.gz"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
