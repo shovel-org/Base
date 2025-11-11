@@ -1,0 +1,43 @@
+{
+    "version": "1.0.10",
+    "description": "Command line client for LibreSpeed",
+    "homepage": "https://github.com/librespeed/speedtest-cli",
+    "license": {
+        "identifier": "LGPL-3.0-only",
+        "url": "https://github.com/librespeed/speedtest-cli/blob/master/LICENSE"
+    },
+    "changelog": "https://github.com/librespeed/speedtest-cli/releases/tag/v1.0.10",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/librespeed/speedtest-cli/releases/download/v1.0.10/librespeed-cli_1.0.10_windows_amd64.zip",
+            "hash": "a0bca0add2a6d08a03838821fb2a6bce9156ae38c98ab1d2c15f1fc7cdf52ee9"
+        },
+        "32bit": {
+            "url": "https://github.com/librespeed/speedtest-cli/releases/download/v1.0.10/librespeed-cli_1.0.10_windows_386.zip",
+            "hash": "05b660c7e509904f11c204373da2e37fe1742de72d8db60a4aa1f72fc4d1074c"
+        },
+        "arm64": {
+            "url": "https://github.com/librespeed/speedtest-cli/releases/download/v1.0.10/librespeed-cli_1.0.10_windows_arm64.zip",
+            "hash": "70d27c55edcc01ebaaed79fb6c02780c5846797a0025f39a4369fdd96f90e868"
+        }
+    },
+    "bin": "librespeed-cli.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "changelog": "https://github.com/librespeed/speedtest-cli/releases/tag/v$version",
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/librespeed/speedtest-cli/releases/download/v$version/librespeed-cli_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/librespeed/speedtest-cli/releases/download/v$version/librespeed-cli_$version_windows_386.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/librespeed/speedtest-cli/releases/download/v$version/librespeed-cli_$version_windows_arm64.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/checksums.txt"
+        }
+    }
+}
