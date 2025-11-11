@@ -1,0 +1,28 @@
+{
+    "##": "TODO: Associations, context menu",
+    "version": "9.20",
+    "description": "File archiver with a high compression ratio",
+    "homepage": "https://www.7-zip.org",
+    "license": {
+        "identifier": "Freeware,LGPL-2.0-only,BSD-3-Clause",
+        "url": "https://www.7-zip.org/license.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/sevenzip/7-Zip/9.20/7z920-x64.msi",
+            "hash": "sha1:4173fea2af9a595fa0be1ef8251f412229687be1"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/sevenzip/7-Zip/9.20/7z920.msi",
+            "hash": "sha1:c67d3f611ea3eb3336cf92f6ffcafdb14f8b12af"
+        }
+    },
+    "extract_dir": "Files\\7-Zip",
+    "bin": "7z.exe",
+    "shortcuts": [
+        [
+            "7zFM.exe",
+            "7-Zip"
+        ]
+    ]
+}

@@ -1,3 +1,5 @@
+Join-Path $env:SCOOP_HOME 'supporting\yaml\bin\powershell-yaml.psd1' | Import-Module
+
 $urls = @()
 
 $implemented = Get-ChildItem './bucket/' -File | Select-Object -ExpandProperty 'BaseName'
@@ -11,8 +13,13 @@ $excludes = @(
 )
 
 # Get all URLS
-foreach ($f in Get-ChildItem '../Extras/bucket/', '../Main/bucket/', '../Ash258/bucket' -File | Where-Object -Property 'BaseName' -NotIn @($excludes + $implemented) ) {
-    $json = Get-Content $f.FullName -Raw | ConvertFrom-Json
+foreach ($f in Get-ChildItem '../Extras/bucket/', '../Main/bucket/', '../ash258.ash258/bucket' -File | Where-Object -Property 'BaseName' -NotIn @($excludes + $implemented) ) {
+    $json = Get-Content -Raw $f.FullName
+    if ($f.Extension -eq '.json') {
+        $json = $json | ConvertFrom-Json
+    } else {
+        $json = $json | ConvertFrom-Yaml
+    }
 
     if ($json.architecture.'arm64') { continue }
 
